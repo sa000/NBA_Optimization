@@ -1,46 +1,1231 @@
-Date,Start (ET),Visitor/Neutral,PTS,Home/Neutral,PTS,,,Notes
-Tue Oct 25 2016,8:00 pm,New York Knicks,,Cleveland Cavaliers,,,,
-Tue Oct 25 2016,10:30 pm,San Antonio Spurs,,Golden State Warriors,,,,
-Tue Oct 25 2016,10:00 pm,Utah Jazz,,Portland Trail Blazers,,,,
-Wed Oct 26 2016,7:30 pm,Brooklyn Nets,,Boston Celtics,,,,
-Wed Oct 26 2016,7:00 pm,Dallas Mavericks,,Indiana Pacers,,,,
-Wed Oct 26 2016,10:30 pm,Houston Rockets,,Los Angeles Lakers,,,,
-Wed Oct 26 2016,8:00 pm,Minnesota Timberwolves,,Memphis Grizzlies,,,,
-Wed Oct 26 2016,8:00 pm,Charlotte Hornets,,Milwaukee Bucks,,,,
-Wed Oct 26 2016,8:00 pm,Denver Nuggets,,New Orleans Pelicans,,,,
-Wed Oct 26 2016,7:00 pm,Miami Heat,,Orlando Magic,,,,
-Wed Oct 26 2016,8:00 pm,Oklahoma City Thunder,,Philadelphia 76ers,,,,
-Wed Oct 26 2016,10:00 pm,Sacramento Kings,,Phoenix Suns,,,,
-Wed Oct 26 2016,7:30 pm,Detroit Pistons,,Toronto Raptors,,,,
-Thu Oct 27 2016,7:30 pm,Washington Wizards,,Atlanta Hawks,,,,
-Thu Oct 27 2016,8:00 pm,Boston Celtics,,Chicago Bulls,,,,
-Thu Oct 27 2016,10:30 pm,Los Angeles Clippers,,Portland Trail Blazers,,,,
-Thu Oct 27 2016,10:30 pm,San Antonio Spurs,,Sacramento Kings,,,,
-Fri Oct 28 2016,7:30 pm,Indiana Pacers,,Brooklyn Nets,,,,
-Fri Oct 28 2016,8:30 pm,Houston Rockets,,Dallas Mavericks,,,,
-Fri Oct 28 2016,7:30 pm,Orlando Magic,,Detroit Pistons,,,,
-Fri Oct 28 2016,8:00 pm,Charlotte Hornets,,Miami Heat,,,,
-Fri Oct 28 2016,9:30 pm,Golden State Warriors,,New Orleans Pelicans,,,,
-Fri Oct 28 2016,8:00 pm,Phoenix Suns,,Oklahoma City Thunder,,,,
-Fri Oct 28 2016,7:00 pm,Cleveland Cavaliers,,Toronto Raptors,,,,
-Fri Oct 28 2016,9:00 pm,Los Angeles Lakers,,Utah Jazz,,,,
-Sat Oct 29 2016,8:00 pm,Indiana Pacers,,Chicago Bulls,,,,
-Sat Oct 29 2016,7:00 pm,Boston Celtics,,Charlotte Hornets,,,,
-Sat Oct 29 2016,7:30 pm,Orlando Magic,,Cleveland Cavaliers,,,,
-Sat Oct 29 2016,9:00 pm,Portland Trail Blazers,,Denver Nuggets,,,,
-Sat Oct 29 2016,8:00 pm,Brooklyn Nets,,Milwaukee Bucks,,,,
-Sat Oct 29 2016,7:30 pm,Memphis Grizzlies,,New York Knicks,,,,
-Sat Oct 29 2016,1:00 pm,Atlanta Hawks,,Philadelphia 76ers,,,,
-Sat Oct 29 2016,10:30 pm,Minnesota Timberwolves,,Sacramento Kings,,,,
-Sat Oct 29 2016,8:00 pm,New Orleans Pelicans,,San Antonio Spurs,,,,
-Sun Oct 30 2016,6:00 pm,Milwaukee Bucks,,Detroit Pistons,,,,
-Sun Oct 30 2016,8:00 pm,Dallas Mavericks,,Houston Rockets,,,,
-Sun Oct 30 2016,4:30 pm,Utah Jazz,,Los Angeles Clippers,,,,
-Sun Oct 30 2016,7:00 pm,Washington Wizards,,Memphis Grizzlies,,,,
-Sun Oct 30 2016,6:00 pm,San Antonio Spurs,,Miami Heat,,,,
-Sun Oct 30 2016,7:00 pm,Los Angeles Lakers,,Oklahoma City Thunder,,,,
-Sun Oct 30 2016,6:00 pm,Golden State Warriors,,Phoenix Suns,,,,
-Mon Oct 31 2016,7:30 pm,Sacramento Kings,,Atlanta Hawks,,,,
-Mon Oct 31 2016,7:30 pm,Chicago Bulls,,Brooklyn Nets,,,,
-Mon Oct 31 2016,10:30 pm,Phoenix Suns,,Los Angeles Clippers,,,,
-Mon Oct 31 2016,7:30 pm,Denver Nuggets,,Toronto Raptors,,,,
+DAY,DATE,VISITOR,HOME
+Tue.,25-Oct-16,New York,Cleveland
+Tue.,25-Oct-16,Utah,Portland
+Tue.,25-Oct-16,San Antonio,Golden State
+Wed.,26-Oct-16,Miami,Orlando
+Wed.,26-Oct-16,Dallas,Indiana
+Wed.,26-Oct-16,Brooklyn,Boston
+Wed.,26-Oct-16,Detroit,Toronto
+Wed.,26-Oct-16,Charlotte,Milwaukee
+Wed.,26-Oct-16,Minnesota,Memphis
+Wed.,26-Oct-16,Denver,New Orleans
+Wed.,26-Oct-16,Oklahoma City,Philadelphia
+Wed.,26-Oct-16,Sacramento,Phoenix
+Wed.,26-Oct-16,Houston,L.A. Lakers
+Thu.,27-Oct-16,Washington,Atlanta
+Thu.,27-Oct-16,Boston,Chicago
+Thu.,27-Oct-16,San Antonio,Sacramento
+Thu.,27-Oct-16,L.A. Clippers,Portland
+Fri.,28-Oct-16,Cleveland,Toronto
+Fri.,28-Oct-16,Indiana,Brooklyn
+Fri.,28-Oct-16,Orlando,Detroit
+Fri.,28-Oct-16,Phoenix,Oklahoma City
+Fri.,28-Oct-16,Charlotte,Miami
+Fri.,28-Oct-16,Houston,Dallas
+Fri.,28-Oct-16,L.A. Lakers,Utah
+Fri.,28-Oct-16,Golden State,New Orleans
+Sat.,29-Oct-16,Atlanta,Philadelphia
+Sat.,29-Oct-16,Boston,Charlotte
+Sat.,29-Oct-16,Memphis,New York
+Sat.,29-Oct-16,Orlando,Cleveland
+Sat.,29-Oct-16,Indiana,Chicago
+Sat.,29-Oct-16,Brooklyn,Milwaukee
+Sat.,29-Oct-16,New Orleans,San Antonio
+Sat.,29-Oct-16,Portland,Denver
+Sat.,29-Oct-16,Minnesota,Sacramento
+Sun.,30-Oct-16,Utah,L.A. Clippers
+Sun.,30-Oct-16,Golden State,Phoenix
+Sun.,30-Oct-16,San Antonio,Miami
+Sun.,30-Oct-16,Milwaukee,Detroit
+Sun.,30-Oct-16,Washington,Memphis
+Sun.,30-Oct-16,L.A. Lakers,Oklahoma City
+Sun.,30-Oct-16,Dallas,Houston
+Mon.,31-Oct-16,Denver,Toronto
+Mon.,31-Oct-16,Chicago,Brooklyn
+Mon.,31-Oct-16,Sacramento,Atlanta
+Mon.,31-Oct-16,Phoenix,L.A. Clippers
+Tue.,1-Nov-16,Orlando,Philadelphia
+Tue.,1-Nov-16,Houston,Cleveland
+Tue.,1-Nov-16,L.A. Lakers,Indiana
+Tue.,1-Nov-16,Sacramento,Miami
+Tue.,1-Nov-16,New York,Detroit
+Tue.,1-Nov-16,Milwaukee,New Orleans
+Tue.,1-Nov-16,Memphis,Minnesota
+Tue.,1-Nov-16,Utah,San Antonio
+Tue.,1-Nov-16,Golden State,Portland
+Wed.,2-Nov-16,Toronto,Washington
+Wed.,2-Nov-16,Philadelphia,Charlotte
+Wed.,2-Nov-16,Detroit,Brooklyn
+Wed.,2-Nov-16,Houston,New York
+Wed.,2-Nov-16,L.A. Lakers,Atlanta
+Wed.,2-Nov-16,New Orleans,Memphis
+Wed.,2-Nov-16,Chicago,Boston
+Wed.,2-Nov-16,Dallas,Utah
+Wed.,2-Nov-16,Portland,Phoenix
+Wed.,2-Nov-16,Oklahoma City,L.A. Clippers
+Thu.,3-Nov-16,Sacramento,Orlando
+Thu.,3-Nov-16,Indiana,Milwaukee
+Thu.,3-Nov-16,Denver,Minnesota
+Thu.,3-Nov-16,Boston,Cleveland
+Thu.,3-Nov-16,Oklahoma City,Golden State
+Fri.,4-Nov-16,Atlanta,Washington
+Fri.,4-Nov-16,Miami,Toronto
+Fri.,4-Nov-16,Charlotte,Brooklyn
+Fri.,4-Nov-16,New York,Chicago
+Fri.,4-Nov-16,L.A. Clippers,Memphis
+Fri.,4-Nov-16,Phoenix,New Orleans
+Fri.,4-Nov-16,Portland,Dallas
+Fri.,4-Nov-16,San Antonio,Utah
+Fri.,4-Nov-16,Golden State,L.A. Lakers
+Sat.,5-Nov-16,Minnesota,Oklahoma City
+Sat.,5-Nov-16,Cleveland,Philadelphia
+Sat.,5-Nov-16,Washington,Orlando
+Sat.,5-Nov-16,Denver,Detroit
+Sat.,5-Nov-16,Chicago,Indiana
+Sat.,5-Nov-16,Houston,Atlanta
+Sat.,5-Nov-16,Sacramento,Milwaukee
+Sat.,5-Nov-16,L.A. Clippers,San Antonio
+Sun.,6-Nov-16,Utah,New York
+Sun.,6-Nov-16,Portland,Memphis
+Sun.,6-Nov-16,Sacramento,Toronto
+Sun.,6-Nov-16,Milwaukee,Dallas
+Sun.,6-Nov-16,Denver,Boston
+Sun.,6-Nov-16,Phoenix,L.A. Lakers
+Mon.,7-Nov-16,Utah,Philadelphia
+Mon.,7-Nov-16,Houston,Washington
+Mon.,7-Nov-16,Indiana,Charlotte
+Mon.,7-Nov-16,Orlando,Chicago
+Mon.,7-Nov-16,Miami,Oklahoma City
+Mon.,7-Nov-16,Detroit,L.A. Clippers
+Mon.,7-Nov-16,New Orleans,Golden State
+Tue.,8-Nov-16,Atlanta,Cleveland
+Tue.,8-Nov-16,Minnesota,Brooklyn
+Tue.,8-Nov-16,Denver,Memphis
+Tue.,8-Nov-16,Phoenix,Portland
+Tue.,8-Nov-16,Dallas,L.A. Lakers
+Tue.,8-Nov-16,New Orleans,Sacramento
+Wed.,9-Nov-16,Brooklyn,New York
+Wed.,9-Nov-16,Boston,Washington
+Wed.,9-Nov-16,Utah,Charlotte
+Wed.,9-Nov-16,Minnesota,Orlando
+Wed.,9-Nov-16,Philadelphia,Indiana
+Wed.,9-Nov-16,Chicago,Atlanta
+Wed.,9-Nov-16,Toronto,Oklahoma City
+Wed.,9-Nov-16,Detroit,Phoenix
+Wed.,9-Nov-16,Houston,San Antonio
+Wed.,9-Nov-16,Portland,L.A. Clippers
+Wed.,9-Nov-16,Dallas,Golden State
+Thu.,10-Nov-16,New Orleans,Milwaukee
+Thu.,10-Nov-16,Chicago,Miami
+Thu.,10-Nov-16,Golden State,Denver
+Thu.,10-Nov-16,L.A. Lakers,Sacramento
+Fri.,11-Nov-16,Indiana,Philadelphia
+Fri.,11-Nov-16,Cleveland,Washington
+Fri.,11-Nov-16,Toronto,Charlotte
+Fri.,11-Nov-16,Utah,Orlando
+Fri.,11-Nov-16,New York,Boston
+Fri.,11-Nov-16,L.A. Clippers,Oklahoma City
+Fri.,11-Nov-16,Detroit,San Antonio
+Fri.,11-Nov-16,Sacramento,Portland
+Sat.,12-Nov-16,L.A. Lakers,New Orleans
+Sat.,12-Nov-16,Boston,Indiana
+Sat.,12-Nov-16,New York,Toronto
+Sat.,12-Nov-16,Philadelphia,Atlanta
+Sat.,12-Nov-16,Washington,Chicago
+Sat.,12-Nov-16,San Antonio,Houston
+Sat.,12-Nov-16,L.A. Clippers,Minnesota
+Sat.,12-Nov-16,Utah,Miami
+Sat.,12-Nov-16,Memphis,Milwaukee
+Sat.,12-Nov-16,Detroit,Denver
+Sat.,12-Nov-16,Brooklyn,Phoenix
+Sun.,13-Nov-16,Charlotte,Cleveland
+Sun.,13-Nov-16,Orlando,Oklahoma City
+Sun.,13-Nov-16,L.A. Lakers,Minnesota
+Sun.,13-Nov-16,Phoenix,Golden State
+Sun.,13-Nov-16,Denver,Portland
+Mon.,14-Nov-16,Orlando,Indiana
+Mon.,14-Nov-16,Dallas,New York
+Mon.,14-Nov-16,Oklahoma City,Detroit
+Mon.,14-Nov-16,Boston,New Orleans
+Mon.,14-Nov-16,Philadelphia,Houston
+Mon.,14-Nov-16,Miami,San Antonio
+Mon.,14-Nov-16,Memphis,Utah
+Mon.,14-Nov-16,Brooklyn,L.A. Clippers
+Tue.,15-Nov-16,Toronto,Cleveland
+Tue.,15-Nov-16,Atlanta,Miami
+Tue.,15-Nov-16,Charlotte,Minnesota
+Tue.,15-Nov-16,Chicago,Portland
+Tue.,15-Nov-16,Brooklyn,L.A. Lakers
+Wed.,16-Nov-16,Washington,Philadelphia
+Wed.,16-Nov-16,New Orleans,Orlando
+Wed.,16-Nov-16,Cleveland,Indiana
+Wed.,16-Nov-16,Dallas,Boston
+Wed.,16-Nov-16,Detroit,New York
+Wed.,16-Nov-16,Milwaukee,Atlanta
+Wed.,16-Nov-16,Houston,Oklahoma City
+Wed.,16-Nov-16,Golden State,Toronto
+Wed.,16-Nov-16,Phoenix,Denver
+Wed.,16-Nov-16,Memphis,L.A. Clippers
+Wed.,16-Nov-16,San Antonio,Sacramento
+Thu.,17-Nov-16,New York,Washington
+Thu.,17-Nov-16,Milwaukee,Miami
+Thu.,17-Nov-16,Portland,Houston
+Thu.,17-Nov-16,Philadelphia,Minnesota
+Thu.,17-Nov-16,Chicago,Utah
+Fri.,18-Nov-16,Atlanta,Charlotte
+Fri.,18-Nov-16,Detroit,Cleveland
+Fri.,18-Nov-16,Phoenix,Indiana
+Fri.,18-Nov-16,Portland,New Orleans
+Fri.,18-Nov-16,Brooklyn,Oklahoma City
+Fri.,18-Nov-16,Golden State,Boston
+Fri.,18-Nov-16,Memphis,Dallas
+Fri.,18-Nov-16,Toronto,Denver
+Fri.,18-Nov-16,San Antonio,L.A. Lakers
+Fri.,18-Nov-16,L.A. Clippers,Sacramento
+Sat.,19-Nov-16,Utah,Houston
+Sat.,19-Nov-16,Charlotte,New Orleans
+Sat.,19-Nov-16,Miami,Washington
+Sat.,19-Nov-16,Dallas,Orlando
+Sat.,19-Nov-16,Boston,Detroit
+Sat.,19-Nov-16,Phoenix,Philadelphia
+Sat.,19-Nov-16,Minnesota,Memphis
+Sat.,19-Nov-16,Golden State,Milwaukee
+Sat.,19-Nov-16,Chicago,L.A. Clippers
+Sun.,20-Nov-16,Atlanta,New York
+Sun.,20-Nov-16,Portland,Brooklyn
+Sun.,20-Nov-16,Indiana,Oklahoma City
+Sun.,20-Nov-16,Toronto,Sacramento
+Sun.,20-Nov-16,Utah,Denver
+Sun.,20-Nov-16,Chicago,L.A. Lakers
+Mon.,21-Nov-16,Miami,Philadelphia
+Mon.,21-Nov-16,Phoenix,Washington
+Mon.,21-Nov-16,Memphis,Charlotte
+Mon.,21-Nov-16,Golden State,Indiana
+Mon.,21-Nov-16,Houston,Detroit
+Mon.,21-Nov-16,Orlando,Milwaukee
+Mon.,21-Nov-16,Boston,Minnesota
+Mon.,21-Nov-16,Dallas,San Antonio
+Mon.,21-Nov-16,Toronto,L.A. Clippers
+Tue.,22-Nov-16,Portland,New York
+Tue.,22-Nov-16,New Orleans,Atlanta
+Tue.,22-Nov-16,Chicago,Denver
+Tue.,22-Nov-16,Oklahoma City,L.A. Lakers
+Wed.,23-Nov-16,Memphis,Philadelphia
+Wed.,23-Nov-16,San Antonio,Charlotte
+Wed.,23-Nov-16,Phoenix,Orlando
+Wed.,23-Nov-16,Portland,Cleveland
+Wed.,23-Nov-16,Atlanta,Indiana
+Wed.,23-Nov-16,Boston,Brooklyn
+Wed.,23-Nov-16,Miami,Detroit
+Wed.,23-Nov-16,Toronto,Houston
+Wed.,23-Nov-16,L.A. Clippers,Dallas
+Wed.,23-Nov-16,Denver,Utah
+Wed.,23-Nov-16,Minnesota,New Orleans
+Wed.,23-Nov-16,L.A. Lakers,Golden State
+Wed.,23-Nov-16,Oklahoma City,Sacramento
+Fri.,25-Nov-16,San Antonio,Boston
+Fri.,25-Nov-16,Washington,Orlando
+Fri.,25-Nov-16,Dallas,Cleveland
+Fri.,25-Nov-16,Charlotte,New York
+Fri.,25-Nov-16,Chicago,Philadelphia
+Fri.,25-Nov-16,L.A. Clippers,Detroit
+Fri.,25-Nov-16,Atlanta,Utah
+Fri.,25-Nov-16,Toronto,Milwaukee
+Fri.,25-Nov-16,Miami,Memphis
+Fri.,25-Nov-16,Brooklyn,Indiana
+Fri.,25-Nov-16,Oklahoma City,Denver
+Fri.,25-Nov-16,Minnesota,Phoenix
+Fri.,25-Nov-16,New Orleans,Portland
+Fri.,25-Nov-16,Golden State,L.A. Lakers
+Fri.,25-Nov-16,Houston,Sacramento
+Sat.,26-Nov-16,San Antonio,Washington
+Sat.,26-Nov-16,New York,Charlotte
+Sat.,26-Nov-16,Detroit,Oklahoma City
+Sat.,26-Nov-16,Memphis,Miami
+Sat.,26-Nov-16,Minnesota,Golden State
+Sun.,27-Nov-16,Cleveland,Philadelphia
+Sun.,27-Nov-16,Denver,Phoenix
+Sun.,27-Nov-16,Sacramento,Brooklyn
+Sun.,27-Nov-16,Milwaukee,Orlando
+Sun.,27-Nov-16,L.A. Clippers,Indiana
+Sun.,27-Nov-16,New Orleans,Dallas
+Sun.,27-Nov-16,Houston,Portland
+Sun.,27-Nov-16,Atlanta,L.A. Lakers
+Mon.,28-Nov-16,Sacramento,Washington
+Mon.,28-Nov-16,Philadelphia,Toronto
+Mon.,28-Nov-16,Oklahoma City,New York
+Mon.,28-Nov-16,Boston,Miami
+Mon.,28-Nov-16,Charlotte,Memphis
+Mon.,28-Nov-16,Utah,Minnesota
+Mon.,28-Nov-16,Atlanta,Golden State
+Tue.,29-Nov-16,Detroit,Charlotte
+Tue.,29-Nov-16,L.A. Clippers,Brooklyn
+Tue.,29-Nov-16,Cleveland,Milwaukee
+Tue.,29-Nov-16,L.A. Lakers,New Orleans
+Tue.,29-Nov-16,Orlando,San Antonio
+Tue.,29-Nov-16,Houston,Utah
+Wed.,30-Nov-16,Sacramento,Philadelphia
+Wed.,30-Nov-16,Detroit,Boston
+Wed.,30-Nov-16,Memphis,Toronto
+Wed.,30-Nov-16,L.A. Lakers,Chicago
+Wed.,30-Nov-16,Washington,Oklahoma City
+Wed.,30-Nov-16,New York,Minnesota
+Wed.,30-Nov-16,San Antonio,Dallas
+Wed.,30-Nov-16,Miami,Denver
+Wed.,30-Nov-16,Atlanta,Phoenix
+Wed.,30-Nov-16,Indiana,Portland
+Thu.,1-Dec-16,Dallas,Charlotte
+Thu.,1-Dec-16,Milwaukee,Brooklyn
+Thu.,1-Dec-16,Orlando,Memphis
+Thu.,1-Dec-16,L.A. Clippers,Cleveland
+Thu.,1-Dec-16,Miami,Utah
+Thu.,1-Dec-16,Houston,Golden State
+Fri.,2-Dec-16,Orlando,Philadelphia
+Fri.,2-Dec-16,Sacramento,Boston
+Fri.,2-Dec-16,L.A. Lakers,Toronto
+Fri.,2-Dec-16,Minnesota,New York
+Fri.,2-Dec-16,Cleveland,Chicago
+Fri.,2-Dec-16,L.A. Clippers,New Orleans
+Fri.,2-Dec-16,Detroit,Atlanta
+Fri.,2-Dec-16,Washington,San Antonio
+Fri.,2-Dec-16,Houston,Denver
+Sat.,3-Dec-16,Brooklyn,Milwaukee
+Sat.,3-Dec-16,Minnesota,Charlotte
+Sat.,3-Dec-16,Atlanta,Toronto
+Sat.,3-Dec-16,Boston,Philadelphia
+Sat.,3-Dec-16,L.A. Lakers,Memphis
+Sat.,3-Dec-16,Chicago,Dallas
+Sat.,3-Dec-16,Denver,Utah
+Sat.,3-Dec-16,Miami,Portland
+Sat.,3-Dec-16,Phoenix,Golden State
+Sun.,4-Dec-16,Orlando,Detroit
+Sun.,4-Dec-16,New Orleans,Oklahoma City
+Sun.,4-Dec-16,Sacramento,New York
+Sun.,4-Dec-16,Indiana,L.A. Clippers
+Mon.,5-Dec-16,Denver,Philadelphia
+Mon.,5-Dec-16,Cleveland,Toronto
+Mon.,5-Dec-16,Washington,Brooklyn
+Mon.,5-Dec-16,Oklahoma City,Atlanta
+Mon.,5-Dec-16,Portland,Chicago
+Mon.,5-Dec-16,San Antonio,Milwaukee
+Mon.,5-Dec-16,Memphis,New Orleans
+Mon.,5-Dec-16,Boston,Houston
+Mon.,5-Dec-16,Charlotte,Dallas
+Mon.,5-Dec-16,Utah,L.A. Lakers
+Mon.,5-Dec-16,Indiana,Golden State
+Tue.,6-Dec-16,Orlando,Washington
+Tue.,6-Dec-16,New York,Miami
+Tue.,6-Dec-16,Chicago,Detroit
+Tue.,6-Dec-16,Philadelphia,Memphis
+Tue.,6-Dec-16,San Antonio,Minnesota
+Tue.,6-Dec-16,Phoenix,Utah
+Wed.,7-Dec-16,Detroit,Charlotte
+Wed.,7-Dec-16,Boston,Orlando
+Wed.,7-Dec-16,Denver,Brooklyn
+Wed.,7-Dec-16,Miami,Atlanta
+Wed.,7-Dec-16,Portland,Milwaukee
+Wed.,7-Dec-16,L.A. Lakers,Houston
+Wed.,7-Dec-16,Cleveland,New York
+Wed.,7-Dec-16,Sacramento,Dallas
+Wed.,7-Dec-16,Indiana,Phoenix
+Wed.,7-Dec-16,Golden State,L.A. Clippers
+Thu.,8-Dec-16,Minnesota,Toronto
+Thu.,8-Dec-16,Denver,Washington
+Thu.,8-Dec-16,Portland,Memphis
+Thu.,8-Dec-16,Philadelphia,New Orleans
+Thu.,8-Dec-16,Golden State,Utah
+Thu.,8-Dec-16,San Antonio,Chicago
+Fri.,9-Dec-16,Orlando,Charlotte
+Fri.,9-Dec-16,Miami,Cleveland
+Fri.,9-Dec-16,Toronto,Boston
+Fri.,9-Dec-16,Atlanta,Milwaukee
+Fri.,9-Dec-16,Houston,Oklahoma City
+Fri.,9-Dec-16,Detroit,Minnesota
+Fri.,9-Dec-16,Indiana,Dallas
+Fri.,9-Dec-16,Phoenix,L.A. Lakers
+Fri.,9-Dec-16,New York,Sacramento
+Sat.,10-Dec-16,Milwaukee,Washington
+Sat.,10-Dec-16,Denver,Orlando
+Sat.,10-Dec-16,Portland,Indiana
+Sat.,10-Dec-16,Charlotte,Cleveland
+Sat.,10-Dec-16,Miami,Chicago
+Sat.,10-Dec-16,Golden State,Memphis
+Sat.,10-Dec-16,Dallas,Houston
+Sat.,10-Dec-16,Brooklyn,San Antonio
+Sat.,10-Dec-16,Sacramento,Utah
+Sat.,10-Dec-16,New Orleans,L.A. Clippers
+Sun.,11-Dec-16,Philadelphia,Detroit
+Sun.,11-Dec-16,Boston,Oklahoma City
+Sun.,11-Dec-16,Golden State,Minnesota
+Sun.,11-Dec-16,New Orleans,Phoenix
+Sun.,11-Dec-16,New York,L.A. Lakers
+Mon.,12-Dec-16,Charlotte,Indiana
+Mon.,12-Dec-16,Milwaukee,Toronto
+Mon.,12-Dec-16,Washington,Miami
+Mon.,12-Dec-16,Brooklyn,Houston
+Mon.,12-Dec-16,Denver,Dallas
+Mon.,12-Dec-16,Portland,L.A. Clippers
+Mon.,12-Dec-16,L.A. Lakers,Sacramento
+Tue.,13-Dec-16,Memphis,Cleveland
+Tue.,13-Dec-16,Orlando,Atlanta
+Tue.,13-Dec-16,Minnesota,Chicago
+Tue.,13-Dec-16,Golden State,New Orleans
+Tue.,13-Dec-16,New York,Phoenix
+Tue.,13-Dec-16,Oklahoma City,Portland
+Wed.,14-Dec-16,Toronto,Philadelphia
+Wed.,14-Dec-16,Charlotte,Washington
+Wed.,14-Dec-16,L.A. Clippers,Orlando
+Wed.,14-Dec-16,Indiana,Miami
+Wed.,14-Dec-16,L.A. Lakers,Brooklyn
+Wed.,14-Dec-16,Cleveland,Memphis
+Wed.,14-Dec-16,Sacramento,Houston
+Wed.,14-Dec-16,Detroit,Dallas
+Wed.,14-Dec-16,Oklahoma City,Utah
+Wed.,14-Dec-16,Boston,San Antonio
+Thu.,15-Dec-16,Chicago,Milwaukee
+Thu.,15-Dec-16,Indiana,New Orleans
+Thu.,15-Dec-16,Portland,Denver
+Thu.,15-Dec-16,San Antonio,Phoenix
+Thu.,15-Dec-16,New York,Golden State
+Fri.,16-Dec-16,Detroit,Washington
+Fri.,16-Dec-16,Brooklyn,Orlando
+Fri.,16-Dec-16,Charlotte,Boston
+Fri.,16-Dec-16,Atlanta,Toronto
+Fri.,16-Dec-16,Milwaukee,Chicago
+Fri.,16-Dec-16,Sacramento,Memphis
+Fri.,16-Dec-16,New Orleans,Houston
+Fri.,16-Dec-16,L.A. Lakers,Philadelphia
+Fri.,16-Dec-16,L.A. Clippers,Miami
+Fri.,16-Dec-16,Dallas,Utah
+Sat.,17-Dec-16,Phoenix,Oklahoma City
+Sat.,17-Dec-16,Indiana,Detroit
+Sat.,17-Dec-16,Charlotte,Atlanta
+Sat.,17-Dec-16,L.A. Lakers,Cleveland
+Sat.,17-Dec-16,Houston,Minnesota
+Sat.,17-Dec-16,New York,Denver
+Sat.,17-Dec-16,Portland,Golden State
+Sun.,18-Dec-16,L.A. Clippers,Washington
+Sun.,18-Dec-16,Utah,Memphis
+Sun.,18-Dec-16,Brooklyn,Philadelphia
+Sun.,18-Dec-16,Toronto,Orlando
+Sun.,18-Dec-16,Boston,Miami
+Sun.,18-Dec-16,Sacramento,Dallas
+Sun.,18-Dec-16,New Orleans,San Antonio
+Mon.,19-Dec-16,Washington,Indiana
+Mon.,19-Dec-16,Detroit,Chicago
+Mon.,19-Dec-16,Atlanta,Oklahoma City
+Mon.,19-Dec-16,Phoenix,Minnesota
+Mon.,19-Dec-16,Dallas,Denver
+Tue.,20-Dec-16,New Orleans,Philadelphia
+Tue.,20-Dec-16,L.A. Lakers,Charlotte
+Tue.,20-Dec-16,Brooklyn,Toronto
+Tue.,20-Dec-16,Indiana,New York
+Tue.,20-Dec-16,Orlando,Miami
+Tue.,20-Dec-16,Cleveland,Milwaukee
+Tue.,20-Dec-16,Boston,Memphis
+Tue.,20-Dec-16,San Antonio,Houston
+Tue.,20-Dec-16,Denver,L.A. Clippers
+Tue.,20-Dec-16,Utah,Golden State
+Tue.,20-Dec-16,Portland,Sacramento
+Wed.,21-Dec-16,Milwaukee,Cleveland
+Wed.,21-Dec-16,Minnesota,Atlanta
+Wed.,21-Dec-16,Memphis,Detroit
+Wed.,21-Dec-16,Washington,Chicago
+Wed.,21-Dec-16,Oklahoma City,New Orleans
+Wed.,21-Dec-16,Sacramento,Utah
+Wed.,21-Dec-16,Houston,Phoenix
+Wed.,21-Dec-16,Dallas,Portland
+Thu.,22-Dec-16,Golden State,Brooklyn
+Thu.,22-Dec-16,Orlando,New York
+Thu.,22-Dec-16,L.A. Lakers,Miami
+Thu.,22-Dec-16,Boston,Indiana
+Thu.,22-Dec-16,San Antonio,L.A. Clippers
+Fri.,23-Dec-16,Chicago,Charlotte
+Fri.,23-Dec-16,L.A. Lakers,Orlando
+Fri.,23-Dec-16,Brooklyn,Cleveland
+Fri.,23-Dec-16,Oklahoma City,Boston
+Fri.,23-Dec-16,Golden State,Detroit
+Fri.,23-Dec-16,Washington,Milwaukee
+Fri.,23-Dec-16,Houston,Memphis
+Fri.,23-Dec-16,Miami,New Orleans
+Fri.,23-Dec-16,Sacramento,Minnesota
+Fri.,23-Dec-16,Atlanta,Denver
+Fri.,23-Dec-16,Toronto,Utah
+Fri.,23-Dec-16,Philadelphia,Phoenix
+Fri.,23-Dec-16,San Antonio,Portland
+Fri.,23-Dec-16,Dallas,L.A. Clippers
+Sun.,25-Dec-16,Boston,New York
+Sun.,25-Dec-16,Golden State,Cleveland
+Sun.,25-Dec-16,Chicago,San Antonio
+Sun.,25-Dec-16,Minnesota,Oklahoma City
+Sun.,25-Dec-16,L.A. Clippers,L.A. Lakers
+Mon.,26-Dec-16,Milwaukee,Washington
+Mon.,26-Dec-16,Memphis,Orlando
+Mon.,26-Dec-16,Charlotte,Brooklyn
+Mon.,26-Dec-16,Cleveland,Detroit
+Mon.,26-Dec-16,Indiana,Chicago
+Mon.,26-Dec-16,Dallas,New Orleans
+Mon.,26-Dec-16,Phoenix,Houston
+Mon.,26-Dec-16,Atlanta,Minnesota
+Mon.,26-Dec-16,Toronto,Portland
+Mon.,26-Dec-16,Denver,L.A. Clippers
+Mon.,26-Dec-16,Philadelphia,Sacramento
+Tue.,27-Dec-16,Memphis,Boston
+Tue.,27-Dec-16,Oklahoma City,Miami
+Tue.,27-Dec-16,Houston,Dallas
+Tue.,27-Dec-16,Utah,L.A. Lakers
+Wed.,28-Dec-16,Indiana,Washington
+Wed.,28-Dec-16,Charlotte,Orlando
+Wed.,28-Dec-16,New York,Atlanta
+Wed.,28-Dec-16,Milwaukee,Detroit
+Wed.,28-Dec-16,Brooklyn,Chicago
+Wed.,28-Dec-16,L.A. Clippers,New Orleans
+Wed.,28-Dec-16,Phoenix,San Antonio
+Wed.,28-Dec-16,Minnesota,Denver
+Wed.,28-Dec-16,Sacramento,Portland
+Wed.,28-Dec-16,Toronto,Golden State
+Thu.,29-Dec-16,Miami,Charlotte
+Thu.,29-Dec-16,Oklahoma City,Memphis
+Thu.,29-Dec-16,Boston,Cleveland
+Thu.,29-Dec-16,Philadelphia,Utah
+Thu.,29-Dec-16,Toronto,Phoenix
+Thu.,29-Dec-16,Dallas,L.A. Lakers
+Fri.,30-Dec-16,Chicago,Indiana
+Fri.,30-Dec-16,Brooklyn,Washington
+Fri.,30-Dec-16,Miami,Boston
+Fri.,30-Dec-16,New York,New Orleans
+Fri.,30-Dec-16,L.A. Clippers,Houston
+Fri.,30-Dec-16,Milwaukee,Minnesota
+Fri.,30-Dec-16,Detroit,Atlanta
+Fri.,30-Dec-16,Portland,San Antonio
+Fri.,30-Dec-16,Philadelphia,Denver
+Fri.,30-Dec-16,Dallas,Golden State
+Sat.,31-Dec-16,Memphis,Sacramento
+Sat.,31-Dec-16,Milwaukee,Chicago
+Sat.,31-Dec-16,New York,Houston
+Sat.,31-Dec-16,Cleveland,Charlotte
+Sat.,31-Dec-16,Phoenix,Utah
+Sat.,31-Dec-16,L.A. Clippers,Oklahoma City
+Sun.,1-Jan-17,San Antonio,Atlanta
+Sun.,1-Jan-17,Detroit,Miami
+Sun.,1-Jan-17,Orlando,Indiana
+Sun.,1-Jan-17,Portland,Minnesota
+Sun.,1-Jan-17,Toronto,L.A. Lakers
+Mon.,2-Jan-17,Oklahoma City,Milwaukee
+Mon.,2-Jan-17,New Orleans,Cleveland
+Mon.,2-Jan-17,Utah,Brooklyn
+Mon.,2-Jan-17,Orlando,New York
+Mon.,2-Jan-17,Charlotte,Chicago
+Mon.,2-Jan-17,Washington,Houston
+Mon.,2-Jan-17,Phoenix,L.A. Clippers
+Mon.,2-Jan-17,Denver,Golden State
+Tue.,3-Jan-17,Minnesota,Philadelphia
+Tue.,3-Jan-17,Utah,Boston
+Tue.,3-Jan-17,Indiana,Detroit
+Tue.,3-Jan-17,Washington,Dallas
+Tue.,3-Jan-17,Toronto,San Antonio
+Tue.,3-Jan-17,Sacramento,Denver
+Tue.,3-Jan-17,Miami,Phoenix
+Tue.,3-Jan-17,Memphis,L.A. Lakers
+Wed.,4-Jan-17,Oklahoma City,Charlotte
+Wed.,4-Jan-17,Atlanta,Orlando
+Wed.,4-Jan-17,Milwaukee,New York
+Wed.,4-Jan-17,Chicago,Cleveland
+Wed.,4-Jan-17,Memphis,L.A. Clippers
+Wed.,4-Jan-17,Portland,Golden State
+Wed.,4-Jan-17,Miami,Sacramento
+Thu.,5-Jan-17,Brooklyn,Indiana
+Thu.,5-Jan-17,Utah,Toronto
+Thu.,5-Jan-17,Charlotte,Detroit
+Thu.,5-Jan-17,Atlanta,New Orleans
+Thu.,5-Jan-17,Oklahoma City,Houston
+Thu.,5-Jan-17,Phoenix,Dallas
+Thu.,5-Jan-17,L.A. Lakers,Portland
+Thu.,5-Jan-17,San Antonio,Denver
+Fri.,6-Jan-17,Minnesota,Washington
+Fri.,6-Jan-17,Houston,Orlando
+Fri.,6-Jan-17,Philadelphia,Boston
+Fri.,6-Jan-17,Cleveland,Brooklyn
+Fri.,6-Jan-17,New York,Milwaukee
+Fri.,6-Jan-17,Miami,L.A. Lakers
+Fri.,6-Jan-17,Memphis,Golden State
+Fri.,6-Jan-17,L.A. Clippers,Sacramento
+Sat.,7-Jan-17,New York,Indiana
+Sat.,7-Jan-17,New Orleans,Boston
+Sat.,7-Jan-17,Toronto,Chicago
+Sat.,7-Jan-17,Denver,Oklahoma City
+Sat.,7-Jan-17,Utah,Minnesota
+Sat.,7-Jan-17,Atlanta,Dallas
+Sat.,7-Jan-17,Charlotte,San Antonio
+Sat.,7-Jan-17,Detroit,Portland
+Sun.,8-Jan-17,Philadelphia,Brooklyn
+Sun.,8-Jan-17,Miami,L.A. Clippers
+Sun.,8-Jan-17,Washington,Milwaukee
+Sun.,8-Jan-17,Houston,Toronto
+Sun.,8-Jan-17,Utah,Memphis
+Sun.,8-Jan-17,Cleveland,Phoenix
+Sun.,8-Jan-17,Golden State,Sacramento
+Sun.,8-Jan-17,Orlando,L.A. Lakers
+Mon.,9-Jan-17,New Orleans,New York
+Mon.,9-Jan-17,Oklahoma City,Chicago
+Mon.,9-Jan-17,Dallas,Minnesota
+Tue.,10-Jan-17,Chicago,Washington
+Tue.,10-Jan-17,Boston,Toronto
+Tue.,10-Jan-17,Atlanta,Brooklyn
+Tue.,10-Jan-17,Charlotte,Houston
+Tue.,10-Jan-17,Milwaukee,San Antonio
+Tue.,10-Jan-17,Cleveland,Utah
+Tue.,10-Jan-17,Portland,L.A. Lakers
+Tue.,10-Jan-17,Miami,Golden State
+Tue.,10-Jan-17,Detroit,Sacramento
+Wed.,11-Jan-17,New York,Philadelphia
+Wed.,11-Jan-17,Memphis,Oklahoma City
+Wed.,11-Jan-17,Houston,Minnesota
+Wed.,11-Jan-17,Washington,Boston
+Wed.,11-Jan-17,Orlando,L.A. Clippers
+Wed.,11-Jan-17,Cleveland,Portland
+Thu.,12-Jan-17,New Orleans,Brooklyn
+Thu.,12-Jan-17,Chicago,New York
+Thu.,12-Jan-17,L.A. Lakers,San Antonio
+Thu.,12-Jan-17,Indiana,Denver**
+Thu.,12-Jan-17,Detroit,Golden State
+Thu.,12-Jan-17,Dallas,Phoenix*
+Fri.,13-Jan-17,Brooklyn,Toronto
+Fri.,13-Jan-17,Charlotte,Philadelphia
+Fri.,13-Jan-17,Miami,Milwaukee
+Fri.,13-Jan-17,Memphis,Houston
+Fri.,13-Jan-17,Oklahoma City,Minnesota
+Fri.,13-Jan-17,Boston,Atlanta
+Fri.,13-Jan-17,Orlando,Portland
+Fri.,13-Jan-17,Cleveland,Sacramento
+Fri.,13-Jan-17,Detroit,Utah
+Sat.,14-Jan-17,L.A. Lakers,L.A. Clippers
+Sat.,14-Jan-17,New Orleans,Chicago
+Sat.,14-Jan-17,Philadelphia,Washington
+Sat.,14-Jan-17,Orlando,Utah
+Sat.,14-Jan-17,San Antonio,Phoenix*
+Sun.,15-Jan-17,New York,Toronto
+Sun.,15-Jan-17,Milwaukee,Atlanta
+Sun.,15-Jan-17,Minnesota,Dallas
+Sun.,15-Jan-17,Houston,Brooklyn
+Sun.,15-Jan-17,Oklahoma City,Sacramento
+Sun.,15-Jan-17,Chicago,Memphis
+Sun.,15-Jan-17,Detroit,L.A. Lakers
+Mon.,16-Jan-17,Atlanta,New York
+Mon.,16-Jan-17,Portland,Washington
+Mon.,16-Jan-17,Philadelphia,Milwaukee
+Mon.,16-Jan-17,New Orleans,Indiana
+Mon.,16-Jan-17,Orlando,Denver
+Mon.,16-Jan-17,Charlotte,Boston
+Mon.,16-Jan-17,Cleveland,Golden State
+Mon.,16-Jan-17,Utah,Phoenix
+Mon.,16-Jan-17,Oklahoma City,L.A. Clippers
+Tue.,17-Jan-17,Toronto,Brooklyn
+Tue.,17-Jan-17,Houston,Miami
+Tue.,17-Jan-17,Dallas,Chicago
+Tue.,17-Jan-17,Minnesota,San Antonio
+Tue.,17-Jan-17,Denver,L.A. Lakers
+Wed.,18-Jan-17,Toronto,Philadelphia
+Wed.,18-Jan-17,Memphis,Washington
+Wed.,18-Jan-17,Portland,Charlotte
+Wed.,18-Jan-17,New York,Boston
+Wed.,18-Jan-17,Orlando,New Orleans
+Wed.,18-Jan-17,Milwaukee,Houston
+Wed.,18-Jan-17,Atlanta,Detroit
+Wed.,18-Jan-17,Oklahoma City,Golden State
+Wed.,18-Jan-17,Indiana,Sacramento
+Thu.,19-Jan-17,Phoenix,Cleveland
+Thu.,19-Jan-17,Dallas,Miami
+Thu.,19-Jan-17,Washington,New York
+Thu.,19-Jan-17,Denver,San Antonio
+Thu.,19-Jan-17,Minnesota,L.A. Clippers
+Fri.,20-Jan-17,Portland,Philadelphia
+Fri.,20-Jan-17,Toronto,Charlotte
+Fri.,20-Jan-17,Milwaukee,Orlando
+Fri.,20-Jan-17,Sacramento,Memphis
+Fri.,20-Jan-17,Brooklyn,New Orleans
+Fri.,20-Jan-17,Golden State,Houston
+Fri.,20-Jan-17,Chicago,Atlanta
+Fri.,20-Jan-17,Utah,Dallas
+Fri.,20-Jan-17,Indiana,L.A. Lakers
+Sat.,21-Jan-17,Portland,Boston
+Sat.,21-Jan-17,Washington,Detroit
+Sat.,21-Jan-17,Brooklyn,Charlotte
+Sat.,21-Jan-17,Philadelphia,Atlanta
+Sat.,21-Jan-17,Phoenix,New York
+Sat.,21-Jan-17,Milwaukee,Miami
+Sat.,21-Jan-17,Houston,Memphis
+Sat.,21-Jan-17,San Antonio,Cleveland
+Sat.,21-Jan-17,L.A. Clippers,Denver
+Sat.,21-Jan-17,Indiana,Utah
+Sat.,21-Jan-17,Sacramento,Chicago
+Sun.,22-Jan-17,Golden State,Orlando
+Sun.,22-Jan-17,L.A. Lakers,Dallas
+Sun.,22-Jan-17,Phoenix,Toronto
+Sun.,22-Jan-17,Denver,Minnesota
+Mon.,23-Jan-17,Washington,Charlotte
+Mon.,23-Jan-17,San Antonio,Brooklyn
+Mon.,23-Jan-17,L.A. Clippers,Atlanta
+Mon.,23-Jan-17,Golden State,Miami
+Mon.,23-Jan-17,Sacramento,Detroit
+Mon.,23-Jan-17,Houston,Milwaukee
+Mon.,23-Jan-17,Cleveland,New Orleans
+Mon.,23-Jan-17,New York,Indiana
+Mon.,23-Jan-17,Oklahoma City,Utah
+Tue.,24-Jan-17,San Antonio,Toronto
+Tue.,24-Jan-17,L.A. Clippers,Philadelphia
+Tue.,24-Jan-17,Boston,Washington
+Tue.,24-Jan-17,Chicago,Orlando
+Tue.,24-Jan-17,Utah,Denver
+Tue.,24-Jan-17,Minnesota,Phoenix
+Wed.,25-Jan-17,Sacramento,Cleveland
+Wed.,25-Jan-17,Houston,Boston
+Wed.,25-Jan-17,Miami,Brooklyn
+Wed.,25-Jan-17,Atlanta,Chicago
+Wed.,25-Jan-17,Philadelphia,Milwaukee
+Wed.,25-Jan-17,Toronto,Memphis
+Wed.,25-Jan-17,Oklahoma City,New Orleans
+Wed.,25-Jan-17,Golden State,Charlotte
+Wed.,25-Jan-17,New York,Dallas
+Wed.,25-Jan-17,L.A. Lakers,Portland
+Thu.,26-Jan-17,Dallas,Oklahoma City
+Thu.,26-Jan-17,Indiana,Minnesota
+Thu.,26-Jan-17,Phoenix,Denver
+Thu.,26-Jan-17,L.A. Lakers,Utah
+Fri.,27-Jan-17,Houston,Philadelphia
+Fri.,27-Jan-17,Brooklyn,Cleveland
+Fri.,27-Jan-17,Sacramento,Indiana
+Fri.,27-Jan-17,Orlando,Boston
+Fri.,27-Jan-17,Milwaukee,Toronto
+Fri.,27-Jan-17,Charlotte,New York
+Fri.,27-Jan-17,Miami,Chicago
+Fri.,27-Jan-17,San Antonio,New Orleans
+Fri.,27-Jan-17,Washington,Atlanta
+Fri.,27-Jan-17,Memphis,Portland
+Sat.,28-Jan-17,Sacramento,Charlotte
+Sat.,28-Jan-17,Detroit,Miami
+Sat.,28-Jan-17,Boston,Milwaukee
+Sat.,28-Jan-17,L.A. Clippers,Golden State
+Sat.,28-Jan-17,Memphis,Utah
+Sat.,28-Jan-17,Denver,Phoenix
+Sat.,28-Jan-17,Brooklyn,Minnesota
+Sun.,29-Jan-17,New York,Atlanta
+Sun.,29-Jan-17,Oklahoma City,Cleveland
+Sun.,29-Jan-17,Houston,Indiana
+Sun.,29-Jan-17,Washington,New Orleans
+Sun.,29-Jan-17,Orlando,Toronto
+Sun.,29-Jan-17,Philadelphia,Chicago
+Sun.,29-Jan-17,Dallas,San Antonio
+Sun.,29-Jan-17,Golden State,Portland
+Mon.,30-Jan-17,Brooklyn,Miami
+Mon.,30-Jan-17,Orlando,Minnesota
+Mon.,30-Jan-17,Detroit,Boston
+Mon.,30-Jan-17,Cleveland,Dallas
+Mon.,30-Jan-17,Memphis,Phoenix
+Tue.,31-Jan-17,New York,Washington
+Tue.,31-Jan-17,New Orleans,Toronto
+Tue.,31-Jan-17,Sacramento,Houston
+Tue.,31-Jan-17,Oklahoma City,San Antonio
+Tue.,31-Jan-17,Charlotte,Portland
+Tue.,31-Jan-17,Denver,L.A. Lakers
+Wed.,1-Feb-17,Indiana,Orlando
+Wed.,1-Feb-17,Minnesota,Cleveland
+Wed.,1-Feb-17,Toronto,Boston
+Wed.,1-Feb-17,New York,Brooklyn
+Wed.,1-Feb-17,Atlanta,Miami
+Wed.,1-Feb-17,New Orleans,Detroit
+Wed.,1-Feb-17,Philadelphia,Dallas
+Wed.,1-Feb-17,Memphis,Denver
+Wed.,1-Feb-17,Milwaukee,Utah
+Wed.,1-Feb-17,L.A. Clippers,Phoenix
+Wed.,1-Feb-17,Chicago,Oklahoma City
+Wed.,1-Feb-17,Charlotte,Golden State
+Thu.,2-Feb-17,L.A. Lakers,Washington
+Thu.,2-Feb-17,Atlanta,Houston
+Thu.,2-Feb-17,Philadelphia,San Antonio
+Thu.,2-Feb-17,Golden State,L.A. Clippers
+Fri.,3-Feb-17,Toronto,Orlando
+Fri.,3-Feb-17,Indiana,Brooklyn
+Fri.,3-Feb-17,Minnesota,Detroit
+Fri.,3-Feb-17,Chicago,Houston
+Fri.,3-Feb-17,Memphis,Oklahoma City
+Fri.,3-Feb-17,L.A. Lakers,Boston
+Fri.,3-Feb-17,Milwaukee,Denver
+Fri.,3-Feb-17,Phoenix,Sacramento
+Fri.,3-Feb-17,Dallas,Portland
+Sat.,4-Feb-17,New Orleans,Washington
+Sat.,4-Feb-17,Orlando,Atlanta
+Sat.,4-Feb-17,Detroit,Indiana
+Sat.,4-Feb-17,Philadelphia,Miami
+Sat.,4-Feb-17,Cleveland,New York
+Sat.,4-Feb-17,Charlotte,Utah
+Sat.,4-Feb-17,Milwaukee,Phoenix
+Sat.,4-Feb-17,Denver,San Antonio
+Sat.,4-Feb-17,Memphis,Minnesota
+Sat.,4-Feb-17,Golden State,Sacramento
+Sun.,5-Feb-17,Toronto,Brooklyn
+Sun.,5-Feb-17,L.A. Clippers,Boston
+Sun.,5-Feb-17,Portland,Oklahoma City
+Mon.,6-Feb-17,L.A. Lakers,New York
+Mon.,6-Feb-17,Cleveland,Washington
+Mon.,6-Feb-17,Oklahoma City,Indiana
+Mon.,6-Feb-17,L.A. Clippers,Toronto
+Mon.,6-Feb-17,Utah,Atlanta
+Mon.,6-Feb-17,Philadelphia,Detroit
+Mon.,6-Feb-17,Phoenix,New Orleans
+Mon.,6-Feb-17,Miami,Minnesota
+Mon.,6-Feb-17,Dallas,Denver
+Mon.,6-Feb-17,San Antonio,Memphis
+Mon.,6-Feb-17,Chicago,Sacramento
+Tue.,7-Feb-17,Brooklyn,Charlotte
+Tue.,7-Feb-17,Orlando,Houston
+Tue.,7-Feb-17,Portland,Dallas
+Wed.,8-Feb-17,San Antonio,Philadelphia
+Wed.,8-Feb-17,Cleveland,Indiana
+Wed.,8-Feb-17,Washington,Brooklyn
+Wed.,8-Feb-17,Denver,Atlanta
+Wed.,8-Feb-17,L.A. Lakers,Detroit
+Wed.,8-Feb-17,Miami,Milwaukee
+Wed.,8-Feb-17,Phoenix,Memphis
+Wed.,8-Feb-17,Utah,New Orleans
+Wed.,8-Feb-17,Toronto,Minnesota
+Wed.,8-Feb-17,L.A. Clippers,New York
+Wed.,8-Feb-17,Chicago,Golden State
+Wed.,8-Feb-17,Boston,Sacramento
+Thu.,9-Feb-17,Houston,Charlotte
+Thu.,9-Feb-17,Philadelphia,Orlando
+Thu.,9-Feb-17,Cleveland,Oklahoma City
+Thu.,9-Feb-17,Utah,Dallas
+Thu.,9-Feb-17,Boston,Portland
+Fri.,10-Feb-17,Miami,Brooklyn
+Fri.,10-Feb-17,Denver,New York
+Fri.,10-Feb-17,San Antonio,Detroit
+Fri.,10-Feb-17,L.A. Lakers,Milwaukee
+Fri.,10-Feb-17,Golden State,Memphis
+Fri.,10-Feb-17,New Orleans,Minnesota
+Fri.,10-Feb-17,Indiana,Washington
+Fri.,10-Feb-17,Atlanta,Sacramento
+Fri.,10-Feb-17,Chicago,Phoenix
+Sat.,11-Feb-17,L.A. Clippers,Charlotte
+Sat.,11-Feb-17,Milwaukee,Indiana
+Sat.,11-Feb-17,Miami,Philadelphia
+Sat.,11-Feb-17,Denver,Cleveland
+Sat.,11-Feb-17,Phoenix,Houston
+Sat.,11-Feb-17,Golden State,Oklahoma City
+Sat.,11-Feb-17,Orlando,Dallas
+Sat.,11-Feb-17,Boston,Utah
+Sun.,12-Feb-17,Chicago,Minnesota
+Sun.,12-Feb-17,San Antonio,New York
+Sun.,12-Feb-17,Detroit,Toronto
+Sun.,12-Feb-17,New Orleans,Sacramento
+Mon.,13-Feb-17,Oklahoma City,Washington
+Mon.,13-Feb-17,Philadelphia,Charlotte
+Mon.,13-Feb-17,Memphis,Brooklyn
+Mon.,13-Feb-17,Orlando,Miami
+Mon.,13-Feb-17,Detroit,Milwaukee
+Mon.,13-Feb-17,San Antonio,Indiana
+Mon.,13-Feb-17,Boston,Dallas
+Mon.,13-Feb-17,Golden State,Denver
+Mon.,13-Feb-17,L.A. Clippers,Utah
+Mon.,13-Feb-17,New Orleans,Phoenix
+Mon.,13-Feb-17,Atlanta,Portland
+Tue.,14-Feb-17,Toronto,Chicago
+Tue.,14-Feb-17,Cleveland,Minnesota
+Tue.,14-Feb-17,Sacramento,L.A. Lakers
+Wed.,15-Feb-17,San Antonio,Orlando
+Wed.,15-Feb-17,Indiana,Cleveland
+Wed.,15-Feb-17,Philadelphia,Boston
+Wed.,15-Feb-17,Charlotte,Toronto
+Wed.,15-Feb-17,Milwaukee,Brooklyn
+Wed.,15-Feb-17,Dallas,Detroit
+Wed.,15-Feb-17,New Orleans,Memphis
+Wed.,15-Feb-17,Miami,Houston
+Wed.,15-Feb-17,Minnesota,Denver
+Wed.,15-Feb-17,Portland,Utah
+Wed.,15-Feb-17,L.A. Lakers,Phoenix
+Wed.,15-Feb-17,New York,Oklahoma City
+Wed.,15-Feb-17,Atlanta,L.A. Clippers
+Wed.,15-Feb-17,Sacramento,Golden State
+Thu.,16-Feb-17,Washington,Indiana
+Thu.,16-Feb-17,Boston,Chicago
+Thu.,23-Feb-17,Portland,Orlando
+Thu.,23-Feb-17,Charlotte,Detroit
+Thu.,23-Feb-17,Houston,New Orleans
+Thu.,23-Feb-17,New York,Cleveland
+Thu.,23-Feb-17,L.A. Clippers,Golden State
+Thu.,23-Feb-17,Denver,Sacramento
+Fri.,24-Feb-17,Washington,Philadelphia
+Fri.,24-Feb-17,Memphis,Indiana
+Fri.,24-Feb-17,Boston,Toronto
+Fri.,24-Feb-17,Phoenix,Chicago
+Fri.,24-Feb-17,Utah,Milwaukee
+Fri.,24-Feb-17,L.A. Lakers,Oklahoma City
+Fri.,24-Feb-17,Dallas,Minnesota
+Fri.,24-Feb-17,Miami,Atlanta
+Fri.,24-Feb-17,Brooklyn,Denver
+Fri.,24-Feb-17,San Antonio,L.A. Clippers
+Sat.,25-Feb-17,Charlotte,Sacramento
+Sat.,25-Feb-17,Atlanta,Orlando
+Sat.,25-Feb-17,Philadelphia,New York
+Sat.,25-Feb-17,Indiana,Miami
+Sat.,25-Feb-17,New Orleans,Dallas
+Sat.,25-Feb-17,Chicago,Cleveland
+Sat.,25-Feb-17,Minnesota,Houston
+Sat.,25-Feb-17,Brooklyn,Golden State
+Sun.,26-Feb-17,San Antonio,L.A. Lakers
+Sun.,26-Feb-17,Phoenix,Milwaukee
+Sun.,26-Feb-17,Memphis,Denver
+Sun.,26-Feb-17,Utah,Washington
+Sun.,26-Feb-17,Portland,Toronto
+Sun.,26-Feb-17,Boston,Detroit
+Sun.,26-Feb-17,New Orleans,Oklahoma City
+Sun.,26-Feb-17,Charlotte,L.A. Clippers
+Mon.,27-Feb-17,Toronto,New York
+Mon.,27-Feb-17,Golden State,Philadelphia
+Mon.,27-Feb-17,Milwaukee,Cleveland
+Mon.,27-Feb-17,Atlanta,Boston
+Mon.,27-Feb-17,Indiana,Houston
+Mon.,27-Feb-17,Miami,Dallas
+Mon.,27-Feb-17,Minnesota,Sacramento
+Tue.,28-Feb-17,Golden State,Washington
+Tue.,28-Feb-17,Portland,Detroit
+Tue.,28-Feb-17,Denver,Chicago
+Tue.,28-Feb-17,Phoenix,Memphis
+Tue.,28-Feb-17,Utah,Oklahoma City
+Tue.,28-Feb-17,Charlotte,L.A. Lakers
+Wed.,1-Mar-17,New York,Orlando
+Wed.,1-Mar-17,Washington,Toronto
+Wed.,1-Mar-17,Dallas,Atlanta
+Wed.,1-Mar-17,Philadelphia,Miami
+Wed.,1-Mar-17,Denver,Milwaukee
+Wed.,1-Mar-17,Detroit,New Orleans
+Wed.,1-Mar-17,Cleveland,Boston
+Wed.,1-Mar-17,Indiana,San Antonio
+Wed.,1-Mar-17,Minnesota,Utah
+Wed.,1-Mar-17,Houston,L.A. Clippers
+Wed.,1-Mar-17,Brooklyn,Sacramento
+Thu.,2-Mar-17,Golden State,Chicago
+Thu.,2-Mar-17,Charlotte,Phoenix
+Thu.,2-Mar-17,Oklahoma City,Portland
+Fri.,3-Mar-17,New York,Philadelphia
+Fri.,3-Mar-17,Toronto,Washington
+Fri.,3-Mar-17,Miami,Orlando
+Fri.,3-Mar-17,L.A. Clippers,Milwaukee
+Fri.,3-Mar-17,Cleveland,Atlanta
+Fri.,3-Mar-17,Memphis,Dallas
+Fri.,3-Mar-17,Brooklyn,Utah
+Fri.,3-Mar-17,Oklahoma City,Phoenix
+Fri.,3-Mar-17,San Antonio,New Orleans
+Fri.,3-Mar-17,Boston,L.A. Lakers
+Sat.,4-Mar-17,Detroit,Philadelphia
+Sat.,4-Mar-17,Toronto,Milwaukee
+Sat.,4-Mar-17,Cleveland,Miami
+Sat.,4-Mar-17,L.A. Clippers,Chicago
+Sat.,4-Mar-17,Charlotte,Denver
+Sat.,4-Mar-17,Memphis,Houston
+Sat.,4-Mar-17,Minnesota,San Antonio
+Sat.,4-Mar-17,Brooklyn,Portland
+Sun.,5-Mar-17,Indiana,Atlanta
+Sun.,5-Mar-17,Golden State,New York
+Sun.,5-Mar-17,Boston,Phoenix
+Sun.,5-Mar-17,Orlando,Washington
+Sun.,5-Mar-17,Utah,Sacramento
+Sun.,5-Mar-17,Oklahoma City,Dallas
+Sun.,5-Mar-17,New Orleans,L.A. Lakers
+Mon.,6-Mar-17,Milwaukee,Philadelphia
+Mon.,6-Mar-17,New York,Orlando
+Mon.,6-Mar-17,Miami,Cleveland
+Mon.,6-Mar-17,Golden State,Atlanta
+Mon.,6-Mar-17,Chicago,Detroit
+Mon.,6-Mar-17,Brooklyn,Memphis
+Mon.,6-Mar-17,Portland,Minnesota
+Mon.,6-Mar-17,Indiana,Charlotte
+Mon.,6-Mar-17,Houston,San Antonio
+Mon.,6-Mar-17,Sacramento,Denver
+Mon.,6-Mar-17,New Orleans,Utah
+Mon.,6-Mar-17,Boston,L.A. Clippers
+Tue.,7-Mar-17,Portland,Oklahoma City
+Tue.,7-Mar-17,L.A. Lakers,Dallas
+Tue.,7-Mar-17,Washington,Phoenix
+Wed.,8-Mar-17,Chicago,Orlando
+Wed.,8-Mar-17,Brooklyn,Atlanta
+Wed.,8-Mar-17,Charlotte,Miami
+Wed.,8-Mar-17,New York,Milwaukee
+Wed.,8-Mar-17,Toronto,New Orleans
+Wed.,8-Mar-17,Utah,Houston
+Wed.,8-Mar-17,L.A. Clippers,Minnesota
+Wed.,8-Mar-17,Detroit,Indiana
+Wed.,8-Mar-17,Sacramento,San Antonio
+Wed.,8-Mar-17,Washington,Denver
+Wed.,8-Mar-17,Boston,Golden State
+Thu.,9-Mar-17,Cleveland,Detroit
+Thu.,9-Mar-17,L.A. Clippers,Memphis
+Thu.,9-Mar-17,San Antonio,Oklahoma City
+Thu.,9-Mar-17,Philadelphia,Portland
+Thu.,9-Mar-17,L.A. Lakers,Phoenix
+Fri.,10-Mar-17,Orlando,Charlotte
+Fri.,10-Mar-17,Houston,Chicago
+Fri.,10-Mar-17,Indiana,Milwaukee
+Fri.,10-Mar-17,Golden State,Minnesota
+Fri.,10-Mar-17,Toronto,Atlanta
+Fri.,10-Mar-17,Boston,Denver
+Fri.,10-Mar-17,Brooklyn,Dallas
+Fri.,10-Mar-17,Washington,Sacramento
+Sat.,11-Mar-17,Utah,Oklahoma City
+Sat.,11-Mar-17,Philadelphia,L.A. Clippers
+Sat.,11-Mar-17,New York,Detroit
+Sat.,11-Mar-17,New Orleans,Charlotte
+Sat.,11-Mar-17,Cleveland,Orlando
+Sat.,11-Mar-17,Minnesota,Milwaukee
+Sat.,11-Mar-17,Toronto,Miami
+Sat.,11-Mar-17,Golden State,San Antonio
+Sat.,11-Mar-17,Atlanta,Memphis
+Sat.,11-Mar-17,Phoenix,Dallas
+Sat.,11-Mar-17,Washington,Portland
+Sat.,11-Mar-17,Denver,Sacramento
+Sun.,12-Mar-17,Chicago,Boston
+Sun.,12-Mar-17,New York,Brooklyn
+Sun.,12-Mar-17,Miami,Indiana
+Sun.,12-Mar-17,Portland,Phoenix
+Sun.,12-Mar-17,Cleveland,Houston
+Sun.,12-Mar-17,Philadelphia,L.A. Lakers
+Mon.,13-Mar-17,Chicago,Charlotte
+Mon.,13-Mar-17,Dallas,Toronto
+Mon.,13-Mar-17,Milwaukee,Memphis
+Mon.,13-Mar-17,Atlanta,San Antonio
+Mon.,13-Mar-17,Washington,Minnesota
+Mon.,13-Mar-17,L.A. Clippers,Utah
+Mon.,13-Mar-17,Orlando,Sacramento
+Mon.,13-Mar-17,L.A. Lakers,Denver
+Tue.,14-Mar-17,Detroit,Cleveland
+Tue.,14-Mar-17,Oklahoma City,Brooklyn
+Tue.,14-Mar-17,Indiana,New York
+Tue.,14-Mar-17,Portland,New Orleans
+Tue.,14-Mar-17,Philadelphia,Golden State
+Wed.,15-Mar-17,Dallas,Washington
+Wed.,15-Mar-17,Charlotte,Indiana
+Wed.,15-Mar-17,Minnesota,Boston
+Wed.,15-Mar-17,New Orleans,Miami
+Wed.,15-Mar-17,Utah,Detroit
+Wed.,15-Mar-17,Memphis,Chicago
+Wed.,15-Mar-17,L.A. Lakers,Houston
+Wed.,15-Mar-17,Portland,San Antonio
+Wed.,15-Mar-17,Sacramento,Phoenix
+Wed.,15-Mar-17,Milwaukee,L.A. Clippers
+Thu.,16-Mar-17,Utah,Cleveland
+Thu.,16-Mar-17,Oklahoma City,Toronto
+Thu.,16-Mar-17,Brooklyn,New York
+Thu.,16-Mar-17,Memphis,Atlanta
+Thu.,16-Mar-17,L.A. Clippers,Denver
+Thu.,16-Mar-17,Orlando,Golden State
+Fri.,17-Mar-17,Dallas,Philadelphia
+Fri.,17-Mar-17,Chicago,Washington
+Fri.,17-Mar-17,Boston,Brooklyn
+Fri.,17-Mar-17,Toronto,Detroit
+Fri.,17-Mar-17,Houston,New Orleans
+Fri.,17-Mar-17,Minnesota,Miami
+Fri.,17-Mar-17,Orlando,Phoenix
+Fri.,17-Mar-17,Milwaukee,L.A. Lakers
+Sat.,18-Mar-17,Sacramento,Oklahoma City
+Sat.,18-Mar-17,Portland,Atlanta
+Sat.,18-Mar-17,Washington,Charlotte
+Sat.,18-Mar-17,Cleveland,L.A. Clippers
+Sat.,18-Mar-17,Utah,Chicago
+Sat.,18-Mar-17,San Antonio,Memphis
+Sat.,18-Mar-17,Houston,Denver
+Sat.,18-Mar-17,Milwaukee,Golden State
+Sun.,19-Mar-17,Dallas,Brooklyn
+Sun.,19-Mar-17,Boston,Philadelphia
+Sun.,19-Mar-17,Phoenix,Detroit
+Sun.,19-Mar-17,Minnesota,New Orleans
+Sun.,19-Mar-17,Indiana,Toronto
+Sun.,19-Mar-17,Portland,Miami
+Sun.,19-Mar-17,Sacramento,San Antonio
+Sun.,19-Mar-17,Cleveland,L.A. Lakers
+Mon.,20-Mar-17,Atlanta,Charlotte
+Mon.,20-Mar-17,Philadelphia,Orlando
+Mon.,20-Mar-17,Utah,Indiana
+Mon.,20-Mar-17,Washington,Boston
+Mon.,20-Mar-17,Denver,Houston
+Mon.,20-Mar-17,Golden State,Oklahoma City
+Mon.,20-Mar-17,New York,L.A. Clippers
+Tue.,21-Mar-17,Chicago,Toronto
+Tue.,21-Mar-17,Detroit,Brooklyn
+Tue.,21-Mar-17,Phoenix,Miami
+Tue.,21-Mar-17,Memphis,New Orleans
+Tue.,21-Mar-17,Golden State,Dallas
+Tue.,21-Mar-17,San Antonio,Minnesota
+Tue.,21-Mar-17,Milwaukee,Portland
+Tue.,21-Mar-17,L.A. Clippers,L.A. Lakers
+Wed.,22-Mar-17,Charlotte,Orlando
+Wed.,22-Mar-17,Indiana,Boston
+Wed.,22-Mar-17,Detroit,Chicago
+Wed.,22-Mar-17,Philadelphia,Oklahoma City
+Wed.,22-Mar-17,Atlanta,Washington
+Wed.,22-Mar-17,Cleveland,Denver
+Wed.,22-Mar-17,Milwaukee,Sacramento
+Wed.,22-Mar-17,New York,Utah
+Thu.,23-Mar-17,Phoenix,Brooklyn
+Thu.,23-Mar-17,Toronto,Miami
+Thu.,23-Mar-17,L.A. Clippers,Dallas
+Thu.,23-Mar-17,Memphis,San Antonio
+Thu.,23-Mar-17,New York,Portland
+Fri.,24-Mar-17,Brooklyn,Washington
+Fri.,24-Mar-17,Cleveland,Charlotte
+Fri.,24-Mar-17,Detroit,Orlando
+Fri.,24-Mar-17,Denver,Indiana
+Fri.,24-Mar-17,Phoenix,Boston
+Fri.,24-Mar-17,Philadelphia,Chicago
+Fri.,24-Mar-17,Atlanta,Milwaukee
+Fri.,24-Mar-17,New Orleans,Houston
+Fri.,24-Mar-17,Minnesota,L.A. Lakers
+Fri.,24-Mar-17,Sacramento,Golden State
+Sat.,25-Mar-17,Utah,L.A. Clippers
+Sat.,25-Mar-17,Washington,Cleveland
+Sat.,25-Mar-17,Toronto,Dallas
+Sat.,25-Mar-17,New York,San Antonio
+Sat.,25-Mar-17,Minnesota,Portland
+Sun.,26-Mar-17,Phoenix,Charlotte
+Sun.,26-Mar-17,Brooklyn,Atlanta
+Sun.,26-Mar-17,Sacramento,L.A. Clippers
+Sun.,26-Mar-17,Chicago,Milwaukee
+Sun.,26-Mar-17,Oklahoma City,Houston
+Sun.,26-Mar-17,Philadelphia,Indiana
+Sun.,26-Mar-17,Miami,Boston
+Sun.,26-Mar-17,Memphis,Golden State
+Sun.,26-Mar-17,New Orleans,Denver
+Sun.,26-Mar-17,Portland,L.A. Lakers
+Mon.,27-Mar-17,Orlando,Toronto
+Mon.,27-Mar-17,Detroit,New York
+Mon.,27-Mar-17,Cleveland,San Antonio
+Mon.,27-Mar-17,Oklahoma City,Dallas
+Mon.,27-Mar-17,Memphis,Sacramento
+Mon.,27-Mar-17,New Orleans,Utah
+Tue.,28-Mar-17,Milwaukee,Charlotte
+Tue.,28-Mar-17,Minnesota,Indiana
+Tue.,28-Mar-17,Philadelphia,Brooklyn
+Tue.,28-Mar-17,Phoenix,Atlanta
+Tue.,28-Mar-17,Miami,Detroit
+Tue.,28-Mar-17,Golden State,Houston
+Tue.,28-Mar-17,Denver,Portland
+Tue.,28-Mar-17,Washington,L.A. Lakers
+Wed.,29-Mar-17,Atlanta,Philadelphia
+Wed.,29-Mar-17,Oklahoma City,Orlando
+Wed.,29-Mar-17,Milwaukee,Boston
+Wed.,29-Mar-17,Charlotte,Toronto
+Wed.,29-Mar-17,Miami,New York
+Wed.,29-Mar-17,Indiana,Memphis
+Wed.,29-Mar-17,Dallas,New Orleans
+Wed.,29-Mar-17,Golden State,San Antonio
+Wed.,29-Mar-17,Washington,L.A. Clippers
+Wed.,29-Mar-17,Utah,Sacramento
+Thu.,30-Mar-17,Brooklyn,Detroit
+Thu.,30-Mar-17,Cleveland,Chicago
+Thu.,30-Mar-17,L.A. Lakers,Minnesota
+Thu.,30-Mar-17,L.A. Clippers,Phoenix
+Thu.,30-Mar-17,Houston,Portland
+Fri.,31-Mar-17,Indiana,Toronto
+Fri.,31-Mar-17,Denver,Charlotte
+Fri.,31-Mar-17,Philadelphia,Cleveland
+Fri.,31-Mar-17,Orlando,Boston
+Fri.,31-Mar-17,Detroit,Milwaukee
+Fri.,31-Mar-17,Dallas,Memphis
+Fri.,31-Mar-17,Sacramento,New Orleans
+Fri.,31-Mar-17,New York,Miami
+Fri.,31-Mar-17,Washington,Utah
+Fri.,31-Mar-17,San Antonio,Oklahoma City
+Fri.,31-Mar-17,Houston,Golden State
+Sat.,1-Apr-17,L.A. Lakers,L.A. Clippers
+Sat.,1-Apr-17,Atlanta,Chicago
+Sat.,1-Apr-17,Orlando,Brooklyn
+Sat.,1-Apr-17,Sacramento,Minnesota
+Sat.,1-Apr-17,Phoenix,Portland
+Sun.,2-Apr-17,Charlotte,Oklahoma City
+Sun.,2-Apr-17,Memphis,L.A. Lakers
+Sun.,2-Apr-17,Dallas,Milwaukee
+Sun.,2-Apr-17,Boston,New York
+Sun.,2-Apr-17,Chicago,New Orleans
+Sun.,2-Apr-17,Philadelphia,Toronto
+Sun.,2-Apr-17,Atlanta,Brooklyn
+Sun.,2-Apr-17,Denver,Miami
+Sun.,2-Apr-17,Indiana,Cleveland
+Sun.,2-Apr-17,Utah,San Antonio
+Sun.,2-Apr-17,Washington,Golden State
+Sun.,2-Apr-17,Houston,Phoenix
+Tue.,4-Apr-17,Brooklyn,Philadelphia
+Tue.,4-Apr-17,Charlotte,Washington
+Tue.,4-Apr-17,Orlando,Cleveland
+Tue.,4-Apr-17,Toronto,Indiana
+Tue.,4-Apr-17,Denver,New Orleans
+Tue.,4-Apr-17,Milwaukee,Oklahoma City
+Tue.,4-Apr-17,Chicago,New York
+Tue.,4-Apr-17,Memphis,San Antonio
+Tue.,4-Apr-17,Minnesota,Golden State
+Tue.,4-Apr-17,Dallas,Sacramento
+Tue.,4-Apr-17,Portland,Utah
+Wed.,5-Apr-17,Miami,Charlotte
+Wed.,5-Apr-17,Toronto,Detroit
+Wed.,5-Apr-17,Oklahoma City,Memphis
+Wed.,5-Apr-17,Denver,Houston
+Wed.,5-Apr-17,Cleveland,Boston
+Wed.,5-Apr-17,L.A. Lakers,San Antonio
+Wed.,5-Apr-17,Golden State,Phoenix
+Wed.,5-Apr-17,Dallas,L.A. Clippers
+Thu.,6-Apr-17,Chicago,Philadelphia
+Thu.,6-Apr-17,Brooklyn,Orlando
+Thu.,6-Apr-17,Milwaukee,Indiana
+Thu.,6-Apr-17,Washington,New York
+Thu.,6-Apr-17,Boston,Atlanta
+Thu.,6-Apr-17,Minnesota,Portland
+Fri.,7-Apr-17,Atlanta,Cleveland
+Fri.,7-Apr-17,Miami,Toronto
+Fri.,7-Apr-17,New York,Memphis
+Fri.,7-Apr-17,Detroit,Houston
+Fri.,7-Apr-17,San Antonio,Dallas
+Fri.,7-Apr-17,New Orleans,Denver
+Fri.,7-Apr-17,Minnesota,Utah
+Fri.,7-Apr-17,Oklahoma City,Phoenix
+Fri.,7-Apr-17,Sacramento,L.A. Lakers
+Sat.,8-Apr-17,Chicago,Brooklyn
+Sat.,8-Apr-17,Boston,Charlotte
+Sat.,8-Apr-17,Indiana,Orlando
+Sat.,8-Apr-17,Milwaukee,Philadelphia
+Sat.,8-Apr-17,Miami,Washington
+Sat.,8-Apr-17,L.A. Clippers,San Antonio
+Sat.,8-Apr-17,Utah,Portland
+Sat.,8-Apr-17,New Orleans,Golden State
+Sun.,9-Apr-17,Toronto,New York
+Sun.,9-Apr-17,Cleveland,Atlanta
+Sun.,9-Apr-17,Oklahoma City,Denver
+Sun.,9-Apr-17,Dallas,Phoenix
+Sun.,9-Apr-17,Houston,Sacramento
+Sun.,9-Apr-17,Detroit,Memphis
+Sun.,9-Apr-17,Minnesota,L.A. Lakers
+Mon.,10-Apr-17,Indiana,Philadelphia
+Mon.,10-Apr-17,Brooklyn,Boston
+Mon.,10-Apr-17,Cleveland,Miami
+Mon.,10-Apr-17,Orlando,Chicago
+Mon.,10-Apr-17,Charlotte,Milwaukee
+Mon.,10-Apr-17,Washington,Detroit
+Mon.,10-Apr-17,San Antonio,Portland
+Mon.,10-Apr-17,Houston,L.A. Clippers
+Mon.,10-Apr-17,Utah,Golden State
+Tue.,11-Apr-17,Charlotte,Atlanta
+Tue.,11-Apr-17,Oklahoma City,Minnesota
+Tue.,11-Apr-17,Denver,Dallas
+Tue.,11-Apr-17,New Orleans,L.A. Lakers
+Tue.,11-Apr-17,Phoenix,Sacramento
+Wed.,12-Apr-17,Detroit,Orlando
+Wed.,12-Apr-17,Toronto,Cleveland
+Wed.,12-Apr-17,Milwaukee,Boston
+Wed.,12-Apr-17,Philadelphia,New York
+Wed.,12-Apr-17,Washington,Miami
+Wed.,12-Apr-17,Brooklyn,Chicago
+Wed.,12-Apr-17,Dallas,Memphis
+Wed.,12-Apr-17,Minnesota,Houston
+Wed.,12-Apr-17,Denver,Oklahoma City
+Wed.,12-Apr-17,Atlanta,Indiana
+Wed.,12-Apr-17,San Antonio,Utah
+Wed.,12-Apr-17,Sacramento,L.A. Clippers
+Wed.,12-Apr-17,L.A. Lakers,Golden State
+Wed.,12-Apr-17,New Orleans,Portland

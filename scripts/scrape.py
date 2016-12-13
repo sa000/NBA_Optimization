@@ -3,7 +3,8 @@ from lxml import html
 import os
 import pandas as pd
 
-
+import re 
+import csv
 def rename(start_id, end_id):
 	dates={}
 	for id in xrange(start_id, end_id):
@@ -46,4 +47,28 @@ def merge():
 	full_df.to_csv('Final.csv', index=False)
 
 	print 'merge complete'
-merge()
+
+
+
+def grab_DVP():
+	positions=['PG', 'SG', 'SF', 'PF', 'C']
+	for pos in positions:
+		filename='DVP_%s.csv'%pos
+		url='http://www.rotowire.com/daily/nba/defense-vspos.htm?site=DraftKings&pos=%s'%pos
+		page=requests.get(url)
+		data=html.fromstring(page.content)
+		target=open(filename, 'w')
+		csvwriter=csv.writer(target)
+		header=['Team', 'Position', 'Season', 'Last 5', 'Last 10', 'PTS', 'REB', 'AST', 'STL', 'BLK', '3PM', 'FG%', 'FT%', 'TO']
+		csvwriter.writerow(header)
+		for i in xrange(1,31):
+			path='/html/body/div[3]/div[7]/div/table/tbody/tr[%s]/td/text()' % str(i)
+			row=data.xpath(path)
+			csvwriter.writerow(row)
+			print i
+		print 'Data for %s Complete' %pos
+		target.close()
+		os.rename(filename, '../Data/%s'%filename)
+#merge()
+grab_DVP()
+
