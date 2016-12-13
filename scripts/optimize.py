@@ -6,8 +6,9 @@ import re
 import csv
 
 def optimize(projected_lineup, date, iteration):
-
+	#use modified or unmodified projections
 	data=pd.read_csv('../Projections/past/projection_%s.csv'%date)
+	#data=pd.read_csv('../Projections/Modified_Projection/Mprojection_%s.csv'%date)
 	prob = pulp.LpProblem('NBA', pulp.LpMaximize)
 
 	#decision variables
@@ -149,7 +150,7 @@ def optimize(projected_lineup, date, iteration):
 				scored_lineup.append(data[data['Name']==player_vars[v.name]].Scored.values[0])
 		#Diversity constraint
 		diversity_constraint=sum([var for var in selected_vars])
-		print 'new constraint', diversity_constraint<=2
+		print 'new constraint', diversity_constraint<=3
 		prob+=(diversity_constraint<=4)
 
 		print projected_lineup
@@ -167,9 +168,9 @@ def optimize(projected_lineup, date, iteration):
 
 ##Initial Parameters
 
-projected_lineup=True #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
+projected_lineup=False #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
 date='Dec122016'
 
-iterations=5
+iterations=10
 
 optimize(projected_lineup, date,iterations)

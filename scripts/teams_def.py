@@ -1,14 +1,14 @@
-teams_dict={ 
-'Atlanta Hawks' :'ATL'	 ,
-'Brooklyn Nets' :'BKN'	 ,
-'Boston Celtics' :'BOS'	 ,
-'Charlotte Hornets' :'CHA'	 ,
-'Chicago Bulls' :'CHI'	 ,
-'Cleveland Cavaliers' :'CLE'	 ,
-'Dallas Mavericks' :'DAL'	 ,
-'Denver Nuggets' :'DEN'	 ,
-'Detroit Pistons' :'DET'	 ,
-'Golden State Warriors' :'GSW'	 ,
+city_dict={ 
+'Atlanta' :'ATL'	 ,
+'Brooklyn' :'BKN'	 ,
+'Boston' :'BOS'	 ,
+'Charlotte' :'CHA'	 ,
+'Chicago' :'CHI'	 ,
+'Cleveland' :'CLE'	 ,
+'Dallas' :'DAL'	 ,
+'Denver' :'DEN'	 ,
+'Detroit' :'DET'	 ,
+'Golden State ' :'GSW'	 ,
 'Houston Rockets' :'HOU'	 ,
 'Indiana Pacers' :'IND'	 ,
 'L.A. Clippers' :'LAC'	 ,
@@ -28,5 +28,5 @@ teams_dict={
 'San Antonio Spurs' :'SAS'	 ,
 'Toronto Raptors' :'TOR'	 ,
 'Utah Jazz' :'UTA'	 ,
-'Washington Wizards'   :'WAS'	  
+'Washington Wizards'   :'WSH'	  
 } 

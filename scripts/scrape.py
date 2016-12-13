@@ -68,6 +68,9 @@ def grab_DVP():
 			print i
 		print 'Data for %s Complete' %pos
 		target.close()
+		df=pd.read_csv(filename)
+		df.sort(['Last 5'], ascending=False)
+		df.to_csv(filename, index=False)
 		os.rename(filename, '../Data/%s'%filename)
 #merge()
 grab_DVP()
