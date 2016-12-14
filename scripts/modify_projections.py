@@ -11,15 +11,19 @@ def defense(date):
 		print proj.Name
 
 		team=proj.Team
-		print team
 		team=teams_abr[team]
 		print team
-		if team=='L.A. Lakers':
-			city='L.A. Lakers'
-		elif team=='L.A. Clippers':
-			city='L.A. Clippers'
+
+		if team in ['L.A. Lakers','L.A. Clippers']:
+			print 'a'
+			city=team
+		elif len(team.split(' '))>2 and 'Trail' not in team.split(' '):
+			print 'b'
+			city=" ".join(team.split(' ')[0:2])
 		else:
+			print 'c'
 			city=team.split(' ')[0]
+		print city
 		#Find opponent
 		todays_games=schedule[schedule['DATE']==sched_date]
 		if city in todays_games['VISITOR'].values:
@@ -36,22 +40,22 @@ def defense(date):
 			if opp in row['Team'].split() :
 				break
 				#found our index
-		if proj['Projected']<=33:
+		if proj['Salary']<=6000:
 			if index<=6:
-				scale=1.2
+				scale=1.4
 			elif index<=12:
-				scale=1.05
+				scale=1.2
 			elif index<=18:
 				scale=1
 			elif index<=24:
-				scale=.9
-			else:
 				scale=.8
+			else:
+				scale=.6
 
 			projections.set_value(index_p, 'Projected', proj['Projected']*scale)
 	projections.to_csv('../Projections/Modified_Projection/Mprojection_%s.csv'%date, index=False)
 
 
-date='Dec122016'
+date='Dec112016'
 
 defense(date)

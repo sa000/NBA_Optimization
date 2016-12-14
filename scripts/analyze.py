@@ -32,6 +32,13 @@ def add_fatigue(schedule):
 
 def addb2b():
 	pass
+def create_stats():
+	files=os.listdir('../Projections/past')[1:]
+df=pd.DataFrame()
+for file in files:
+	print file
+	p=pd.read_csv('../Projections/past/%s'%file)
+	df=df.append(p, ignore_index=True)
 
 
 
