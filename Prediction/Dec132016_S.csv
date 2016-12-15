@@ -1,11 +1,2 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration
-Elfrid Payton,Andrew Wiggins,Jodie Meeks,Eric Bledsoe,Draymond Green,Kyle O'Quinn,Jimmy Butler,Kristaps Porzingis,401.758,401.75,1
-Elfrid Payton,Langston Galloway,J.R. Smith,Kevin Love,Draymond Green,Jimmy Butler,Kristaps Porzingis,Dennis Schroder,396.008,396.0,2
-Elfrid Payton,Ricky Rubio,Eric Bledsoe,Kevin Love,Jimmy Butler,Kristaps Porzingis,Marquese Chriss,Tyson Chandler,392.758,392.75,3
-Elfrid Payton,Thabo Sefolosha,Zach LaVine,Eric Bledsoe,Draymond Green,Kristaps Porzingis,Dennis Schroder,Tyson Chandler,391.508,391.5,4
-Stephen Curry,Elfrid Payton,Andrew Wiggins,J.R. Smith,Eric Bledsoe,Kevin Love,Draymond Green,Marquese Chriss,387.508,387.5,5
-Stephen Curry,Elfrid Payton,Zach LaVine,J.R. Smith,Kyle O'Quinn,Jimmy Butler,Kristaps Porzingis,Tyson Chandler,386.008,386.0,6
-Stephen Curry,Elfrid Payton,Andrew Wiggins,Jodie Meeks,Kevin Love,Kristaps Porzingis,Dennis Schroder,Tyson Chandler,384.258,384.25,7
-Elfrid Payton,Maurice Harkless,Evan Fournier,Eric Bledsoe,Kevin Love,Kyle O'Quinn,Kristaps Porzingis,Dennis Schroder,382.758,382.75,8
-Elfrid Payton,Evan Fournier,J.R. Smith,Eric Bledsoe,Draymond Green,Jimmy Butler,Jrue Holiday,Tyson Chandler,382.008,382.0,9
-Elfrid Payton,Andrew Wiggins,P.J. Tucker,Zach LaVine,Evan Fournier,Kevin Love,Draymond Green,Kristaps Porzingis,381.008,381.0,10
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
+Elfrid Payton,Andrew Wiggins,Jodie Meeks,Eric Bledsoe,Draymond Green,Kyle O'Quinn,Jimmy Butler,Kristaps Porzingis,401.758,401.75,1,Dec132016,8
