@@ -56,6 +56,6 @@ def defense(date):
 	projections.to_csv('../Projections/Modified_Projection/Mprojection_%s.csv'%date, index=False)
 
 
-date='Dec112016'
+date='Dec102016'
 
 defense(date)

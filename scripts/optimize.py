@@ -137,50 +137,54 @@ def optimize(projected_lineup, date, iteration, modified):
 			file='%s_P.csv' % date
 	else:
 		file='%s_S.csv' %date
-	target=open(file, 'w')
+
 	player_list=[]
 	for i in xrange(8):
 		player_list.append('Player%s' %str(i+1))
 
-	headers=player_list+['Projected Value', 'Actual Scored', 'Iteration'] 
+
+	#Solving the problem
+	div_limit=[8] #Setting to 8 essentially nullifies the constraint. this should be used for the best lineup
+	target=open(file, 'w')
+	headers=player_list+['Projected Value', 'Actual Scored', 'Iteration', 'date', 'Overlap Limit'] 
 	csvwriter=csv.writer(target)
 	csvwriter.writerow(headers)
-	#Solving the problem
-	for i in range(1,iterations+1):
-		projected_lineup=[]
-		scored_lineup=[]
-		optimization_result = prob.solve()
-		selected_vars = []
-		print "final"
-		#print prob
-		fileLP="NBA%d.lp"%i
-		#prob.writeLP(fileLP)
-		#os.rename(fileLP, '../Prediction/%s'%fileLP)
+	for limit in div_limit:
 
-		assert optimization_result == pulp.LpStatusOptimal
-		print("Status:", LpStatus[prob.status])
-		print ("Individual decision_variables: ")
+		for i in range(1,iterations+1):
+			projected_lineup=[]
+			scored_lineup=[]
+			optimization_result = prob.solve()
+			selected_vars = []
+			print "final"
+			#print prob
+			fileLP="NBA%d.lp"%i
+			#prob.writeLP(fileLP)
+			#os.rename(fileLP, '../Prediction/%s'%fileLP)
 
-		for v in prob.variables():
-			#print(v.name, "=", v.varValue)
-			if v.varValue:
-				#print v
-				selected_vars.append(v)
-				projected_lineup.append(player_vars[v.name])
-				scored_lineup.append(data[data['Name']==player_vars[v.name]].Scored.values[0])
-		#Diversity constraint
-		diversity_constraint=sum([var for var in selected_vars])
-		print 'new constraint', diversity_constraint<=2
-		prob+=(diversity_constraint<=4)
+			assert optimization_result == pulp.LpStatusOptimal
+			print("Status:", LpStatus[prob.status])
+			print ("Individual decision_variables: ")
+			for v in prob.variables():
+				#print(v.name, "=", v.varValue)
+				if v.varValue:
+					#print v
+					selected_vars.append(v)
+					projected_lineup.append(player_vars[v.name])
+					scored_lineup.append(data[data['Name']==player_vars[v.name]].Scored.values[0])
+			#Diversity constraint
+			diversity_constraint=sum([var for var in selected_vars])
 
-		print projected_lineup
-		print scored_lineup
+			prob+=(diversity_constraint<=limit)
 
-	 	print("Expected Calculations ", value(prob.objective))
-	 	print 'Scored Calculations', sum(scored_lineup)
-	 	final_output=projected_lineup+[value(prob.objective), sum(scored_lineup), i ]
-	 	csvwriter.writerow(final_output)
-	 	print "Iteration%d" %i
+			print projected_lineup
+			print scored_lineup
+
+		 	print("Expected Calculations ", value(prob.objective))
+		 	print 'Scored Calculations', sum(scored_lineup)
+		 	final_output=projected_lineup+[value(prob.objective), sum(scored_lineup), i, date, limit]
+		 	csvwriter.writerow(final_output)
+		 	print "Iteration%d, Limit%d" %(i,limit)
 	target.close()
 	df=pd.read_csv(file)
 	df=df.sort(['Actual Scored'], ascending=False)
@@ -191,11 +195,13 @@ def optimize(projected_lineup, date, iteration, modified):
 
 ##Initial Parameters
 
-projected_lineup=True #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
-date='Dec112016'
+projected_lineup=False #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
+#date='Dec132016'
 
-iterations=50
+iterations=1
 modified=True
-
-optimize(projected_lineup, date,iterations,True)
-optimize(projected_lineup, date,iterations,False)
+dates=os.listdir('../Projections/past')[1:]
+dates=[date.strip('projection_').strip('.csv') for date in dates]
+for date in dates:
+	optimize(projected_lineup, date,iterations,False)
+#optimize(projected_lineup, date,iterations,False)
