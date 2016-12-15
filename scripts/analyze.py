@@ -34,16 +34,19 @@ def addb2b():
 	pass
 def create_stats():
 	files=os.listdir('../Projections/past')[1:]
-df=pd.DataFrame()
-for file in files:
-	print file
-	p=pd.read_csv('../Projections/past/%s'%file)
-	df=df.append(p, ignore_index=True)
+	df=pd.DataFrame()
+	for file in files:
+		print file
+		p=pd.read_csv('../Projections/past/%s'%file)
+		df=df.append(p, ignore_index=True)
+	risk=df.groupby(['Name']).std()
+	risk=risk.drop(['Id', 'Projected', 'Override','Salary'], axis=1)
+	risk.to_csv('../Projections/risk.csv')
 
 
+create_stats()
 
+# schedule=pd.read_csv('../Data/schedule.csv')
 
-schedule=pd.read_csv('../Data/schedule.csv')
-
-schedule=add_fatigue(schedule)
-schedule.to_csv('ayyyy.csv', index=False)
+# schedule=add_fatigue(schedule)
+# schedule.to_csv('ayyyy.csv', index=False)

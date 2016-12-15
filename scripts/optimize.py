@@ -75,7 +75,7 @@ def optimize(projected_lineup, date, iteration, modified):
 	total_cost=""
 	player_num=""
 	pgs=sgs=sfs=pfs=cs=''
-
+	team_c1=''
 	for rownum, row in data.iterrows():
 		for i, player in enumerate(decision_variables):
 			if rownum == i:
@@ -90,11 +90,15 @@ def optimize(projected_lineup, date, iteration, modified):
 				pfs += position_arr[i]['PF']*player
 				cs += position_arr[i]['C']*player
 				player_num+=player
+				for team in teams:
+					team_c1=team_arr[i][team]*player
 
 	print "total cost is \n"
 	print str(total_cost)
 	#We cant exceed budget
 	print "Setting up Budget Constraints \n"
+	#prob+=(team_c1>1)
+	#prob+=(team_c1<3)
 
 	prob += (total_cost <= total_budget)
 
@@ -167,7 +171,7 @@ def optimize(projected_lineup, date, iteration, modified):
 		#Diversity constraint
 		diversity_constraint=sum([var for var in selected_vars])
 		print 'new constraint', diversity_constraint<=2
-		prob+=(diversity_constraint<=2)
+		prob+=(diversity_constraint<=4)
 
 		print projected_lineup
 		print scored_lineup
@@ -178,6 +182,9 @@ def optimize(projected_lineup, date, iteration, modified):
 	 	csvwriter.writerow(final_output)
 	 	print "Iteration%d" %i
 	target.close()
+	df=pd.read_csv(file)
+	df=df.sort(['Actual Scored'], ascending=False)
+	df.to_csv(file, index=False)
 	os.rename(file, '../Prediction/%s' %file)
 
 
@@ -185,9 +192,10 @@ def optimize(projected_lineup, date, iteration, modified):
 ##Initial Parameters
 
 projected_lineup=True #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
-date='Dec132016'
+date='Dec112016'
 
-iterations=1
+iterations=50
 modified=True
 
-optimize(projected_lineup, date,iterations,modified)
+optimize(projected_lineup, date,iterations,True)
+optimize(projected_lineup, date,iterations,False)
