@@ -1,0 +1,21 @@
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Russell Westbrook,Markieff Morris,Bradley Beal,Dwyane Wade,Nik Stauskas,Sergio Rodriguez,Marcin Gortat,Jusuf Nurkic,OKC,WAS,WAS,CHI,PHI,PHI,WAS,DEN,PG,SF,SG,SG,SG,PG,C,C,316.296323291,309.25,14,Dec5,0
+Dennis Schroder,Bradley Beal,Sean Kilpatrick,Gerald Henderson,Sergio Rodriguez,Joel Embiid,Marcin Gortat,LeBron James,ATL,WAS,BKN,PHI,PHI,PHI,WAS,CLE,PG,SG,SG,SG,PG,C,C,SF,318.701449257,302.25,6,Dec5,0
+Russell Westbrook,Danilo Gallinari,Sean Kilpatrick,Manu Ginobili,Gerald Henderson,Jusuf Nurkic,Cory Joseph,Anthony Davis,OKC,DEN,BKN,SA,PHI,DEN,TOR,NO,PG,SF,SG,SG,SG,C,PG,PF,316.010138701,301.75,15,Dec5,0
+Markieff Morris,Sean Kilpatrick,Nik Stauskas,Sergio Rodriguez,Robin Lopez,Trevor Booker,Kyle Lowry,Anthony Davis,WAS,BKN,PHI,PHI,CHI,BKN,TOR,NO,SF,SG,SG,PG,C,PF,PG,PF,315.125867537,298.0,20,Dec5,0
+Andre Roberson,Dennis Schroder,Danilo Gallinari,Dwyane Wade,Sean Kilpatrick,Sergio Rodriguez,Anthony Davis,Taj Gibson,OKC,ATL,DEN,CHI,BKN,PHI,NO,CHI,SG,PG,SF,SG,SG,PG,PF,PF,315.844341761,295.5,16,Dec5,0
+Gordon Hayward,Dwyane Wade,Sergio Rodriguez,Marcin Gortat,Trevor Booker,Cory Joseph,Taj Gibson,LeBron James,UTA,CHI,PHI,WAS,BKN,TOR,CHI,CLE,SF,SG,PG,C,PF,PG,PF,SF,315.200683079,293.5,17,Dec5,0
+Russell Westbrook,Danilo Gallinari,Dwyane Wade,Nik Stauskas,Joel Embiid,Robin Lopez,Trevor Booker,Cory Joseph,OKC,DEN,CHI,PHI,PHI,CHI,BKN,TOR,PG,SF,SG,SG,C,C,PF,PG,317.935717113,293.5,7,Dec5,0
+Russell Westbrook,Danilo Gallinari,Sean Kilpatrick,Sergio Rodriguez,Marcin Gortat,Andrew Bogut,Trevor Booker,Ryan Anderson,OKC,DEN,BKN,PHI,WAS,DAL,BKN,HOU,PG,SF,SG,PG,C,C,PF,PF,330.168046431,288.25,1,Dec5,0
+Gordon Hayward,Danilo Gallinari,Maurice Harkless,Gerald Henderson,Sergio Rodriguez,Joel Embiid,Ryan Anderson,Anthony Davis,UTA,DEN,POR,PHI,PHI,PHI,HOU,NO,SF,SF,SF,SG,PG,C,PF,PF,319.324412374,288.0,4,Dec5,0
+Trevor Ariza,Jimmy Butler,Danilo Gallinari,Sergio Rodriguez,Joel Embiid,Marcin Gortat,John Wall,Cory Joseph,HOU,CHI,DEN,PHI,PHI,WAS,WAS,TOR,SF,SG,SF,PG,C,C,PG,PG,316.981822677,287.5,12,Dec5,0
+Markieff Morris,Danilo Gallinari,Bradley Beal,Dwyane Wade,Sean Kilpatrick,Joel Embiid,Andrew Bogut,John Wall,WAS,DEN,WAS,CHI,BKN,PHI,DAL,WAS,SF,SF,SG,SG,SG,C,C,PG,319.139056557,285.5,5,Dec5,0
+Russell Westbrook,Markieff Morris,Dwyane Wade,Gerald Henderson,Andrew Bogut,Ryan Anderson,Cory Joseph,LeBron James,OKC,WAS,CHI,PHI,DAL,HOU,TOR,CLE,PG,SF,SG,SG,C,PF,PG,SF,315.139885864,281.25,19,Dec5,0
+Russell Westbrook,Dennis Schroder,Danilo Gallinari,Maurice Harkless,Bradley Beal,Gerald Henderson,Andrew Bogut,Taj Gibson,OKC,ATL,DEN,POR,WAS,PHI,DAL,CHI,PG,PG,SF,SF,SG,SG,C,PF,317.448711148,275.0,9,Dec5,0
+Russell Westbrook,Trevor Ariza,Nik Stauskas,Gerald Henderson,Sergio Rodriguez,Joel Embiid,Andrew Bogut,Kyle Lowry,OKC,HOU,PHI,PHI,PHI,PHI,DAL,TOR,PG,SF,SG,SG,PG,C,C,PG,317.251863431,274.0,10,Dec5,0
+Danilo Gallinari,Bradley Beal,Nik Stauskas,Sergio Rodriguez,Andrew Bogut,Cory Joseph,Anthony Davis,LeBron James,DEN,WAS,PHI,PHI,DAL,TOR,NO,CLE,SF,SG,SG,PG,C,PG,PF,SF,324.416379614,274.0,2,Dec5,0
+Maurice Harkless,Manu Ginobili,Sergio Rodriguez,Joel Embiid,Andrew Bogut,Trevor Booker,John Wall,LeBron James,POR,SA,PHI,PHI,DAL,BKN,WAS,CLE,SF,SG,PG,C,C,PF,PG,SF,316.772811864,273.75,13,Dec5,0
+Russell Westbrook,Markieff Morris,Maurice Harkless,Sean Kilpatrick,Sergio Rodriguez,Joel Embiid,Cory Joseph,Taj Gibson,OKC,WAS,POR,BKN,PHI,PHI,TOR,CHI,PG,SF,SF,SG,PG,C,PG,PF,322.145125626,271.5,3,Dec5,0
+Jimmy Butler,Gordon Hayward,Sean Kilpatrick,Nik Stauskas,Sergio Rodriguez,Andrew Bogut,John Wall,Taj Gibson,CHI,UTA,BKN,PHI,PHI,DAL,WAS,CHI,SG,SF,SG,SG,PG,C,PG,PF,317.177454358,263.25,11,Dec5,0
+Dennis Schroder,Maurice Harkless,Sean Kilpatrick,Andrew Bogut,Ryan Anderson,John Wall,Cory Joseph,Anthony Davis,ATL,POR,BKN,DAL,HOU,WAS,TOR,NO,PG,SF,SG,C,PF,PG,PG,PF,317.620219166,258.0,8,Dec5,0
+Danilo Gallinari,Sean Kilpatrick,Nik Stauskas,Joel Embiid,Ryan Anderson,Kemba Walker,Taj Gibson,LeBron James,DEN,BKN,PHI,PHI,HOU,CHA,CHI,CLE,SF,SG,SG,C,PF,PG,PF,SF,315.188232435,255.0,18,Dec5,0

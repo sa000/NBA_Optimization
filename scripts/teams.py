@@ -25,7 +25,7 @@ teams_dict={
 'Phoenix Suns' :'PHO'	 ,
 'Portland Trail Blazers' :'POR'	 ,
 'Sacramento Kings' :'SAC'	 ,
-'San Antonio Spurs' :'SAS'	 ,
+'San Antonio Spurs' :'SA'	 ,
 'Toronto Raptors' :'TOR'	 ,
 'Utah Jazz' :'UTA'	 ,
 'Washington Wizards'   :'WAS'	  

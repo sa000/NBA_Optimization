@@ -211,14 +211,14 @@ def get_num_of_games(date):
 
 ##Initial Parameters
 
-projected_lineup=False #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
+projected_lineup=True #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
 #date='Dec132016'
 
 iterations=20
 modified=True
 dates=os.listdir('../Projections/past')[1:]
-dates=[date.strip('projection_').strip('.csv') for date in dates]
+dates=[date.strip('projection_').strip('.csv')[0:-4] for date in dates][0:10]
 for date in dates:
 	print date
-	optimize(projected_lineup, date,iterations,False)
+	optimize(projected_lineup, date,iterations,modified)
 #optimize(projected_lineup, date,iterations,False)

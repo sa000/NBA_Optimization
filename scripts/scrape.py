@@ -73,5 +73,34 @@ def grab_DVP():
 		df.to_csv(filename, index=False)
 		os.rename(filename, '../Data/%s'%filename)
 #merge()
-grab_DVP()
+#grab_DVP()
 
+def grab_contests():
+	dates=[]
+	files=os.listdir('../Projections/past')[1:]
+	for file in files:
+		date=file.strip('projection_').strip('.csv')
+		date=date[0:3]+'-'+date[3:-4]+'-'+date[-4:]
+		dates.append(date)
+	target=open('../Data/ContestResults.csv', 'w')
+	csvwriter=csv.writer(target)
+	headers=['Name', 'Entry Fee',  'Num of Entries', 'Top Prize', 'FPTS to Cash', 'Winner', 'FPTS to win', 'Total Entrees', 'Date']
+	csvwriter.writerow(headers)
+
+	for date in dates:
+		url='http://www.dfsgold.com/nba/draftkings-daily-fantasy-recap-%s'%date
+		page=requests.get(url)
+		data=html.fromstring(page.content)
+		num=len(data.xpath('//*[@id="MainContent_GridView3"]/tbody/tr'))
+		for i in xrange(num):
+			name=data.xpath('//*[@id="MainContent_GridView3"]/tbody/tr[%s]/td[1]/div[1]/text()'%str(i+1))
+			row1=data.xpath('//*[@id="MainContent_GridView3"]/tbody/tr[%s]/td/text()'%str(i+1))
+			row1[0]=name[0]
+			row2=data.xpath('//*[@id="MainContent_GridView3"]/tbody/tr[%s]/td/a//text()'%str(i+1))
+			info=row1+row2
+			info.append(date)
+			csvwriter.writerow(info)
+			print date, i
+	target.close()
+
+grab_contests()

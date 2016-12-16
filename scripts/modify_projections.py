@@ -1,11 +1,13 @@
 import pandas as pd 
 from teams import *
 import numpy as np
+import os
 #Account for team defense
 def defense(date):
 	projections=pd.read_csv('../Projections/past/projection_%s.csv'%date)
 	schedule=pd.read_csv('../Data/schedule.csv')
-	sched_date=date[3:5]+'-'+date[0:3]+'-'+'16'
+	date=date[0:-4]
+	sched_date=date[3:]+'-'+date[0:3]+'-'+'16'
 	teams_abr = {v: k for k, v in teams_dict.iteritems()}
 
 	for index_p, proj in projections.iterrows():
@@ -23,6 +25,7 @@ def defense(date):
 			city=team.split(' ')[0]
 		#print city
 		#Find opponent
+		print city, date
 		todays_games=schedule[schedule['DATE']==sched_date]
 		if city in todays_games['VISITOR'].values:
 			opp=todays_games[todays_games['VISITOR']==city]['HOME'].values[0]
@@ -56,6 +59,7 @@ def defense(date):
 	projections.to_csv('../Projections/Modified_Projection/Mprojection_%s.csv'%date, index=False)
 
 
-date='Dec102016'
-
-defense(date)
+dates=os.listdir('../Projections/past')[1:]
+dates=[date.strip('projection_').strip('.csv') for date in dates]
+for date in dates:
+	defense(date)

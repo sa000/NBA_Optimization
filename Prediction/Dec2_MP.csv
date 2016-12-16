@@ -1,0 +1,21 @@
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Sergio Rodriguez,Avery Bradley,Kentavious Caldwell-Pope,Robert Covington,Tobias Harris,Karl-Anthony Towns,John Wall,Rajon Rondo,PHI,BOS,DET,PHI,DET,MIN,WAS,CHI,PG,SG,SG,SF,SF,C,PG,PG,310.655019016,296.0,8,Dec2,0
+Ish Smith,Jimmy Butler,Will Barton,Channing Frye,Bradley Beal,Nikola Vucevic,John Wall,Dennis Schroder,DET,CHI,DEN,CLE,WAS,ORL,WAS,ATL,PG,SG,SG,PF,SG,C,PG,PG,308.218458377,295.25,14,Dec2,0
+Sergio Rodriguez,Dwyane Wade,Kentavious Caldwell-Pope,Robert Covington,Pau Gasol,DeMarcus Cousins,Isaiah Thomas,Dennis Schroder,PHI,CHI,DET,PHI,SA,SAC,BOS,ATL,PG,SG,SG,SF,C,PF,PG,PG,309.199359776,294.5,12,Dec2,0
+Ish Smith,Sergio Rodriguez,Marcus Smart,Will Barton,Kentavious Caldwell-Pope,Joel Embiid,John Wall,DeMarcus Cousins,DET,PHI,BOS,DEN,DET,PHI,WAS,SAC,PG,PG,SG,SG,SG,C,PG,PF,322.450250921,293.0,1,Dec2,0
+Ish Smith,Sergio Rodriguez,Jimmy Butler,Kristaps Porzingis,Avery Bradley,Eric Gordon,Joel Embiid,Dennis Schroder,DET,PHI,CHI,NY,BOS,HOU,PHI,ATL,PG,PG,SG,PF,SG,SG,C,PG,311.53801842,293.0,7,Dec2,0
+Patrick Beverley,Will Barton,Avery Bradley,Eric Gordon,Robert Covington,John Wall,DeMarcus Cousins,Dennis Schroder,HOU,DEN,BOS,HOU,PHI,WAS,SAC,ATL,PG,SG,SG,SG,SF,PG,PF,PG,318.050307269,292.0,2,Dec2,0
+Ish Smith,LaMarcus Aldridge,Will Barton,Avery Bradley,Kentavious Caldwell-Pope,Karl-Anthony Towns,Kyle Lowry,Dennis Schroder,DET,SA,DEN,BOS,DET,MIN,TOR,ATL,PG,PF,SG,SG,SG,C,PG,PG,315.48916236,291.0,3,Dec2,0
+Kevin Love,Marcus Smart,Will Barton,Eric Gordon,Joel Embiid,Kyle Lowry,Rajon Rondo,Dennis Schroder,CLE,BOS,DEN,HOU,PHI,TOR,CHI,ATL,PF,SG,SG,SG,C,PG,PG,PG,306.992229461,290.25,18,Dec2,0
+Patrick Beverley,Will Barton,Kristaps Porzingis,Kentavious Caldwell-Pope,Andre Drummond,Joel Embiid,Isaiah Thomas,Dennis Schroder,HOU,DEN,NY,DET,DET,PHI,BOS,ATL,PG,SG,PF,SG,C,C,PG,PG,310.179802745,289.5,9,Dec2,0
+Kevin Love,Ish Smith,Patrick Beverley,Jimmy Butler,Kelly Olynyk,Avery Bradley,Kentavious Caldwell-Pope,John Wall,CLE,DET,HOU,CHI,BOS,BOS,DET,WAS,PF,PG,PG,SG,PF,SG,SG,PG,309.887173473,287.25,11,Dec2,0
+Ish Smith,Marcus Smart,Kelly Olynyk,Dwyane Wade,Avery Bradley,DeMarcus Cousins,Rajon Rondo,Dennis Schroder,DET,BOS,BOS,CHI,BOS,SAC,CHI,ATL,PG,SG,PF,SG,SG,PF,PG,PG,306.642208176,280.0,20,Dec2,0
+Ish Smith,Bradley Beal,Kentavious Caldwell-Pope,Eric Gordon,Omri Casspi,Andre Drummond,DeMarcus Cousins,Dennis Schroder,DET,WAS,DET,HOU,SAC,DET,SAC,ATL,PG,SG,SG,SG,SF,C,PF,PG,309.921465683,279.25,10,Dec2,0
+Patrick Beverley,Channing Frye,Bradley Beal,Avery Bradley,Kentavious Caldwell-Pope,Tobias Harris,Joel Embiid,DeMarcus Cousins,HOU,CLE,WAS,BOS,DET,DET,PHI,SAC,PG,PF,SG,SG,SG,SF,C,PF,306.745291183,276.0,19,Dec2,0
+James Harden,Ish Smith,Patrick Beverley,LaMarcus Aldridge,Kentavious Caldwell-Pope,Eric Gordon,Robert Covington,Joel Embiid,HOU,DET,HOU,SA,DET,HOU,PHI,PHI,PG,PG,PG,PF,SG,SG,SF,C,307.502852888,275.75,17,Dec2,0
+Kelly Olynyk,Bradley Beal,Kentavious Caldwell-Pope,Robert Covington,Joel Embiid,John Wall,Kyle Lowry,Dennis Schroder,BOS,WAS,DET,PHI,PHI,WAS,TOR,ATL,PF,SG,SG,SF,C,PG,PG,PG,311.745869148,270.25,6,Dec2,0
+Marcus Smart,Channing Frye,Kentavious Caldwell-Pope,Eric Gordon,Karl-Anthony Towns,John Wall,Isaiah Thomas,Dennis Schroder,BOS,CLE,DET,HOU,MIN,WAS,BOS,ATL,SG,PF,SG,SG,C,PG,PG,PG,313.816159269,252.25,4,Dec2,0
+Patrick Beverley,Sergio Rodriguez,Marcus Smart,Avery Bradley,Kentavious Caldwell-Pope,Nikola Vucevic,Anthony Davis,Dennis Schroder,HOU,PHI,BOS,BOS,DET,ORL,NO,ATL,PG,PG,SG,SG,SG,C,PF,PG,312.842237369,247.5,5,Dec2,0
+Ish Smith,Patrick Beverley,Marcus Smart,Julius Randle,Bradley Beal,Karl-Anthony Towns,Joel Embiid,Dennis Schroder,DET,HOU,BOS,LAL,WAS,MIN,PHI,ATL,PG,PG,SG,PF,SG,C,C,PG,309.158256423,244.5,13,Dec2,0
+Ish Smith,LaMarcus Aldridge,Marcus Smart,Bradley Beal,Avery Bradley,Robert Covington,John Wall,Isaiah Thomas,DET,SA,BOS,WAS,BOS,PHI,WAS,BOS,PG,PF,SG,SG,SG,SF,PG,PG,308.092031428,244.0,15,Dec2,0
+Patrick Beverley,Sergio Rodriguez,Marcus Smart,Eric Gordon,Omri Casspi,Karl-Anthony Towns,Kyle Lowry,DeMarcus Cousins,HOU,PHI,BOS,HOU,SAC,MIN,TOR,SAC,PG,PG,SG,SG,SF,C,PG,PF,307.531681691,242.5,16,Dec2,0
