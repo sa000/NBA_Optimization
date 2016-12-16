@@ -64,10 +64,10 @@ def defense(date):
 # for date in dates:
 # 	defense(date)
 
-data=pd.read_csv('../Data/Cumulative_Predictions_Perfect.csv')
+data=pd.read_csv('../Data/Cumulative_Predictions.csv')
 
 for index, row in data.iterrows():
 	date=row.date
 	new_date=date[0:3]+'-'+date[3:-4]+'-2016'
 	data.set_value(index, 'date', new_date)
-data.to_csv('../Data/Cumulative_Predictions_Perfect.csv')
+data.to_csv('../Data/Cumulative_Predictions.csv')
