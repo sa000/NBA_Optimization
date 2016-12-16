@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Draymond Green,Joe Ingles,Zach LaVine,Tony Allen,Kyle Lowry,Ersan Ilyasova,Rajon Rondo,Marc Gasol,351.008,351.0,1,Dec82016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Draymond Green,Joe Ingles,Zach LaVine,Tony Allen,Kyle Lowry,Ersan Ilyasova,Rajon Rondo,Marc Gasol,GS,UTA,MIN,MEM,TOR,PHI,CHI,MEM,PF,SF,SG,SG,PG,PF,PG,C,351.008,351.0,1,Dec82016,6
+Joe Ingles,DeMar DeRozan,Dwyane Wade,Ersan Ilyasova,Shelvin Mack,Marc Gasol,Rudy Gobert,Kawhi Leonard,UTA,TOR,CHI,PHI,UTA,MEM,UTA,SA,SF,SG,SG,PF,PG,C,C,SF,338.008,338.0,2,Dec82016,6
+Joe Ingles,Kyle Lowry,Langston Galloway,Rajon Rondo,Kevin Durant,Rudy Gobert,Jonas Valanciunas,Kawhi Leonard,UTA,TOR,NO,CHI,GS,UTA,TOR,SA,SF,PG,PG,PG,SF,C,C,SF,336.258,336.25,3,Dec82016,6
+Draymond Green,Joe Ingles,DeMar DeRozan,Bradley Beal,Evan Turner,Kyle Lowry,Sergio Rodriguez,Rudy Gobert,GS,UTA,TOR,WAS,POR,TOR,PHI,UTA,PF,SF,SG,SG,SG,PG,PG,C,333.758,333.75,4,Dec82016,6
+Joe Ingles,Bradley Beal,Zach LaVine,Dwyane Wade,Sergio Rodriguez,Kevin Durant,Marc Gasol,Jonas Valanciunas,UTA,WAS,MIN,CHI,PHI,GS,MEM,TOR,SF,SG,SG,SG,PG,SF,C,C,329.258,329.25,5,Dec82016,6
+Draymond Green,Joe Ingles,Zach LaVine,Stephen Curry,Jameer Nelson,Shelvin Mack,Kevin Durant,Rudy Gobert,GS,UTA,MIN,GS,DEN,UTA,GS,UTA,PF,SF,SG,PG,PG,PG,SF,C,327.008,327.0,6,Dec82016,6
+Joe Ingles,DeMar DeRozan,Evan Turner,JaMychal Green,Rajon Rondo,Kevin Durant,Marc Gasol,Nikola Jokic,UTA,TOR,POR,MEM,CHI,GS,MEM,DEN,SF,SG,SG,PF,PG,SF,C,C,324.508,324.5,7,Dec82016,6
+Draymond Green,Dwyane Wade,Evan Turner,Kyle Lowry,Ersan Ilyasova,Shelvin Mack,Kevin Durant,Jonas Valanciunas,GS,CHI,POR,TOR,PHI,UTA,GS,TOR,PF,SG,SG,PG,PF,PG,SF,C,324.508,324.5,8,Dec82016,6
+DeMar DeRozan,Zach LaVine,Ersan Ilyasova,Rajon Rondo,Sergio Rodriguez,Kevin Durant,Rudy Gobert,Ed Davis,TOR,MIN,PHI,CHI,PHI,GS,UTA,POR,SG,SG,PF,PG,PG,SF,C,C,323.508,323.5,9,Dec82016,6
+Joe Ingles,DeMar DeRozan,Tony Allen,Kyle Lowry,Shelvin Mack,Kevin Durant,Joel Embiid,Pau Gasol,UTA,TOR,MEM,TOR,UTA,GS,PHI,SA,SF,SG,SG,PG,PG,SF,C,C,322.758,322.75,11,Dec82016,6
+Draymond Green,Joe Ingles,Stephen Curry,Langston Galloway,Sergio Rodriguez,Marc Gasol,Kawhi Leonard,Andrew Wiggins,GS,UTA,GS,NO,PHI,MEM,SA,MIN,PF,SF,PG,PG,PG,C,SF,SF,322.758,322.75,10,Dec82016,6
+Draymond Green,Joe Ingles,Bradley Beal,Ersan Ilyasova,Patty Mills,Kevin Durant,Nikola Jokic,Kawhi Leonard,GS,UTA,WAS,PHI,SA,GS,DEN,SA,PF,SF,SG,PF,PG,SF,C,SF,321.008,321.0,12,Dec82016,6
+Draymond Green,DeMar DeRozan,Zach LaVine,JaMychal Green,Rajon Rondo,Shelvin Mack,Jonas Valanciunas,Kawhi Leonard,GS,TOR,MIN,MEM,CHI,UTA,TOR,SA,PF,SG,SG,PF,PG,PG,C,SF,320.508,320.5,13,Dec82016,6
+Bradley Beal,Tony Allen,JaMychal Green,Rajon Rondo,Sergio Rodriguez,Marc Gasol,Rudy Gobert,Kawhi Leonard,WAS,MEM,MEM,CHI,PHI,MEM,UTA,SA,SG,SG,PF,PG,PG,C,C,SF,319.758,319.75,14,Dec82016,6
+Zach LaVine,Evan Turner,Langston Galloway,Ersan Ilyasova,Kevin Durant,Marc Gasol,Pau Gasol,Kawhi Leonard,MIN,POR,NO,PHI,GS,MEM,SA,SA,SG,SG,PG,PF,SF,C,C,SF,319.508,319.5,15,Dec82016,6
+Anthony Davis,Joe Ingles,Zach LaVine,Kyle Lowry,Sergio Rodriguez,Shelvin Mack,Ed Davis,Kawhi Leonard,NO,UTA,MIN,TOR,PHI,UTA,POR,SA,PF,SF,SG,PG,PG,PG,C,SF,319.008,319.0,16,Dec82016,6
+Joe Ingles,DeMar DeRozan,Bradley Beal,Jimmy Butler,Ersan Ilyasova,Rajon Rondo,Joel Embiid,Jonas Valanciunas,UTA,TOR,WAS,CHI,PHI,CHI,PHI,TOR,SF,SG,SG,SG,PF,PG,C,C,319.008,319.0,17,Dec82016,6
+Anthony Davis,Draymond Green,Joe Ingles,Bradley Beal,Dwyane Wade,Langston Galloway,Rajon Rondo,Shelvin Mack,NO,GS,UTA,WAS,CHI,NO,CHI,UTA,PF,PF,SF,SG,SG,PG,PG,PG,318.008,318.0,18,Dec82016,6
+Bradley Beal,Kyle Lowry,Langston Galloway,Ersan Ilyasova,Jameer Nelson,Marc Gasol,Rudy Gobert,Andrew Wiggins,WAS,TOR,NO,PHI,DEN,MEM,UTA,MIN,SG,PG,PG,PF,PG,C,C,SF,317.758,317.75,19,Dec82016,6
+Joe Ingles,DeMar DeRozan,Stephen Curry,Kyle Lowry,Jameer Nelson,DeMarre Carroll,Marc Gasol,Jonas Valanciunas,UTA,TOR,GS,TOR,DEN,TOR,MEM,TOR,SF,SG,PG,PG,PG,SF,C,C,317.008,317.0,20,Dec82016,6

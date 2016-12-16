@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Ish Smith,Jimmy Butler,Blake Griffin,Trevor Ariza,Matt Barnes,Al Horford,Marcin Gortat,Rajon Rondo,404.258,404.25,1,Dec22016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Ish Smith,Jimmy Butler,Blake Griffin,Trevor Ariza,Matt Barnes,Al Horford,Marcin Gortat,Rajon Rondo,DET,CHI,LAC,HOU,SAC,BOS,WAS,CHI,PG,SG,PF,SF,SF,C,C,PG,404.258,404.25,1,Dec22016,9
+Kyle O'Quinn,Kentavious Caldwell-Pope,Carmelo Anthony,LeBron James,Matt Barnes,Marcin Gortat,John Wall,Rajon Rondo,NY,DET,NY,CLE,SAC,WAS,WAS,CHI,PF,SG,SF,SF,SF,C,PG,PG,388.008,388.0,2,Dec22016,9
+Taj Gibson,Will Barton,Carmelo Anthony,Matt Barnes,Al Horford,Chris Paul,Rajon Rondo,Derrick Rose,CHI,DEN,NY,SAC,BOS,LAC,CHI,NY,PF,SG,SF,SF,C,PG,PG,PG,381.258,381.25,3,Dec22016,9
+Jimmy Butler,Kyle O'Quinn,Nemanja Bjelica,Carmelo Anthony,Otto Porter,Al Horford,Kyle Lowry,Rajon Rondo,CHI,NY,MIN,NY,WAS,BOS,TOR,CHI,SG,PF,PF,SF,SF,C,PG,PG,377.508,377.5,4,Dec22016,9
+Jimmy Butler,Taj Gibson,Nemanja Bjelica,Luc Richard Mbah a Moute,Marcin Gortat,Chris Paul,John Wall,Rajon Rondo,CHI,CHI,MIN,LAC,WAS,LAC,WAS,CHI,SG,PF,PF,SF,C,PG,PG,PG,375.008,375.0,5,Dec22016,9
+Jon Leuer,Manu Ginobili,LeBron James,Otto Porter,Al Horford,Marcin Gortat,Chris Paul,Rajon Rondo,DET,SA,CLE,WAS,BOS,WAS,LAC,CHI,PF,SG,SF,SF,C,C,PG,PG,375.008,375.0,6,Dec22016,9
+Jimmy Butler,Kentavious Caldwell-Pope,Otto Porter,Matt Barnes,Joel Embiid,Cole Aldrich,Chris Paul,Rajon Rondo,CHI,DET,WAS,SAC,PHI,MIN,LAC,CHI,SG,SG,SF,SF,C,C,PG,PG,373.758,373.75,7,Dec22016,9
+Dwyane Wade,Otto Porter,Matt Barnes,Al Horford,Pau Gasol,John Wall,Rajon Rondo,Dennis Schroder,CHI,WAS,SAC,BOS,SA,WAS,CHI,ATL,SG,SF,SF,C,C,PG,PG,PG,371.008,371.0,8,Dec22016,9
+Blake Griffin,Dwyane Wade,Carmelo Anthony,Otto Porter,Marcin Gortat,Cole Aldrich,Rajon Rondo,Derrick Rose,LAC,CHI,NY,WAS,WAS,MIN,CHI,NY,PF,SG,SF,SF,C,C,PG,PG,370.508,370.5,9,Dec22016,9
+Jimmy Butler,Taj Gibson,Norman Powell,Ryan Anderson,Kentavious Caldwell-Pope,LeBron James,Al Horford,Rajon Rondo,CHI,CHI,TOR,HOU,DET,CLE,BOS,CHI,SG,PF,SG,PF,SG,SF,C,PG,369.008,369.0,10,Dec22016,9
+Blake Griffin,Kyle O'Quinn,Kentavious Caldwell-Pope,Luc Richard Mbah a Moute,Al Horford,Chris Paul,Kyrie Irving,Rajon Rondo,LAC,NY,DET,LAC,BOS,LAC,CLE,CHI,PF,PF,SG,SF,C,PG,PG,PG,368.758,368.75,11,Dec22016,9
+Ish Smith,Will Barton,Nemanja Bjelica,LeBron James,Joel Embiid,Al Horford,John Wall,Rajon Rondo,DET,DEN,MIN,CLE,PHI,BOS,WAS,CHI,PG,SG,PF,SF,C,C,PG,PG,368.258,368.25,12,Dec22016,9
+Jimmy Butler,Will Barton,Ryan Anderson,Carmelo Anthony,Joel Embiid,Marcin Gortat,Rajon Rondo,Dennis Schroder,CHI,DEN,HOU,NY,PHI,WAS,CHI,ATL,SG,SG,PF,SF,C,C,PG,PG,368.258,368.25,13,Dec22016,9
+Justin Holiday,LeBron James,Matt Barnes,Al Horford,Cole Aldrich,Kyle Lowry,Kyrie Irving,Rajon Rondo,NY,CLE,SAC,BOS,MIN,TOR,CLE,CHI,SG,SF,SF,C,C,PG,PG,PG,366.258,366.25,14,Dec22016,9
+Jimmy Butler,Manu Ginobili,Carmelo Anthony,Matt Barnes,Marcin Gortat,Pau Gasol,Chris Paul,Kyrie Irving,CHI,SA,NY,SAC,WAS,SA,LAC,CLE,SG,SG,SF,SF,C,C,PG,PG,366.008,366.0,15,Dec22016,9
+Ish Smith,Kyle O'Quinn,Dwyane Wade,Carmelo Anthony,Trevor Ariza,Joel Embiid,Chris Paul,Rajon Rondo,DET,NY,CHI,NY,HOU,PHI,LAC,CHI,PG,PF,SG,SF,SF,C,PG,PG,366.008,366.0,16,Dec22016,9
+Justin Holiday,Ryan Anderson,Dwyane Wade,Matt Barnes,Marcin Gortat,Chris Paul,DeMarcus Cousins,Rajon Rondo,NY,HOU,CHI,SAC,WAS,LAC,SAC,CHI,SG,PF,SG,SF,C,PG,PF,PG,366.008,366.0,17,Dec22016,9
+Jimmy Butler,Ryan Anderson,Kyle O'Quinn,Matt Barnes,Al Horford,John Wall,Kyrie Irving,Derrick Rose,CHI,HOU,NY,SAC,BOS,WAS,CLE,NY,SG,PF,PF,SF,C,PG,PG,PG,365.008,365.0,18,Dec22016,9
+Jimmy Butler,Blake Griffin,Kyle O'Quinn,Manu Ginobili,LeBron James,Cole Aldrich,Rajon Rondo,Dennis Schroder,CHI,LAC,NY,SA,CLE,MIN,CHI,ATL,SG,PF,PF,SG,SF,C,PG,PG,365.008,365.0,19,Dec22016,9
+Ish Smith,Taj Gibson,Blake Griffin,Manu Ginobili,Carmelo Anthony,Pau Gasol,John Wall,Rajon Rondo,DET,CHI,LAC,SA,NY,SA,WAS,CHI,PG,PF,PF,SG,SF,C,PG,PG,364.758,364.75,20,Dec22016,9

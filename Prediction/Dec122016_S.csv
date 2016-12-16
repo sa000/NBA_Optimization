@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-James Harden,Luol Deng,Terrence Ross,Dorian Finney-Smith,Chris Paul,Goran Dragic,Nikola Jokic,Mason Plumlee,375.008,375.0,1,Dec122016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+James Harden,Luol Deng,Terrence Ross,Dorian Finney-Smith,Chris Paul,Goran Dragic,Nikola Jokic,Mason Plumlee,HOU,LAL,TOR,DAL,LAC,MIA,DEN,POR,PG,SF,SG,SF,PG,PG,C,C,375.008,375.0,1,Dec122016,7
+Terrence Ross,Omri Casspi,Dorian Finney-Smith,John Wall,Jeff Teague,Blake Griffin,DeMarcus Cousins,Mason Plumlee,TOR,SAC,DAL,WAS,IND,LAC,SAC,POR,SG,SF,SF,PG,PG,PF,PF,C,361.508,361.5,2,Dec122016,7
+James Harden,Wesley Matthews,Dorian Finney-Smith,Jeff Teague,Ty Lawson,Blake Griffin,Nikola Jokic,Myles Turner,HOU,DAL,DAL,IND,SAC,LAC,DEN,IND,PG,SG,SF,PG,PG,PF,C,C,357.008,357.0,3,Dec122016,7
+Bradley Beal,Omri Casspi,Dorian Finney-Smith,Giannis Antetokounmpo,Goran Dragic,Ty Lawson,DeMarcus Cousins,Nikola Jokic,WAS,SAC,DAL,MIL,MIA,SAC,SAC,DEN,SG,SF,SF,PG,PG,PG,PF,C,354.258,354.25,4,Dec122016,7
+Terrence Ross,Dorian Finney-Smith,Chris Paul,Damian Lillard,Ty Lawson,Trevor Booker,DeMarcus Cousins,Myles Turner,TOR,DAL,LAC,POR,SAC,BKN,SAC,IND,SG,SF,PG,PG,PG,PF,PF,C,351.008,351.0,5,Dec122016,7
+DeMarre Carroll,Wesley Matthews,Terrence Ross,Goran Dragic,Jamal Murray,Blake Griffin,DeMarcus Cousins,Nikola Jokic,TOR,DAL,TOR,MIA,DEN,LAC,SAC,DEN,SF,SG,SG,PG,PG,PF,PF,C,350.008,350.0,6,Dec122016,7
+Bradley Beal,Terrence Ross,John Wall,Goran Dragic,Jeff Teague,Trevor Booker,Nikola Jokic,Myles Turner,WAS,TOR,WAS,MIA,IND,BKN,DEN,IND,SG,SG,PG,PG,PG,PF,C,C,349.508,349.5,7,Dec122016,7
+James Harden,Wayne Ellington,Dorian Finney-Smith,Jamal Murray,Trevor Booker,Ryan Anderson,DeMarcus Cousins,Nikola Jokic,HOU,MIA,DAL,DEN,BKN,HOU,SAC,DEN,PG,SF,SF,PG,PF,PF,PF,C,349.008,349.0,8,Dec122016,7
+Dorian Finney-Smith,Giannis Antetokounmpo,Goran Dragic,Jamal Murray,Blake Griffin,Trevor Booker,Myles Turner,Mason Plumlee,DAL,MIL,MIA,DEN,LAC,BKN,IND,POR,SF,PG,PG,PG,PF,PF,C,C,348.258,348.25,9,Dec122016,7
+Luol Deng,Wesley Matthews,Dorian Finney-Smith,John Wall,Goran Dragic,Ryan Anderson,DeMarcus Cousins,Myles Turner,LAL,DAL,DAL,WAS,MIA,HOU,SAC,IND,SF,SG,SF,PG,PG,PF,PF,C,347.758,347.75,10,Dec122016,7
+James Harden,DeMarre Carroll,Bradley Beal,Terrence Ross,Wayne Ellington,Ty Lawson,DeMarcus Cousins,Mason Plumlee,HOU,TOR,WAS,TOR,MIA,SAC,SAC,POR,PG,SF,SG,SG,SF,PG,PF,C,347.008,347.0,11,Dec122016,7
+Terrence Ross,Giannis Antetokounmpo,Damian Lillard,Ty Lawson,Blake Griffin,Ryan Anderson,Nikola Jokic,Mason Plumlee,TOR,MIL,POR,SAC,LAC,HOU,DEN,POR,SG,PG,PG,PG,PF,PF,C,C,346.508,346.5,12,Dec122016,7
+James Harden,Kosta Koufos,DeMarre Carroll,Terrence Ross,Dorian Finney-Smith,Giannis Antetokounmpo,John Wall,Myles Turner,HOU,SAC,TOR,TOR,DAL,MIL,WAS,IND,PG,C,SF,SG,SF,PG,PG,C,346.258,346.25,13,Dec122016,7
+Luol Deng,Terrence Ross,Wayne Ellington,Giannis Antetokounmpo,Jeff Teague,Deron Williams,DeMarcus Cousins,Nikola Jokic,LAL,TOR,MIA,MIL,IND,DAL,SAC,DEN,SF,SG,SF,PG,PG,PG,PF,C,345.508,345.5,14,Dec122016,7
+James Harden,Bradley Beal,Omri Casspi,Jamal Murray,Darren Collison,Blake Griffin,Nikola Jokic,Mason Plumlee,HOU,WAS,SAC,DEN,SAC,LAC,DEN,POR,PG,SG,SF,PG,PG,PF,C,C,345.258,345.25,15,Dec122016,7
+Jabari Parker,Wesley Matthews,Dorian Finney-Smith,Chris Paul,Deron Williams,Jamal Murray,DeMarcus Cousins,Mason Plumlee,MIL,DAL,DAL,LAC,DAL,DEN,SAC,POR,SF,SG,SF,PG,PG,PG,PF,C,344.508,344.5,16,Dec122016,7
+James Harden,Salah Mejri,Luol Deng,Bradley Beal,Dorian Finney-Smith,Jeff Teague,Emmanuel Mudiay,DeMarcus Cousins,HOU,DAL,LAL,WAS,DAL,IND,DEN,SAC,PG,C,SF,SG,SF,PG,PG,PF,344.008,344.0,17,Dec122016,7
+Kosta Koufos,Bradley Beal,Dorian Finney-Smith,John Wall,Chris Paul,Blake Griffin,Ryan Anderson,Nikola Jokic,SAC,WAS,DAL,WAS,LAC,LAC,HOU,DEN,C,SG,SF,PG,PG,PF,PF,C,344.008,344.0,18,Dec122016,7
+Luol Deng,Evan Turner,Dorian Finney-Smith,Damian Lillard,Darren Collison,Blake Griffin,DeMarcus Cousins,Nikola Jokic,LAL,POR,DAL,POR,SAC,LAC,SAC,DEN,SF,SG,SF,PG,PG,PF,PF,C,344.008,344.0,19,Dec122016,7
+James Harden,Terrence Ross,Omri Casspi,Goran Dragic,Darren Collison,Thomas Robinson,DeMarcus Cousins,Myles Turner,HOU,TOR,SAC,MIA,SAC,LAL,SAC,IND,PG,SG,SF,PG,PG,PF,PF,C,343.508,343.5,20,Dec122016,7

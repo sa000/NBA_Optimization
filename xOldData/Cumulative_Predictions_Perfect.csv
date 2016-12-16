@@ -1,0 +1,50 @@
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
+Marreese Speights,Nikola Jokic,C.J. McCollum,Thaddeus Young,Jimmy Butler,Kelly Oubre Jr.,Chris Paul,LeBron James,415.758,415.75,1,Dec102016,8
+Klay Thompson,T.J. McConnell,Eric Bledsoe,Karl-Anthony Towns,Luol Deng,Andre Drummond,Tim Frazier,Kristaps Porzingis,395.758,395.75,1,Dec112016,8
+James Harden,Draymond Green,Montrezl Harrell,Gordon Hayward,Sam Dekker,Austin Rivers,Shelvin Mack,Kevin Durant,369.758,369.75,1,Dec12016,8
+James Harden,Luol Deng,Terrence Ross,Dorian Finney-Smith,Chris Paul,Goran Dragic,Nikola Jokic,Mason Plumlee,375.008,375.0,1,Dec122016,8
+Elfrid Payton,Andrew Wiggins,Jodie Meeks,Eric Bledsoe,Draymond Green,Kyle O'Quinn,Jimmy Butler,Kristaps Porzingis,401.758,401.75,1,Dec132016,8
+Ish Smith,Jimmy Butler,Blake Griffin,Trevor Ariza,Matt Barnes,Al Horford,Marcin Gortat,Rajon Rondo,404.258,404.25,1,Dec22016,8
+Nicolas Batum,Isaiah Thomas,Lou Williams,Troy Daniels,Frank Kaminsky,Dario Saric,Hassan Whiteside,Karl-Anthony Towns,404.008,404.0,1,Dec32016,8
+Russell Westbrook,Rudy Gay,Justin Holiday,Serge Ibaka,Blake Griffin,Marcus Morris,Enes Kanter,Buddy Hield,342.508,342.5,1,Dec42016,8
+Harrison Barnes,Klay Thompson,Lou Williams,Tony Allen,Marc Gasol,Rudy Gobert,Langston Galloway,LeBron James,427.508,427.5,1,Dec52016,8
+Ersan Ilyasova,Kyle Anderson,Marc Gasol,John Wall,Goran Dragic,Rudy Gobert,Elfrid Payton,Gordon Hayward,403.008,403.0,1,Dec62016,8
+Eric Gordon,Paul George,Wilson Chandler,Jeff Teague,Tyler Johnson,Patrick Beverley,Andre Drummond,Dwight Howard,384.258,384.25,1,Dec72016,8
+Draymond Green,Joe Ingles,Zach LaVine,Tony Allen,Kyle Lowry,Ersan Ilyasova,Rajon Rondo,Marc Gasol,351.008,351.0,1,Dec82016,8
+Alex Len,Dennis Schroder,Lou Williams,Leandro Barbosa,Paul Millsap,Carmelo Anthony,Eric Bledsoe,Kevin Love,399.258,399.25,1,Dec92016,8
+Anthony Davis,E'Twaun Moore,Tim Frazier,Jamal Murray,Rajon Rondo,Jabari Parker,Hassan Whiteside,Justise Winslow,344.008,344.0,1,Nov102016,8
+Kelly Olynyk,Andre Drummond,Pau Gasol,C.J. McCollum,Marcus Smart,Kemba Walker,Rudy Gay,Gordon Hayward,389.508,389.5,1,Nov112016,8
+Anthony Davis,Rudy Gay,Solomon Hill,Tobias Harris,Tyler Johnson,Goran Dragic,Tim Frazier,Nikola Vucevic,395.008,395.0,1,Nov12016,8
+Nikola Mirotic,DeMar DeRozan,Eric Gordon,DeAndre Jordan,Jimmy Butler,Markieff Morris,Rondae Hollis-Jefferson,Giannis Antetokounmpo,405.258,405.25,1,Nov122016,8
+Russell Westbrook,Kenneth Faried,Nemanja Bjelica,Damian Lillard,Serge Ibaka,Elfrid Payton,Evan Turner,Andrew Wiggins,433.258,433.25,1,Nov132016,8
+Terrence Jones,Hassan Whiteside,Tobias Harris,Dion Waiters,Russell Westbrook,Isaiah Thomas,Trevor Ariza,Joe Ingles,364.258,364.25,1,Nov142016,8
+Julius Randle,D'Angelo Russell,Jerian Grant,Hassan Whiteside,Brook Lopez,Kyle Lowry,Jimmy Butler,Bojan Bogdanovic,403.508,403.5,1,Nov152016,8
+Paul George,Wilson Chandler,Victor Oladipo,Kristaps Porzingis,Kenneth Faried,Mike Conley,Brandon Knight,DeMarcus Cousins,422.008,422.0,1,Nov162016,8
+James Harden,Dion Waiters,James Johnson,Brandon Jennings,T.J. McConnell,Hassan Whiteside,Rudy Gobert,Andrew Wiggins,359.008,359.0,1,Nov172016,8
+Emmanuel Mudiay,Alan Williams,Nicolas Batum,Ty Lawson,DeMarcus Cousins,Kyrie Irving,Kawhi Leonard,Wilson Chandler,397.758,397.75,1,Nov182016,8
+Blake Griffin,Dwyane Wade,Bradley Beal,Marco Belinelli,Jabari Parker,Langston Galloway,Anthony Davis,Al Horford,399.258,399.25,1,Nov192016,8
+Glenn Robinson III,Thaddeus Young,Nikola Mirotic,Jonas Valanciunas,Larry Nance Jr.,Russell Westbrook,Jeff Teague,Jimmy Butler,391.508,391.5,1,Nov202016,8
+Jabari Parker,Bradley Beal,Marco Belinelli,Karl-Anthony Towns,Spencer Hawes,Giannis Antetokounmpo,Eric Bledsoe,Mike Conley,388.258,388.25,1,Nov212016,8
+Brook Lopez,DeMar DeRozan,Sean Kilpatrick,Chris Paul,Otto Porter,John Wall,Isaiah Thomas,Amir Johnson,414.758,414.75,1,Nov22016,8
+Russell Westbrook,Nick Young,Jamal Murray,Jimmy Butler,Kristaps Porzingis,Jusuf Nurkic,Tim Frazier,Ed Davis,362.008,362.0,1,Nov222016,8
+LeBron James,DeMarre Carroll,Andre Drummond,Damian Lillard,Evan Fournier,Robert Covington,Jamal Murray,Kevin Love,422.258,422.25,1,Nov232016,8
+Kevin Love,Nikola Vucevic,Russell Westbrook,Jamal Murray,Jameer Nelson,Wilson Chandler,David Lee,Carmelo Anthony,432.258,432.25,1,Nov252016,8
+Stephen Curry,Jeremy Lamb,Bradley Beal,Dion Waiters,Kevin Durant,Marc Gasol,Cody Zeller,Derrick Rose,378.508,378.5,1,Nov262016,8
+LeBron James,John Henson,P.J. Tucker,Evan Fournier,Eric Gordon,Devin Booker,Eric Bledsoe,DeMarcus Cousins,399.508,399.5,1,Nov272016,8
+Russell Westbrook,Zach LaVine,Andre Iguodala,Jeremy Lamb,Kelly Oubre Jr.,DeMarcus Cousins,Goran Dragic,Enes Kanter,401.008,401.0,1,Nov282016,8
+Brook Lopez,DeAndre Jordan,Sean Kilpatrick,Kentavious Caldwell-Pope,Manu Ginobili,Tobias Harris,Giannis Antetokounmpo,Chris Paul,415.258,415.25,1,Nov292016,8
+Russell Westbrook,Dennis Schroder,Ish Smith,Kentavious Caldwell-Pope,Wayne Ellington,Nikola Jokic,Kent Bazemore,Karl-Anthony Towns,411.008,411.0,1,Nov302016,8
+Giannis Antetokounmpo,Jameer Nelson,LeBron James,Jabari Parker,Jaylen Brown,Karl-Anthony Towns,Greg Monroe,Avery Bradley,381.508,381.5,1,Nov32016,8
+Kawhi Leonard,Rondae Hollis-Jefferson,Terrence Jones,Dwyane Wade,Chris Paul,Mike Conley,Hassan Whiteside,Joakim Noah,406.758,406.75,1,Nov42016,8
+James Harden,Andre Drummond,Bismack Biyombo,Paul Millsap,LeBron James,Jeff Green,Jordan Farmar,Garrett Temple,356.508,356.5,1,Nov52016,8
+Nick Young,Harrison Barnes,Wilson Chandler,Devin Booker,C.J. McCollum,Kristaps Porzingis,DeMarcus Cousins,Emmanuel Mudiay,372.508,372.5,1,Nov62016,8
+Derrick Favors,Otto Porter,Bradley Beal,Stephen Curry,Chris Paul,Kemba Walker,Spencer Hawes,Enes Kanter,371.508,371.5,1,Nov72016,8
+Anthony Davis,C.J. McCollum,Andrew Wiggins,Damian Lillard,P.J. Tucker,Seth Curry,Kevin Love,Tyus Jones,379.758,379.75,1,Nov82016,8
+Jeff Teague,Nikola Vucevic,Jared Dudley,DeMar DeRozan,Zach LaVine,Jimmy Butler,Kyle Lowry,Otto Porter,439.508,439.5,1,Nov92016,8
+Damian Lillard,Joe Johnson,Kawhi Leonard,George Hill,Draymond Green,LaMarcus Aldridge,Rodney Hood,Jonathon Simmons,367.508,367.5,1,Oct252016,8
+Michael Kidd-Gilchrist,Monta Ellis,Avery Bradley,Tim Frazier,Wade Baldwin IV,James Harden,Anthony Davis,Myles Turner,438.508,438.5,1,Oct262016,8
+DeMarcus Cousins,Maurice Harkless,Thabo Sefolosha,Blake Griffin,Paul Millsap,Mason Plumlee,Damian Lillard,Tim Hardaway Jr.,354.258,354.25,1,Oct272016,8
+Russell Westbrook,Lance Stephenson,Jeremy Lin,Tim Frazier,Trevor Booker,Andre Roberson,Anthony Davis,T.J. Warren,406.008,406.0,1,Oct282016,8
+Doug McDermott,LeBron James,Trevor Booker,Bojan Bogdanovic,C.J. McCollum,Avery Bradley,Damian Lillard,Nikola Jokic,396.258,396.25,1,Oct292016,8
+Russell Westbrook,T.J. Warren,Kentavious Caldwell-Pope,Wesley Matthews,Vince Carter,Julius Randle,Andre Drummond,Pau Gasol,372.008,372.0,1,Oct302016,8
+Kyle Lowry,Isaiah Canaan,DeAndre Jordan,Jusuf Nurkic,Paul Millsap,DeMar DeRozan,Nikola Mirotic,Rudy Gay,344.758,344.75,1,Oct312016,8

@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Derrick Favors,Otto Porter,Bradley Beal,Stephen Curry,Chris Paul,Kemba Walker,Spencer Hawes,Enes Kanter,371.508,371.5,1,Nov72016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Derrick Favors,Otto Porter,Bradley Beal,Stephen Curry,Chris Paul,Kemba Walker,Spencer Hawes,Enes Kanter,UTA,WAS,WAS,GS,LAC,CHA,CHA,OKC,PF,SF,SG,PG,PG,PG,PF,C,371.508,371.5,1,Nov72016,7
+Ryan Anderson,Domantas Sabonis,Otto Porter,Jimmy Butler,Stephen Curry,James Harden,James Johnson,Enes Kanter,HOU,OKC,WAS,CHI,GS,HOU,MIA,OKC,PF,PF,SF,SG,PG,PG,SF,C,357.258,357.25,2,Nov72016,7
+Derrick Favors,C.J. Miles,Marco Belinelli,Stephen Curry,James Harden,Kemba Walker,James Johnson,Marcin Gortat,UTA,IND,CHA,GS,HOU,CHA,MIA,WAS,PF,SG,SG,PG,PG,PG,SF,C,354.508,354.5,3,Nov72016,7
+Ryan Anderson,Jimmy Butler,Klay Thompson,Marco Belinelli,Stephen Curry,Kemba Walker,Draymond Green,Spencer Hawes,HOU,CHI,GS,CHA,GS,CHA,GS,CHA,PF,SG,SG,SG,PG,PG,PF,PF,346.258,346.25,4,Nov72016,7
+Ryan Anderson,Domantas Sabonis,Gordon Hayward,C.J. Miles,Stephen Curry,Chris Paul,Kemba Walker,Taj Gibson,HOU,OKC,UTA,IND,GS,LAC,CHA,CHI,PF,PF,SF,SG,PG,PG,PG,PF,345.508,345.5,5,Nov72016,7
+Jimmy Butler,C.J. Miles,Stephen Curry,Chris Paul,Raymond Felton,Anthony Davis,Spencer Hawes,James Johnson,CHI,IND,GS,LAC,LAC,NO,CHA,MIA,SG,SG,PG,PG,PG,PF,PF,SF,343.508,343.5,6,Nov72016,7
+Derrick Favors,Domantas Sabonis,Otto Porter,Klay Thompson,Stephen Curry,Draymond Green,Tim Frazier,Marcin Gortat,UTA,OKC,WAS,GS,GS,GS,NO,WAS,PF,PF,SF,SG,PG,PF,PG,C,342.758,342.75,7,Nov72016,7
+Derrick Favors,Ryan Anderson,Trevor Ariza,Stephen Curry,James Harden,Spencer Hawes,Tim Frazier,Al Jefferson,UTA,HOU,HOU,GS,HOU,CHA,NO,IND,PF,PF,SF,PG,PG,PF,PG,C,342.758,342.75,8,Nov72016,7
+Derrick Favors,Domantas Sabonis,Stanley Johnson,Jimmy Butler,Stephen Curry,Kemba Walker,Anthony Davis,Al Jefferson,UTA,OKC,DET,CHI,GS,CHA,NO,IND,PF,PF,SF,SG,PG,PG,PF,C,342.008,342.0,9,Nov72016,7
+Gordon Hayward,Stanley Johnson,Bradley Beal,Stephen Curry,James Harden,Draymond Green,Spencer Hawes,James Johnson,UTA,DET,WAS,GS,HOU,GS,CHA,MIA,SF,SF,SG,PG,PG,PF,PF,SF,339.258,339.25,10,Nov72016,7
+Blake Griffin,Otto Porter,Marco Belinelli,Stephen Curry,James Harden,Raymond Felton,Taj Gibson,Spencer Hawes,LAC,WAS,CHA,GS,HOU,LAC,CHI,CHA,PF,SF,SG,PG,PG,PG,PF,PF,338.508,338.5,12,Nov72016,7
+Trevor Ariza,Dwyane Wade,Stephen Curry,Chris Paul,Kemba Walker,Draymond Green,James Johnson,Al Jefferson,HOU,CHI,GS,LAC,CHA,GS,MIA,IND,SF,SG,PG,PG,PG,PF,SF,C,338.508,338.5,11,Nov72016,7
+Derrick Favors,Ryan Anderson,C.J. Miles,Klay Thompson,E'Twaun Moore,Stephen Curry,Anthony Davis,Enes Kanter,UTA,HOU,IND,GS,NO,GS,NO,OKC,PF,PF,SG,SG,SG,PG,PF,C,338.008,338.0,13,Nov72016,7
+Domantas Sabonis,Andre Iguodala,E'Twaun Moore,Stephen Curry,Chris Paul,James Harden,Spencer Hawes,Marcin Gortat,OKC,GS,NO,GS,LAC,HOU,CHA,WAS,PF,SF,SG,PG,PG,PG,PF,C,337.758,337.75,14,Nov72016,7
+Derrick Favors,Ryan Anderson,Jimmy Butler,Stephen Curry,Chris Paul,Ramon Sessions,Clint Capela,Marcin Gortat,UTA,HOU,CHI,GS,LAC,CHA,HOU,WAS,PF,PF,SG,PG,PG,PG,PF,C,337.508,337.5,15,Nov72016,7
+Otto Porter,Klay Thompson,Stephen Curry,Ramon Sessions,Kemba Walker,Anthony Davis,Clint Capela,James Johnson,WAS,GS,GS,CHA,CHA,NO,HOU,MIA,SF,SG,PG,PG,PG,PF,PF,SF,336.758,336.75,16,Nov72016,7
+Derrick Favors,Trevor Ariza,Jimmy Butler,C.J. Miles,Bradley Beal,Stephen Curry,Draymond Green,Taj Gibson,UTA,HOU,CHI,IND,WAS,GS,GS,CHI,PF,SF,SG,SG,SG,PG,PF,PF,335.508,335.5,17,Nov72016,7
+Otto Porter,Stanley Johnson,C.J. Miles,Stephen Curry,Chris Paul,James Harden,Clint Capela,Al Jefferson,WAS,DET,IND,GS,LAC,HOU,HOU,IND,SF,SF,SG,PG,PG,PG,PF,C,335.508,335.5,18,Nov72016,7
+Blake Griffin,Klay Thompson,Marco Belinelli,Stephen Curry,Chris Paul,Tim Frazier,James Johnson,Enes Kanter,LAC,GS,CHA,GS,LAC,NO,MIA,OKC,PF,SG,SG,PG,PG,PG,SF,C,335.008,335.0,19,Nov72016,7
+Blake Griffin,Ryan Anderson,Trevor Ariza,Stephen Curry,Kemba Walker,Raymond Felton,Marcin Gortat,Enes Kanter,LAC,HOU,HOU,GS,CHA,LAC,WAS,OKC,PF,PF,SF,PG,PG,PG,C,C,334.758,334.75,20,Nov72016,7

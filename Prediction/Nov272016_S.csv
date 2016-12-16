@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-LeBron James,John Henson,P.J. Tucker,Evan Fournier,Eric Gordon,Devin Booker,Eric Bledsoe,DeMarcus Cousins,399.508,399.5,1,Nov272016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+LeBron James,John Henson,P.J. Tucker,Evan Fournier,Eric Gordon,Devin Booker,Eric Bledsoe,DeMarcus Cousins,CLE,MIL,PHO,ORL,HOU,PHO,PHO,SAC,SF,C,SF,SG,SG,SG,PG,PF,399.508,399.5,1,Nov272016,8
+Nikola Vucevic,Rudy Gay,Harrison Barnes,Evan Fournier,Eric Gordon,Joel Embiid,Kyrie Irving,Eric Bledsoe,ORL,SAC,DAL,ORL,HOU,PHI,CLE,PHO,C,SF,SF,SG,SG,C,PG,PG,382.758,382.75,2,Nov272016,8
+Wilson Chandler,John Henson,Rudy Gay,Evan Fournier,Tyson Chandler,Eric Bledsoe,James Harden,Sean Kilpatrick,DEN,MIL,SAC,ORL,PHO,PHO,HOU,BKN,SF,C,SF,SG,C,PG,PG,PG,375.758,375.75,3,Nov272016,8
+Sergio Rodriguez,Wilson Chandler,Nikola Vucevic,Evan Fournier,Gerald Henderson,Eric Bledsoe,C.J. McCollum,DeMarcus Cousins,PHI,DEN,ORL,ORL,PHI,PHO,POR,SAC,PG,SF,C,SG,SG,PG,PG,PF,373.758,373.75,4,Nov272016,8
+Harrison Barnes,P.J. Tucker,Evan Fournier,Nikola Jokic,Eric Bledsoe,C.J. McCollum,Sean Kilpatrick,Anthony Davis,DAL,PHO,ORL,DEN,PHO,POR,BKN,NO,SF,SF,SG,PF,PG,PG,PG,PF,370.258,370.25,5,Nov272016,8
+Rudy Gay,P.J. Tucker,Justin Anderson,Tyson Chandler,Kyrie Irving,Eric Bledsoe,C.J. McCollum,DeMarcus Cousins,SAC,PHO,DAL,PHO,CLE,PHO,POR,SAC,SF,SF,SG,C,PG,PG,PG,PF,369.258,369.25,6,Nov272016,8
+LeBron James,Wilson Chandler,Tarik Black,Rudy Gay,Eric Gordon,Nikola Jokic,Eric Bledsoe,C.J. McCollum,CLE,DEN,LAL,SAC,HOU,DEN,PHO,POR,SF,SF,C,SF,SG,PF,PG,PG,367.258,367.25,7,Nov272016,8
+LeBron James,Wilson Chandler,Nikola Vucevic,P.J. Tucker,Wesley Matthews,Kyrie Irving,Eric Bledsoe,Sean Kilpatrick,CLE,DEN,ORL,PHO,DAL,CLE,PHO,BKN,SF,SF,C,SF,SG,PG,PG,PG,366.508,366.5,8,Nov272016,8
+LeBron James,Sergio Rodriguez,Rudy Gay,Justin Anderson,Evan Fournier,Joel Embiid,Sean Kilpatrick,DeMarcus Cousins,CLE,PHI,SAC,DAL,ORL,PHI,BKN,SAC,SF,PG,SF,SG,SG,C,PG,PF,365.758,365.75,9,Nov272016,8
+LeBron James,Al Jefferson,Rudy Gay,Evan Fournier,Malcolm Brogdon,Gerald Henderson,Eric Bledsoe,Anthony Davis,CLE,IND,SAC,ORL,MIL,PHI,PHO,NO,SF,C,SF,SG,SG,SG,PG,PF,364.758,364.75,10,Nov272016,8
+LeBron James,Harrison Barnes,Joel Embiid,Tyson Chandler,Devin Booker,Gerald Henderson,Eric Bledsoe,C.J. McCollum,CLE,DAL,PHI,PHO,PHO,PHI,PHO,POR,SF,SF,C,C,SG,SG,PG,PG,364.508,364.5,11,Nov272016,8
+LeBron James,Sergio Rodriguez,Nikola Vucevic,Justin Anderson,Eric Gordon,Tyson Chandler,Eric Bledsoe,James Harden,CLE,PHI,ORL,DAL,HOU,PHO,PHO,HOU,SF,PG,C,SG,SG,C,PG,PG,364.008,364.0,12,Nov272016,8
+LeBron James,Wilson Chandler,Al Jefferson,John Henson,Harrison Barnes,Evan Fournier,Kyrie Irving,C.J. McCollum,CLE,DEN,IND,MIL,DAL,ORL,CLE,POR,SF,SF,C,C,SF,SG,PG,PG,363.258,363.25,13,Nov272016,8
+Tarik Black,Rudy Gay,Harrison Barnes,P.J. Tucker,Evan Fournier,Gerald Henderson,James Harden,DeMarcus Cousins,LAL,SAC,DAL,PHO,ORL,PHI,HOU,SAC,C,SF,SF,SF,SG,SG,PG,PF,361.758,361.75,14,Nov272016,8
+Wilson Chandler,P.J. Tucker,Eric Gordon,Joel Embiid,Gerald Henderson,Eric Bledsoe,James Harden,Myles Turner,DEN,PHO,HOU,PHI,PHI,PHO,HOU,IND,SF,SF,SG,C,SG,PG,PG,PF,361.758,361.75,15,Nov272016,8
+Sergio Rodriguez,Kent Bazemore,Evan Fournier,Tyson Chandler,Devin Booker,Kyrie Irving,Eric Bledsoe,Anthony Davis,PHI,ATL,ORL,PHO,PHO,CLE,PHO,NO,PG,SG,SG,C,SG,PG,PG,PF,361.508,361.5,16,Nov272016,8
+John Henson,Larry Nance Jr.,Eric Gordon,Kyrie Irving,Gerald Henderson,Eric Bledsoe,C.J. McCollum,Anthony Davis,MIL,LAL,HOU,CLE,PHI,PHO,POR,NO,C,SF,SG,PG,SG,PG,PG,PF,359.758,359.75,17,Nov272016,8
+LeBron James,Aaron Brooks,Tarik Black,Evan Fournier,Wesley Matthews,Joel Embiid,Eric Bledsoe,James Harden,CLE,IND,LAL,ORL,DAL,PHI,PHO,HOU,SF,PG,C,SG,SG,C,PG,PG,359.508,359.5,18,Nov272016,8
+Rudy Gay,Evan Fournier,Wesley Matthews,Nikola Jokic,Eric Bledsoe,Jordan Clarkson,Emmanuel Mudiay,DeMarcus Cousins,SAC,ORL,DAL,DEN,PHO,LAL,DEN,SAC,SF,SG,SG,PF,PG,PG,PG,PF,359.258,359.25,19,Nov272016,8
+LeBron James,Nikola Vucevic,Rudy Gay,P.J. Tucker,Evan Fournier,Jameer Nelson,C.J. McCollum,Myles Turner,CLE,ORL,SAC,PHO,ORL,DEN,POR,IND,SF,C,SF,SF,SG,PG,PG,PF,359.258,359.25,20,Nov272016,8

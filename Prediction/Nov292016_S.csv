@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Brook Lopez,DeAndre Jordan,Sean Kilpatrick,Kentavious Caldwell-Pope,Manu Ginobili,Tobias Harris,Giannis Antetokounmpo,Chris Paul,415.258,415.25,1,Nov292016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Brook Lopez,DeAndre Jordan,Sean Kilpatrick,Kentavious Caldwell-Pope,Manu Ginobili,Tobias Harris,Giannis Antetokounmpo,Chris Paul,BKN,LAC,BKN,DET,SA,DET,MIL,LAC,C,C,PG,SG,SG,SF,PG,PG,415.258,415.25,1,Nov292016,6
+Anthony Davis,Omer Asik,Sean Kilpatrick,Kentavious Caldwell-Pope,Michael Beasley,Chris Paul,Trevor Booker,Gordon Hayward,NO,NO,BKN,DET,MIL,LAC,BKN,UTA,PF,C,PG,SG,SF,PG,PF,SF,400.008,400.0,2,Nov292016,6
+Anthony Davis,Sam Dekker,Greg Monroe,Sean Kilpatrick,Joe Harris,Eric Gordon,Giannis Antetokounmpo,Chris Paul,NO,HOU,MIL,BKN,BKN,HOU,MIL,LAC,PF,SF,C,PG,SG,SG,PG,PG,383.258,383.25,3,Nov292016,6
+Anthony Davis,Anthony Brown,DeAndre Jordan,Sean Kilpatrick,Giannis Antetokounmpo,Trevor Booker,Marcus Morris,Brandon Ingram,NO,NO,LAC,BKN,MIL,BKN,DET,LAL,PF,SF,C,PG,PG,PF,SF,SF,379.258,379.25,4,Nov292016,6
+Brook Lopez,Greg Monroe,Sean Kilpatrick,Rodney Hood,Giannis Antetokounmpo,Jrue Holiday,Trevor Booker,Gordon Hayward,BKN,MIL,BKN,UTA,MIL,NO,BKN,UTA,C,C,PG,SG,PG,PG,PF,SF,371.008,371.0,5,Nov292016,6
+Anthony Davis,Rudy Gobert,Sean Kilpatrick,Bojan Bogdanovic,Manu Ginobili,Giannis Antetokounmpo,Beno Udrih,Gordon Hayward,NO,UTA,BKN,BKN,SA,MIL,DET,UTA,PF,C,PG,SG,SG,PG,PG,SF,369.508,369.5,6,Nov292016,6
+DeAndre Jordan,Joe Harris,Giannis Antetokounmpo,Chris Paul,Serge Ibaka,Austin Rivers,Trevor Booker,Gordon Hayward,LAC,BKN,MIL,LAC,ORL,LAC,BKN,UTA,C,SG,PG,PG,PF,PG,PF,SF,366.758,366.75,7,Nov292016,6
+Anthony Davis,DeAndre Jordan,Sean Kilpatrick,Joe Harris,Tobias Harris,Jrue Holiday,D.J. Augustin,Gordon Hayward,NO,LAC,BKN,BKN,DET,NO,ORL,UTA,PF,C,PG,SG,SF,PG,PG,SF,365.508,365.5,8,Nov292016,6
+Anthony Davis,Anthony Brown,Rudy Gobert,Sean Kilpatrick,Rodney Hood,Tobias Harris,Chris Paul,Austin Rivers,NO,NO,UTA,BKN,UTA,DET,LAC,LAC,PF,SF,C,PG,SG,SF,PG,PG,362.258,362.25,9,Nov292016,6
+Anthony Davis,Greg Monroe,Kentavious Caldwell-Pope,Tobias Harris,Giannis Antetokounmpo,Austin Rivers,Gordon Hayward,Brandon Ingram,NO,MIL,DET,DET,MIL,LAC,UTA,LAL,PF,C,SG,SF,PG,PG,SF,SF,362.008,362.0,10,Nov292016,6
+Anthony Davis,Brook Lopez,Joe Harris,Kentavious Caldwell-Pope,Giannis Antetokounmpo,Elfrid Payton,D.J. Augustin,Trevor Booker,NO,BKN,BKN,DET,MIL,ORL,ORL,BKN,PF,C,SG,SG,PG,PG,PG,PF,361.008,361.0,11,Nov292016,6
+Anthony Davis,Brook Lopez,Sean Kilpatrick,Joe Johnson,Malcolm Brogdon,Michael Beasley,Giannis Antetokounmpo,Kemba Walker,NO,BKN,BKN,UTA,MIL,MIL,MIL,CHA,PF,C,PG,SG,SG,SF,PG,PG,360.508,360.5,12,Nov292016,6
+Anthony Davis,Omer Asik,Sean Kilpatrick,Evan Fournier,Tobias Harris,Giannis Antetokounmpo,Elfrid Payton,Jon Leuer,NO,NO,BKN,ORL,DET,MIL,ORL,DET,PF,C,PG,SG,SF,PG,PG,PF,360.258,360.25,13,Nov292016,6
+Rudy Gobert,John Henson,Sean Kilpatrick,Jabari Parker,Giannis Antetokounmpo,Chris Paul,Trevor Booker,Jon Leuer,UTA,MIL,BKN,MIL,MIL,LAC,BKN,DET,C,C,PG,SF,PG,PG,PF,PF,360.258,360.25,14,Nov292016,6
+Anthony Davis,Sam Dekker,DeAndre Jordan,Evan Fournier,Tobias Harris,Chris Paul,Beno Udrih,Trevor Booker,NO,HOU,LAC,ORL,DET,LAC,DET,BKN,PF,SF,C,SG,SF,PG,PG,PF,358.758,358.75,15,Nov292016,6
+Anthony Davis,Anthony Brown,Joe Johnson,Kentavious Caldwell-Pope,Giannis Antetokounmpo,Chris Paul,Serge Ibaka,Beno Udrih,NO,NO,UTA,DET,MIL,LAC,ORL,DET,PF,SF,SG,SG,PG,PG,PF,PG,358.508,358.5,16,Nov292016,6
+DeAndre Jordan,Omer Asik,Sean Kilpatrick,Eric Gordon,Jabari Parker,Giannis Antetokounmpo,Kemba Walker,Gordon Hayward,LAC,NO,BKN,HOU,MIL,MIL,CHA,UTA,C,C,PG,SG,SF,PG,PG,SF,357.758,357.75,17,Nov292016,6
+Anthony Davis,Omer Asik,Rodney Hood,Manu Ginobili,Giannis Antetokounmpo,Chris Paul,D.J. Augustin,Brandon Ingram,NO,NO,UTA,SA,MIL,LAC,ORL,LAL,PF,C,SG,SG,PG,PG,PG,SF,356.508,356.5,18,Nov292016,6
+Anthony Davis,Brook Lopez,Sean Kilpatrick,Lou Williams,J.J. Redick,Chris Paul,Beno Udrih,Brandon Ingram,NO,BKN,BKN,LAL,LAC,LAC,DET,LAL,PF,C,PG,SG,SG,PG,PG,SF,356.258,356.25,19,Nov292016,6
+Anthony Brown,Rudy Gobert,Brook Lopez,Eric Gordon,Michael Beasley,Giannis Antetokounmpo,Chris Paul,Gordon Hayward,NO,UTA,BKN,HOU,MIL,MIL,LAC,UTA,SF,C,C,SG,SF,PG,PG,SF,354.258,354.25,20,Nov292016,6

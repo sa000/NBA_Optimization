@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Brook Lopez,DeMar DeRozan,Sean Kilpatrick,Chris Paul,Otto Porter,John Wall,Isaiah Thomas,Amir Johnson,414.758,414.75,1,Nov22016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Brook Lopez,DeMar DeRozan,Sean Kilpatrick,Chris Paul,Otto Porter,John Wall,Isaiah Thomas,Amir Johnson,BKN,TOR,BKN,LAC,WAS,WAS,BOS,BOS,C,SG,SG,PG,SF,PG,PG,PF,414.758,414.75,1,Nov22016,10
+Montrezl Harrell,Dwight Howard,Sean Kilpatrick,T.J. Warren,John Wall,James Harden,Amir Johnson,D'Angelo Russell,HOU,ATL,BKN,PHO,WAS,HOU,BOS,LAL,PF,C,SG,SF,PG,PG,PF,PG,395.758,395.75,2,Nov22016,10
+Montrezl Harrell,Brook Lopez,Alex Len,DeMar DeRozan,Marcus Morris,Lance Stephenson,John Wall,James Harden,HOU,BKN,PHO,TOR,DET,NO,WAS,HOU,PF,C,C,SG,SF,SF,PG,PG,386.758,386.75,3,Nov22016,10
+Brook Lopez,Marc Gasol,DeMar DeRozan,Sean Kilpatrick,Luol Deng,Langston Galloway,James Harden,D'Angelo Russell,BKN,MEM,TOR,BKN,LAL,NO,HOU,LAL,C,C,SG,SG,SF,PG,PG,PG,380.758,380.75,4,Nov22016,10
+Dwight Howard,DeMar DeRozan,Chris Paul,Lance Stephenson,JaMychal Green,Langston Galloway,James Harden,Amir Johnson,ATL,TOR,LAC,NO,MEM,NO,HOU,BOS,C,SG,PG,SF,SF,PG,PG,PF,378.258,378.25,5,Nov22016,10
+Dwight Howard,Brook Lopez,George Hill,Sean Kilpatrick,Lance Stephenson,Larry Nance Jr.,James Harden,Isaiah Thomas,ATL,BKN,UTA,BKN,NO,LAL,HOU,BOS,C,C,PG,SG,SF,SF,PG,PG,375.258,375.25,6,Nov22016,10
+Brook Lopez,Kentavious Caldwell-Pope,Chris Paul,Buddy Hield,Marcus Morris,James Harden,Amir Johnson,D'Angelo Russell,BKN,DET,LAC,NO,DET,HOU,BOS,LAL,C,SG,PG,SG,SF,PG,PF,PG,374.258,374.25,7,Nov22016,10
+Marcin Gortat,George Hill,DeMar DeRozan,Luol Deng,Larry Nance Jr.,John Wall,James Harden,Amir Johnson,WAS,UTA,TOR,LAL,LAL,WAS,HOU,BOS,C,PG,SG,SF,SF,PG,PG,PF,374.258,374.25,8,Nov22016,10
+Dwight Howard,Brook Lopez,Lou Williams,Buddy Hield,Otto Porter,Luol Deng,John Wall,James Harden,ATL,BKN,LAL,NO,WAS,LAL,WAS,HOU,C,C,SG,SG,SF,SF,PG,PG,373.758,373.75,9,Nov22016,10
+Marc Gasol,Rodney Hood,Lou Williams,Lance Stephenson,John Wall,James Harden,Isaiah Thomas,Amir Johnson,MEM,UTA,LAL,NO,WAS,HOU,BOS,BOS,C,SG,SG,SF,PG,PG,PG,PF,371.008,371.0,10,Nov22016,10
+Montrezl Harrell,Dwight Howard,Brook Lopez,George Hill,DeMar DeRozan,Chris Paul,T.J. Warren,Luol Deng,HOU,ATL,BKN,UTA,TOR,LAC,PHO,LAL,PF,C,C,PG,SG,PG,SF,SF,370.758,370.75,11,Nov22016,10
+Montrezl Harrell,Brook Lopez,Marcin Gortat,Otto Porter,JaMychal Green,James Harden,Isaiah Thomas,D'Angelo Russell,HOU,BKN,WAS,WAS,MEM,HOU,BOS,LAL,PF,C,C,SF,SF,PG,PG,PG,370.008,370.0,12,Nov22016,10
+Dwight Howard,Brook Lopez,DeMar DeRozan,Kentavious Caldwell-Pope,JaMychal Green,John Wall,Tim Hardaway Jr.,D'Angelo Russell,ATL,BKN,TOR,DET,MEM,WAS,ATL,LAL,C,C,SG,SG,SF,PG,PG,PG,369.258,369.25,13,Nov22016,10
+Marc Gasol,DeMar DeRozan,Chris Paul,T.J. Warren,Lance Stephenson,Larry Nance Jr.,John Wall,D'Angelo Russell,MEM,TOR,LAC,PHO,NO,LAL,WAS,LAL,C,SG,PG,SF,SF,SF,PG,PG,368.008,368.0,14,Nov22016,10
+Marc Gasol,George Hill,Sean Kilpatrick,Marcus Morris,Otto Porter,JaMychal Green,John Wall,James Harden,MEM,UTA,BKN,DET,WAS,MEM,WAS,HOU,C,PG,SG,SF,SF,SF,PG,PG,367.758,367.75,15,Nov22016,10
+Tyson Chandler,Kentavious Caldwell-Pope,Sean Kilpatrick,Chris Paul,Lance Stephenson,Luol Deng,John Wall,James Harden,PHO,DET,BKN,LAC,NO,LAL,WAS,HOU,C,SG,SG,PG,SF,SF,PG,PG,367.258,367.25,16,Nov22016,10
+Brook Lopez,Rajon Rondo,James Ennis,T.J. Warren,Luol Deng,James Harden,Isaiah Thomas,Amir Johnson,BKN,CHI,MEM,PHO,LAL,HOU,BOS,BOS,C,PG,SG,SF,SF,PG,PG,PF,367.008,367.0,17,Nov22016,10
+Dwight Howard,George Hill,DeMar DeRozan,Rodney Hood,Marcus Morris,Isaiah Thomas,Amir Johnson,D'Angelo Russell,ATL,UTA,TOR,UTA,DET,BOS,BOS,LAL,C,PG,SG,SG,SF,PG,PF,PG,365.258,365.25,18,Nov22016,10
+Rudy Gobert,DeMar DeRozan,Lou Williams,T.J. Warren,Marcus Morris,Otto Porter,James Harden,Amir Johnson,UTA,TOR,LAL,PHO,DET,WAS,HOU,BOS,C,SG,SG,SF,SF,SF,PG,PF,365.008,365.0,19,Nov22016,10
+Brook Lopez,Alex Len,Lou Williams,Sean Kilpatrick,Chris Paul,T.J. Warren,JaMychal Green,James Harden,BKN,PHO,LAL,BKN,LAC,PHO,MEM,HOU,C,C,SG,SG,PG,SF,SF,PG,365.008,365.0,20,Nov22016,10

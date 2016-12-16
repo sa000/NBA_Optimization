@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Stephen Curry,Jeremy Lamb,Bradley Beal,Dion Waiters,Kevin Durant,Marc Gasol,Cody Zeller,Derrick Rose,378.508,378.5,1,Nov262016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Stephen Curry,Jeremy Lamb,Bradley Beal,Dion Waiters,Kevin Durant,Marc Gasol,Cody Zeller,Derrick Rose,GS,CHA,WAS,MIA,GS,MEM,CHA,NY,PG,SG,SG,SG,SF,C,C,PG,378.508,378.5,1,Nov262016,5
+Russell Westbrook,Brandon Jennings,Jeremy Lamb,Zach LaVine,Jonathon Simmons,Kevin Durant,Derrick Rose,LaMarcus Aldridge,OKC,NY,CHA,MIN,SA,GS,NY,SA,PG,PG,SG,SG,SG,SF,PG,PF,351.008,351.0,2,Nov262016,5
+Stephen Curry,Jeremy Lamb,Zach LaVine,Tony Allen,Kemba Walker,Otto Porter,Karl-Anthony Towns,Derrick Rose,GS,CHA,MIN,MEM,CHA,WAS,MIN,NY,PG,SG,SG,SG,PG,SF,C,PG,339.758,339.75,3,Nov262016,5
+Brandon Jennings,Jeremy Lamb,Klay Thompson,Dion Waiters,Kemba Walker,Kevin Durant,Tobias Harris,Karl-Anthony Towns,NY,CHA,GS,MIA,CHA,GS,DET,MIN,PG,SG,SG,SG,PG,SF,SF,C,337.508,337.5,4,Nov262016,5
+Russell Westbrook,Stephen Curry,Tony Parker,Jeremy Lamb,Zach LaVine,Dion Waiters,Tobias Harris,Steven Adams,OKC,GS,SA,CHA,MIN,MIA,DET,OKC,PG,PG,PG,SG,SG,SG,SF,C,336.508,336.5,5,Nov262016,5
+Russell Westbrook,Jeremy Lamb,Dion Waiters,Troy Williams,Karl-Anthony Towns,Mike Conley,Derrick Rose,Gorgui Dieng,OKC,CHA,MIA,MEM,MIN,MEM,NY,MIN,PG,SG,SG,SG,C,PG,PG,PF,335.508,335.5,6,Nov262016,5
+Russell Westbrook,Stephen Curry,Jeremy Lamb,Klay Thompson,Jonathon Simmons,Kemba Walker,Cody Zeller,JaMychal Green,OKC,GS,CHA,GS,SA,CHA,CHA,MEM,PG,PG,SG,SG,SG,PG,C,PF,333.008,333.0,7,Nov262016,5
+Russell Westbrook,Jeremy Lamb,Klay Thompson,Anthony Morrow,Tobias Harris,Marc Gasol,Derrick Rose,Kristaps Porzingis,OKC,CHA,GS,OKC,DET,MEM,NY,NY,PG,SG,SG,SG,SF,C,PG,PF,331.258,331.25,8,Nov262016,5
+Russell Westbrook,Tony Parker,Jeremy Lamb,Bradley Beal,Anthony Morrow,Kevin Durant,Otto Porter,Gorgui Dieng,OKC,SA,CHA,WAS,OKC,GS,WAS,MIN,PG,PG,SG,SG,SG,SF,SF,PF,331.008,331.0,9,Nov262016,5
+Stephen Curry,Jeremy Lamb,Klay Thompson,Troy Williams,Kevin Durant,Otto Porter,Mike Conley,LaMarcus Aldridge,GS,CHA,GS,MEM,GS,WAS,MEM,SA,PG,SG,SG,SG,SF,SF,PG,PF,330.008,330.0,10,Nov262016,5
+Jeremy Lamb,Bradley Beal,Zach LaVine,Kemba Walker,Kevin Durant,Mike Conley,Steven Adams,JaMychal Green,CHA,WAS,MIN,CHA,GS,MEM,OKC,MEM,SG,SG,SG,PG,SF,PG,C,PF,329.758,329.75,11,Nov262016,5
+Russell Westbrook,Jeremy Lamb,Tony Allen,Troy Williams,Kemba Walker,Kevin Durant,Marc Gasol,Guillermo Hernangomez,OKC,CHA,MEM,MEM,CHA,GS,MEM,NY,PG,SG,SG,SG,PG,SF,C,C,328.758,328.75,12,Nov262016,5
+Klay Thompson,Zach LaVine,Troy Williams,Kemba Walker,Kevin Durant,Cody Zeller,Derrick Rose,Kristaps Porzingis,GS,MIN,MEM,CHA,GS,CHA,NY,NY,SG,SG,SG,PG,SF,C,PG,PF,328.008,328.0,13,Nov262016,5
+Stephen Curry,Anthony Morrow,Jonathon Simmons,Kemba Walker,Kevin Durant,Tobias Harris,Derrick Rose,Gorgui Dieng,GS,OKC,SA,CHA,GS,DET,NY,MIN,PG,SG,SG,PG,SF,SF,PG,PF,327.508,327.5,14,Nov262016,5
+Russell Westbrook,Stephen Curry,Bradley Beal,Jonathon Simmons,Troy Williams,Otto Porter,Steven Adams,Derrick Rose,OKC,GS,WAS,SA,MEM,WAS,OKC,NY,PG,PG,SG,SG,SG,SF,C,PG,327.008,327.0,15,Nov262016,5
+Russell Westbrook,Dion Waiters,Anthony Morrow,Kemba Walker,Otto Porter,Cody Zeller,Derrick Rose,LaMarcus Aldridge,OKC,MIA,OKC,CHA,WAS,CHA,NY,SA,PG,SG,SG,PG,SF,C,PG,PF,326.508,326.5,16,Nov262016,5
+Russell Westbrook,Stephen Curry,Brandon Jennings,Dion Waiters,Tony Allen,Anthony Morrow,Kevin Durant,Zaza Pachulia,OKC,GS,NY,MIA,MEM,OKC,GS,GS,PG,PG,PG,SG,SG,SG,SF,C,326.508,326.5,17,Nov262016,5
+Russell Westbrook,Brandon Jennings,Jeremy Lamb,Bradley Beal,Tony Allen,Karl-Anthony Towns,Cody Zeller,Kristaps Porzingis,OKC,NY,CHA,WAS,MEM,MIN,CHA,NY,PG,PG,SG,SG,SG,C,C,PF,324.508,324.5,18,Nov262016,5
+Russell Westbrook,Stephen Curry,Brandon Jennings,Jeremy Lamb,Victor Oladipo,Rodney McGruder,Otto Porter,Marc Gasol,OKC,GS,NY,CHA,OKC,MIA,WAS,MEM,PG,PG,PG,SG,SG,SG,SF,C,323.758,323.75,19,Nov262016,5
+Stephen Curry,Zach LaVine,Dion Waiters,Jonathon Simmons,Kevin Durant,Otto Porter,Guillermo Hernangomez,Kristaps Porzingis,GS,MIN,MIA,SA,GS,WAS,NY,NY,PG,SG,SG,SG,SF,SF,C,PF,323.758,323.75,20,Nov262016,5

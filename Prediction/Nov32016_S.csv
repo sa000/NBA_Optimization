@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Giannis Antetokounmpo,Jameer Nelson,LeBron James,Jabari Parker,Jaylen Brown,Karl-Anthony Towns,Greg Monroe,Avery Bradley,381.508,381.5,1,Nov32016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Giannis Antetokounmpo,Jameer Nelson,LeBron James,Jabari Parker,Jaylen Brown,Karl-Anthony Towns,Greg Monroe,Avery Bradley,MIL,DEN,CLE,MIL,BOS,MIN,MIL,BOS,PG,PG,SF,SF,SF,C,C,SG,381.508,381.5,1,Nov32016,5
+Giannis Antetokounmpo,Malcolm Brogdon,C.J. Miles,Kevin Durant,LeBron James,Tristan Thompson,Tyler Zeller,Avery Bradley,MIL,MIL,IND,GS,CLE,CLE,BOS,BOS,PG,SG,SG,SF,SF,C,C,SG,358.508,358.5,2,Nov32016,5
+Malcolm Brogdon,Domantas Sabonis,Kevin Durant,LeBron James,Isaiah Thomas,Jaylen Brown,Karl-Anthony Towns,Zaza Pachulia,MIL,OKC,GS,CLE,BOS,BOS,MIN,GS,SG,PF,SF,SF,PG,SF,C,C,349.008,349.0,3,Nov32016,5
+Giannis Antetokounmpo,C.J. Miles,Aaron Gordon,Jabari Parker,Isaiah Thomas,Karl-Anthony Towns,Tristan Thompson,Jeff Teague,MIL,IND,ORL,MIL,BOS,MIN,CLE,IND,PG,SG,SF,SF,PG,C,C,PG,346.258,346.25,4,Nov32016,5
+Nemanja Bjelica,Jameer Nelson,Kevin Durant,LeBron James,Karl-Anthony Towns,Tristan Thompson,Jeff Teague,Klay Thompson,MIN,DEN,GS,CLE,MIN,CLE,IND,GS,PF,PG,SF,SF,C,C,PG,SG,341.758,341.75,5,Nov32016,5
+Kyrie Irving,Kevin Durant,Aaron Gordon,Isaiah Thomas,Jaylen Brown,Greg Monroe,Tristan Thompson,Avery Bradley,CLE,GS,ORL,BOS,BOS,MIL,CLE,BOS,PG,SF,SF,PG,SF,C,C,SG,340.258,340.25,6,Nov32016,5
+C.J. Miles,Jameer Nelson,DeMarcus Cousins,Kevin Durant,Jabari Parker,Isaiah Thomas,Zaza Pachulia,Avery Bradley,IND,DEN,SAC,GS,MIL,BOS,GS,BOS,SG,PG,PF,SF,SF,PG,C,SG,340.258,340.25,7,Nov32016,5
+Malcolm Brogdon,DeMarcus Cousins,Kyrie Irving,LeBron James,Jabari Parker,Jaylen Brown,Tristan Thompson,Jeff Teague,MIL,SAC,CLE,CLE,MIL,BOS,CLE,IND,SG,PF,PG,SF,SF,SF,C,PG,339.758,339.75,8,Nov32016,5
+C.J. Miles,Kyrie Irving,LeBron James,Aaron Gordon,Karl-Anthony Towns,Zaza Pachulia,Evan Fournier,Avery Bradley,IND,CLE,CLE,ORL,MIN,GS,ORL,BOS,SG,PG,SF,SF,C,C,SG,SG,338.758,338.75,9,Nov32016,5
+Giannis Antetokounmpo,Stephen Curry,LeBron James,Aaron Gordon,Jaylen Brown,Tristan Thompson,Zaza Pachulia,Monta Ellis,MIL,GS,CLE,ORL,BOS,CLE,GS,IND,PG,PG,SF,SF,SF,C,C,SG,338.258,338.25,10,Nov32016,5
+Malcolm Brogdon,Kevin Love,Kevin Durant,Jabari Parker,Wilson Chandler,Karl-Anthony Towns,Jeff Teague,Avery Bradley,MIL,CLE,GS,MIL,DEN,MIN,IND,BOS,SG,PF,SF,SF,SF,C,PG,SG,337.758,337.75,12,Nov32016,5
+Giannis Antetokounmpo,Malcolm Brogdon,Nemanja Bjelica,Kevin Durant,Aaron Gordon,Karl-Anthony Towns,Greg Monroe,Monta Ellis,MIL,MIL,MIN,GS,ORL,MIN,MIL,IND,PG,SG,PF,SF,SF,C,C,SG,337.758,337.75,11,Nov32016,5
+Giannis Antetokounmpo,Domantas Sabonis,Jameer Nelson,DeMarcus Cousins,Kevin Durant,Jaylen Brown,Tristan Thompson,Evan Fournier,MIL,OKC,DEN,SAC,GS,BOS,CLE,ORL,PG,PF,PG,PF,SF,SF,C,SG,337.008,337.0,13,Nov32016,5
+Malcolm Brogdon,Stephen Curry,LeBron James,Aaron Gordon,Jabari Parker,Isaiah Thomas,Greg Monroe,Tyler Zeller,MIL,GS,CLE,ORL,MIL,BOS,MIL,BOS,SG,PG,SF,SF,SF,PG,C,C,335.758,335.75,14,Nov32016,5
+Russell Westbrook,C.J. Miles,Domantas Sabonis,Jameer Nelson,LeBron James,Isaiah Thomas,Greg Monroe,Tristan Thompson,OKC,IND,OKC,DEN,CLE,BOS,MIL,CLE,PG,SG,PF,PG,SF,PG,C,C,335.008,335.0,15,Nov32016,5
+Giannis Antetokounmpo,Kevin Love,Kevin Durant,Jabari Parker,Isaiah Thomas,Jaylen Brown,Tyler Zeller,Iman Shumpert,MIL,CLE,GS,MIL,BOS,BOS,BOS,CLE,PG,PF,SF,SF,PG,SF,C,PG,334.758,334.75,16,Nov32016,5
+Giannis Antetokounmpo,Domantas Sabonis,Kyrie Irving,LeBron James,Wilson Chandler,Karl-Anthony Towns,Tristan Thompson,Iman Shumpert,MIL,OKC,CLE,CLE,DEN,MIN,CLE,CLE,PG,PF,PG,SF,SF,C,C,PG,334.258,334.25,17,Nov32016,5
+C.J. Miles,Domantas Sabonis,Kyrie Irving,Kevin Durant,Jabari Parker,Emmanuel Mudiay,Karl-Anthony Towns,Greg Monroe,IND,OKC,CLE,GS,MIL,DEN,MIN,MIL,SG,PF,PG,SF,SF,PG,C,C,334.008,334.0,18,Nov32016,5
+Giannis Antetokounmpo,Domantas Sabonis,Kevin Durant,Greg Monroe,Zaza Pachulia,Jeff Teague,Klay Thompson,Avery Bradley,MIL,OKC,GS,MIL,GS,IND,GS,BOS,PG,PF,SF,C,C,PG,SG,SG,333.508,333.5,19,Nov32016,5
+Domantas Sabonis,Jameer Nelson,Stephen Curry,Kevin Durant,Aaron Gordon,Karl-Anthony Towns,Tyler Zeller,Avery Bradley,OKC,DEN,GS,GS,ORL,MIN,BOS,BOS,PF,PG,PG,SF,SF,C,C,SG,333.258,333.25,20,Nov32016,5

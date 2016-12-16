@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Kawhi Leonard,Rondae Hollis-Jefferson,Terrence Jones,Dwyane Wade,Chris Paul,Mike Conley,Hassan Whiteside,Joakim Noah,406.758,406.75,1,Nov42016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Kawhi Leonard,Rondae Hollis-Jefferson,Terrence Jones,Dwyane Wade,Chris Paul,Mike Conley,Hassan Whiteside,Joakim Noah,SA,BKN,NO,CHI,LAC,MEM,MIA,NY,SF,SF,PF,SG,PG,PG,C,C,406.758,406.75,1,Nov42016,9
+Julius Randle,Terrence Jones,Damian Lillard,Chris Paul,Devin Booker,Mike Conley,Mason Plumlee,Tyson Chandler,LAL,NO,POR,LAC,PHO,MEM,POR,PHO,PF,PF,PG,PG,SG,PG,C,C,392.258,392.25,2,Nov42016,9
+Markieff Morris,Trevor Booker,Dwyane Wade,Chris Paul,Devin Booker,Mike Conley,Derrick Rose,Marc Gasol,WAS,BKN,CHI,LAC,PHO,MEM,NY,MEM,SF,PF,SG,PG,SG,PG,PG,C,385.008,385.0,3,Nov42016,9
+Kawhi Leonard,Terrence Jones,Lou Williams,E'Twaun Moore,Damian Lillard,Chris Paul,Derrick Rose,Marc Gasol,SA,NO,LAL,NO,POR,LAC,NY,MEM,SF,PF,SG,SG,PG,PG,PG,C,377.258,377.25,4,Nov42016,9
+Carmelo Anthony,Al-Farouq Aminu,Terrence Jones,Dwyane Wade,Chris Paul,John Wall,Derrick Rose,Mason Plumlee,NY,POR,NO,CHI,LAC,WAS,NY,POR,SF,PF,PF,SG,PG,PG,PG,C,372.758,372.75,5,Nov42016,9
+Kawhi Leonard,Trevor Booker,Al-Farouq Aminu,Lou Williams,Chris Paul,John Wall,Mike Conley,Tyson Chandler,SA,BKN,POR,LAL,LAC,WAS,MEM,PHO,SF,PF,PF,SG,PG,PG,PG,C,372.508,372.5,6,Nov42016,9
+Anthony Davis,Kawhi Leonard,Al-Farouq Aminu,Terrence Jones,Devin Booker,Tyler Johnson,Mike Conley,Derrick Rose,NO,SA,POR,NO,PHO,MIA,MEM,NY,PF,SF,PF,PF,SG,PG,PG,PG,370.508,370.5,7,Nov42016,9
+Rondae Hollis-Jefferson,Julius Randle,Dwyane Wade,Lou Williams,Damian Lillard,Mike Conley,Derrick Rose,Dwight Howard,BKN,LAL,CHI,LAL,POR,MEM,NY,ATL,SF,PF,SG,SG,PG,PG,PG,C,370.258,370.25,8,Nov42016,9
+Rondae Hollis-Jefferson,Al-Farouq Aminu,Damian Lillard,Chris Paul,Devin Booker,Derrick Rose,Hassan Whiteside,Cody Zeller,BKN,POR,POR,LAC,PHO,NY,MIA,CHA,SF,PF,PG,PG,SG,PG,C,C,369.758,369.75,9,Nov42016,9
+Carmelo Anthony,Terrence Jones,DeMar DeRozan,Sean Kilpatrick,Chris Paul,Tyler Johnson,Mike Conley,Marc Gasol,NY,NO,TOR,BKN,LAC,MIA,MEM,MEM,SF,PF,SG,SG,PG,PG,PG,C,369.758,369.75,10,Nov42016,9
+Kawhi Leonard,Julius Randle,Bradley Beal,Sean Kilpatrick,Chris Paul,Mike Conley,Derrick Rose,Cody Zeller,SA,LAL,WAS,BKN,LAC,MEM,NY,CHA,SF,PF,SG,SG,PG,PG,PG,C,369.008,369.0,11,Nov42016,9
+Markieff Morris,Terrence Jones,Bradley Beal,Lou Williams,Chris Paul,Devin Booker,John Wall,Hassan Whiteside,WAS,NO,WAS,LAL,LAC,PHO,WAS,MIA,SF,PF,SG,SG,PG,SG,PG,C,368.508,368.5,12,Nov42016,9
+Markieff Morris,Terrence Jones,Dwyane Wade,Damian Lillard,Chris Paul,Tyler Johnson,Dwight Howard,Cody Zeller,WAS,NO,CHI,POR,LAC,MIA,ATL,CHA,SF,PF,SG,PG,PG,PG,C,C,367.508,367.5,13,Nov42016,9
+Terrence Jones,Dwyane Wade,Bradley Beal,Damian Lillard,John Wall,Terrence Ross,Mike Conley,Marc Gasol,NO,CHI,WAS,POR,WAS,TOR,MEM,MEM,PF,SG,SG,PG,PG,SG,PG,C,367.508,367.5,14,Nov42016,9
+Kawhi Leonard,Markieff Morris,Al-Farouq Aminu,Dwyane Wade,Sean Kilpatrick,Damian Lillard,Mike Conley,Mason Plumlee,SA,WAS,POR,CHI,BKN,POR,MEM,POR,SF,SF,PF,SG,SG,PG,PG,C,366.008,366.0,15,Nov42016,9
+Carmelo Anthony,Rondae Hollis-Jefferson,Markieff Morris,Lou Williams,Stephen Curry,Chris Paul,Mike Conley,Mason Plumlee,NY,BKN,WAS,LAL,GS,LAC,MEM,POR,SF,SF,SF,SG,PG,PG,PG,C,365.508,365.5,16,Nov42016,9
+Kawhi Leonard,Julius Randle,Dwyane Wade,Chris Paul,J.J. Barea,Tyler Johnson,Marc Gasol,Tyson Chandler,SA,LAL,CHI,LAC,DAL,MIA,MEM,PHO,SF,PF,SG,PG,PG,PG,C,C,365.008,365.0,17,Nov42016,9
+Markieff Morris,Terrence Jones,DeMar DeRozan,Damian Lillard,Mike Conley,Derrick Rose,Dwight Powell,Hassan Whiteside,WAS,NO,TOR,POR,MEM,NY,DAL,MIA,SF,PF,SG,PG,PG,PG,PF,C,364.758,364.75,18,Nov42016,9
+Trevor Booker,Dwyane Wade,Lou Williams,Damian Lillard,Chris Paul,Terrence Ross,Hassan Whiteside,Mason Plumlee,BKN,CHI,LAL,POR,LAC,TOR,MIA,POR,PF,SG,SG,PG,PG,SG,C,C,364.758,364.75,19,Nov42016,9
+Julius Randle,Al-Farouq Aminu,Dwyane Wade,Lou Williams,Stephen Curry,Chris Paul,Devin Booker,Joakim Noah,LAL,POR,CHI,LAL,GS,LAC,PHO,NY,PF,PF,SG,SG,PG,PG,SG,C,364.258,364.25,20,Nov42016,9

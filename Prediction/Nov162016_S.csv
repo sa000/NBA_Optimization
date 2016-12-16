@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Paul George,Wilson Chandler,Victor Oladipo,Kristaps Porzingis,Kenneth Faried,Mike Conley,Brandon Knight,DeMarcus Cousins,422.008,422.0,1,Nov162016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Paul George,Wilson Chandler,Victor Oladipo,Kristaps Porzingis,Kenneth Faried,Mike Conley,Brandon Knight,DeMarcus Cousins,IND,DEN,OKC,NY,DEN,MEM,PHO,SAC,SF,SF,PG,PF,PF,PG,PG,PF,422.008,422.0,1,Nov162016,11
+Otto Porter,Wilson Chandler,Giannis Antetokounmpo,Victor Oladipo,Terrence Jones,Mike Conley,Kevin Love,Clint Capela,WAS,DEN,MIL,OKC,NO,MEM,CLE,HOU,SF,SF,PG,PG,PF,PG,PF,PF,403.758,403.75,2,Nov162016,11
+Wilson Chandler,Giannis Antetokounmpo,Victor Oladipo,Marc Gasol,Joakim Noah,Brandon Knight,Kevin Durant,Jabari Parker,DEN,MIL,OKC,MEM,NY,PHO,GS,MIL,SF,PG,PG,C,C,PG,SF,SF,395.008,395.0,3,Nov162016,11
+Wilson Chandler,Giannis Antetokounmpo,J.J. Redick,Kristaps Porzingis,Jeff Teague,Marc Gasol,Mike Conley,Pau Gasol,DEN,MIL,LAC,NY,IND,MEM,MEM,SA,SF,PG,SG,PF,PG,C,PG,C,390.508,390.5,4,Nov162016,11
+Wilson Chandler,DeMar DeRozan,Giannis Antetokounmpo,Kyle Korver,Terrence Jones,Pau Gasol,Brandon Knight,DeMarcus Cousins,DEN,TOR,MIL,ATL,NO,SA,PHO,SAC,SF,SG,PG,SG,PF,C,PG,PF,385.758,385.75,5,Nov162016,11
+Otto Porter,Giannis Antetokounmpo,J.J. Redick,Kyle Korver,Victor Oladipo,Kenneth Faried,Marc Gasol,DeMarcus Cousins,WAS,MIL,LAC,ATL,OKC,DEN,MEM,SAC,SF,PG,SG,SG,PG,PF,C,PF,384.258,384.25,6,Nov162016,11
+Stephen Curry,Victor Oladipo,Kenneth Faried,Terrence Jones,Marc Gasol,Mike Conley,Pau Gasol,Jabari Parker,GS,OKC,DEN,NO,MEM,MEM,SA,MIL,PG,PG,PF,PF,C,PG,C,SF,384.258,384.25,7,Nov162016,11
+Wilson Chandler,Giannis Antetokounmpo,Kyle Korver,Kyle Lowry,Kristaps Porzingis,Kenneth Faried,Joakim Noah,Kevin Love,DEN,MIL,ATL,TOR,NY,DEN,NY,CLE,SF,PG,SG,PG,PF,PF,C,PF,382.008,382.0,8,Nov162016,11
+Andre Iguodala,Giannis Antetokounmpo,J.J. Redick,Mike Conley,Brandon Knight,DeMarcus Cousins,Kevin Love,Jabari Parker,GS,MIL,LAC,MEM,PHO,SAC,CLE,MIL,SF,PG,SG,PG,PG,PF,PF,SF,381.758,381.75,9,Nov162016,11
+DeMar DeRozan,J.J. Redick,Victor Oladipo,Kristaps Porzingis,Terrence Jones,Mike Conley,Joakim Noah,Kevin Durant,TOR,LAC,OKC,NY,NO,MEM,NY,GS,SG,SG,PG,PF,PF,PG,C,SF,381.508,381.5,11,Nov162016,11
+Otto Porter,Giannis Antetokounmpo,Blake Griffin,Kenneth Faried,Mike Conley,Pau Gasol,Joakim Noah,Brandon Knight,WAS,MIL,LAC,DEN,MEM,SA,NY,PHO,SF,PG,PF,PF,PG,C,C,PG,381.508,381.5,10,Nov162016,11
+Wilson Chandler,Russell Westbrook,J.J. Redick,Kenneth Faried,Terrence Jones,Marc Gasol,Brandon Knight,Kevin Love,DEN,OKC,LAC,DEN,NO,MEM,PHO,CLE,SF,PG,SG,PF,PF,C,PG,PF,379.758,379.75,12,Nov162016,11
+Wilson Chandler,Stephen Curry,Wesley Matthews,J.J. Redick,Victor Oladipo,Kristaps Porzingis,Kevin Love,Jabari Parker,DEN,GS,DAL,LAC,OKC,NY,CLE,MIL,SF,PG,SG,SG,PG,PF,PF,SF,378.258,378.25,13,Nov162016,11
+Otto Porter,Kyle Korver,Victor Oladipo,Kristaps Porzingis,Pau Gasol,Brandon Knight,Kevin Love,Kevin Durant,WAS,ATL,OKC,NY,SA,PHO,CLE,GS,SF,SG,PG,PF,C,PG,PF,SF,378.008,378.0,14,Nov162016,11
+Wilson Chandler,Stephen Curry,Victor Oladipo,Jon Leuer,Terrence Jones,Jeff Teague,Joakim Noah,DeMarcus Cousins,DEN,GS,OKC,DET,NO,IND,NY,SAC,SF,PG,PG,PF,PF,PG,C,PF,376.508,376.5,15,Nov162016,11
+Wilson Chandler,DeMar DeRozan,Kyle Korver,Victor Oladipo,Blake Griffin,Marc Gasol,Mike Conley,LaMarcus Aldridge,DEN,TOR,ATL,OKC,LAC,MEM,MEM,SA,SF,SG,SG,PG,PF,C,PG,PF,376.508,376.5,16,Nov162016,11
+Otto Porter,Terrence Jones,Marc Gasol,Mike Conley,Brandon Knight,Tony Parker,DeMarcus Cousins,Kevin Durant,WAS,NO,MEM,MEM,PHO,SA,SAC,GS,SF,PF,C,PG,PG,PG,PF,SF,375.008,375.0,17,Nov162016,11
+Wilson Chandler,Andre Iguodala,Stephen Curry,DeMar DeRozan,Giannis Antetokounmpo,Victor Oladipo,Kenneth Faried,Mike Muscala,DEN,GS,GS,TOR,MIL,OKC,DEN,ATL,SF,SF,PG,SG,PG,PG,PF,C,375.008,375.0,18,Nov162016,11
+Wilson Chandler,DeMar DeRozan,Paul Millsap,Jeff Teague,Mike Conley,Joakim Noah,Brandon Knight,Kevin Love,DEN,TOR,ATL,IND,MEM,NY,PHO,CLE,SF,SG,PF,PG,PG,C,PG,PF,374.758,374.75,19,Nov162016,11
+Paul George,Otto Porter,Giannis Antetokounmpo,J.J. Redick,Kristaps Porzingis,Terrence Jones,Brandon Knight,LaMarcus Aldridge,IND,WAS,MIL,LAC,NY,NO,PHO,SA,SF,SF,PG,SG,PF,PF,PG,PF,374.008,374.0,20,Nov162016,11

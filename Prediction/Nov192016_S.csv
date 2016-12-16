@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Blake Griffin,Dwyane Wade,Bradley Beal,Marco Belinelli,Jabari Parker,Langston Galloway,Anthony Davis,Al Horford,399.258,399.25,1,Nov192016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Blake Griffin,Dwyane Wade,Bradley Beal,Marco Belinelli,Jabari Parker,Langston Galloway,Anthony Davis,Al Horford,LAC,CHI,WAS,CHA,MIL,NO,NO,BOS,PF,SG,SG,SG,SF,PG,PF,C,399.258,399.25,1,Nov192016,9
+Eric Gordon,Jonathan Gibson,Marco Belinelli,Kevin Durant,John Wall,Langston Galloway,Anthony Davis,Marcin Gortat,HOU,DAL,CHA,GS,WAS,NO,NO,WAS,SG,SG,SG,SF,PG,PG,PF,C,391.758,391.75,2,Nov192016,9
+Alan Williams,Dwyane Wade,Bradley Beal,Jonathan Gibson,Kevin Durant,Eric Bledsoe,Tim Frazier,Anthony Davis,PHO,CHI,WAS,DAL,GS,PHO,NO,NO,C,SG,SG,SG,SF,PG,PG,PF,381.508,381.5,3,Nov192016,9
+James Harden,Alan Williams,Blake Griffin,Jonathan Gibson,Marco Belinelli,Kevin Durant,Sergio Rodriguez,Al Horford,HOU,PHO,LAC,DAL,CHA,GS,PHI,BOS,PG,C,PF,SG,SG,SF,PG,C,379.508,379.5,4,Nov192016,9
+Michael Kidd-Gilchrist,Dwyane Wade,Eric Gordon,Jonathan Gibson,Giannis Antetokounmpo,Sergio Rodriguez,Anthony Davis,Al Horford,CHA,CHI,HOU,DAL,MIL,PHI,NO,BOS,SF,SG,SG,SG,PG,PG,PF,C,376.258,376.25,5,Nov192016,9
+Alan Williams,Bradley Beal,Eric Gordon,Kevin Durant,Jabari Parker,John Wall,Jrue Holiday,Al Horford,PHO,WAS,HOU,GS,MIL,WAS,NO,BOS,C,SG,SG,SF,SF,PG,PG,C,374.508,374.5,6,Nov192016,9
+Dwyane Wade,Bradley Beal,Marco Belinelli,Kevin Durant,Jrue Holiday,Sergio Rodriguez,Hassan Whiteside,Marcin Gortat,CHI,WAS,CHA,GS,NO,PHI,MIA,WAS,SG,SG,SG,SF,PG,PG,C,C,373.758,373.75,7,Nov192016,9
+James Harden,Alan Williams,Eric Gordon,Marco Belinelli,Jabari Parker,Rajon Rondo,Tim Frazier,Anthony Davis,HOU,PHO,HOU,CHA,MIL,CHI,NO,NO,PG,C,SG,SG,SF,PG,PG,PF,372.258,372.25,8,Nov192016,9
+Dwyane Wade,Jonathan Gibson,Kevin Durant,Jabari Parker,Isaiah Thomas,Rajon Rondo,Al Horford,Marcin Gortat,CHI,DAL,GS,MIL,BOS,CHI,BOS,WAS,SG,SG,SF,SF,PG,PG,C,C,371.508,371.5,9,Nov192016,9
+Bradley Beal,Jonathan Gibson,Marco Belinelli,Kevin Durant,Jabari Parker,Giannis Antetokounmpo,Rudy Gobert,Joel Embiid,WAS,DAL,CHA,GS,MIL,MIL,UTA,PHI,SG,SG,SG,SF,SF,PG,C,C,370.758,370.75,10,Nov192016,9
+Dwyane Wade,Eric Gordon,Marco Belinelli,Kevin Durant,Kemba Walker,Tim Frazier,Rudy Gobert,Al Horford,CHI,HOU,CHA,GS,CHA,NO,UTA,BOS,SG,SG,SG,SF,PG,PG,C,C,370.508,370.5,11,Nov192016,9
+Michael Kidd-Gilchrist,Bradley Beal,Jonathan Gibson,Marco Belinelli,Isaiah Thomas,Rajon Rondo,Hassan Whiteside,Anthony Davis,CHA,WAS,DAL,CHA,BOS,CHI,MIA,NO,SF,SG,SG,SG,PG,PG,C,PF,370.008,370.0,12,Nov192016,9
+Blake Griffin,Marcus Morris,Bradley Beal,Eric Gordon,Tim Frazier,Sergio Rodriguez,Anthony Davis,Marcin Gortat,LAC,DET,WAS,HOU,NO,PHI,NO,WAS,PF,SF,SG,SG,PG,PG,PF,C,369.258,369.25,13,Nov192016,9
+James Harden,JaMychal Green,Bradley Beal,Jonathan Gibson,Jabari Parker,Tyler Ulis,Anthony Davis,Marcin Gortat,HOU,MEM,WAS,DAL,MIL,PHO,NO,WAS,PG,PF,SG,SG,SF,PG,PF,C,369.258,369.25,14,Nov192016,9
+Blake Griffin,Michael Kidd-Gilchrist,Dwyane Wade,Bradley Beal,Jonathan Gibson,John Wall,Rudy Gobert,Marcin Gortat,LAC,CHA,CHI,WAS,DAL,WAS,UTA,WAS,PF,SF,SG,SG,SG,PG,C,C,369.008,369.0,15,Nov192016,9
+Alan Williams,Marcus Morris,Dwyane Wade,Marco Belinelli,John Wall,Isaiah Thomas,Sergio Rodriguez,Anthony Davis,PHO,DET,CHI,CHA,WAS,BOS,PHI,NO,C,SF,SG,SG,PG,PG,PG,PF,368.758,368.75,16,Nov192016,9
+Alan Williams,Blake Griffin,Dwyane Wade,Eric Gordon,Kevin Durant,Giannis Antetokounmpo,Langston Galloway,Clint Capela,PHO,LAC,CHI,HOU,GS,MIL,NO,HOU,C,PF,SG,SG,SF,PG,PG,C,367.008,367.0,17,Nov192016,9
+JaMychal Green,Marco Belinelli,Kevin Durant,Isaiah Thomas,Jrue Holiday,Andrew Harrison,Anthony Davis,Al Horford,MEM,CHA,GS,BOS,NO,MEM,NO,BOS,PF,SG,SF,PG,PG,PG,PF,C,366.758,366.75,18,Nov192016,9
+Bismack Biyombo,Dwyane Wade,Dion Waiters,Jonathan Gibson,Jabari Parker,John Wall,Jrue Holiday,Anthony Davis,ORL,CHI,MIA,DAL,MIL,WAS,NO,NO,C,SG,SG,SG,SF,PG,PG,PF,366.008,366.0,19,Nov192016,9
+Bismack Biyombo,Blake Griffin,Bradley Beal,Marco Belinelli,Kevin Durant,John Wall,Tim Frazier,Clint Capela,ORL,LAC,WAS,CHA,GS,WAS,NO,HOU,C,PF,SG,SG,SF,PG,PG,C,366.008,366.0,20,Nov192016,9

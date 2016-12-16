@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Russell Westbrook,Kenneth Faried,Nemanja Bjelica,Damian Lillard,Serge Ibaka,Elfrid Payton,Evan Turner,Andrew Wiggins,433.258,433.25,1,Nov132016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Russell Westbrook,Kenneth Faried,Nemanja Bjelica,Damian Lillard,Serge Ibaka,Elfrid Payton,Evan Turner,Andrew Wiggins,OKC,DEN,MIN,POR,ORL,ORL,POR,MIN,PG,PF,PF,PG,PF,PG,SG,SF,433.258,433.25,1,Nov132016,5
+Russell Westbrook,Stephen Curry,Channing Frye,Nemanja Bjelica,Draymond Green,Nicolas Batum,Elfrid Payton,P.J. Tucker,OKC,GS,CLE,MIN,GS,CHA,ORL,PHO,PG,PG,PF,PF,PF,SG,PG,SF,385.508,385.5,2,Nov132016,5
+Russell Westbrook,Nemanja Bjelica,Kevin Durant,Enes Kanter,Jamal Murray,Nicolas Batum,Ricky Rubio,Andrew Wiggins,OKC,MIN,GS,OKC,DEN,CHA,MIN,MIN,PG,PF,SF,C,PG,SG,PG,SF,378.758,378.75,3,Nov132016,5
+Russell Westbrook,Klay Thompson,Channing Frye,Draymond Green,Serge Ibaka,Andre Roberson,Ricky Rubio,Andrew Wiggins,OKC,GS,CLE,GS,ORL,OKC,MIN,MIN,PG,SG,PF,PF,PF,SG,PG,SF,374.008,374.0,4,Nov132016,5
+Russell Westbrook,Stephen Curry,Jared Dudley,Nemanja Bjelica,Steven Adams,Kevin Love,Andre Roberson,Andrew Wiggins,OKC,GS,PHO,MIN,OKC,CLE,OKC,MIN,PG,PG,PF,PF,C,PF,SG,SF,370.258,370.25,5,Nov132016,5
+Russell Westbrook,Evan Fournier,Jared Dudley,Nemanja Bjelica,Damian Lillard,Draymond Green,Ricky Rubio,Wilson Chandler,OKC,ORL,PHO,MIN,POR,GS,MIN,DEN,PG,SG,PF,PF,PG,PF,PG,SF,368.258,368.25,6,Nov132016,5
+Russell Westbrook,Kenneth Faried,Channing Frye,Kevin Durant,Karl-Anthony Towns,Jamal Murray,Elfrid Payton,Andre Roberson,OKC,DEN,CLE,GS,MIN,DEN,ORL,OKC,PG,PF,PF,SF,C,PG,PG,SG,367.758,367.75,7,Nov132016,5
+Russell Westbrook,Kenneth Faried,Jared Dudley,Draymond Green,Iman Shumpert,Nicolas Batum,Andrew Wiggins,Danilo Gallinari,OKC,DEN,PHO,GS,CLE,CHA,MIN,DEN,PG,PF,PF,PF,PG,SG,SF,SF,365.758,365.75,8,Nov132016,5
+Russell Westbrook,Jared Dudley,Kevin Love,Serge Ibaka,Nicolas Batum,Elfrid Payton,Ricky Rubio,Michael Kidd-Gilchrist,OKC,PHO,CLE,ORL,CHA,ORL,MIN,CHA,PG,PF,PF,PF,SG,PG,PG,SF,365.258,365.25,9,Nov132016,5
+Russell Westbrook,Evan Fournier,Nemanja Bjelica,Kevin Durant,Karl-Anthony Towns,Serge Ibaka,Michael Kidd-Gilchrist,P.J. Tucker,OKC,ORL,MIN,GS,MIN,ORL,CHA,PHO,PG,SG,PF,SF,C,PF,SF,SF,364.008,364.0,10,Nov132016,5
+Klay Thompson,Nemanja Bjelica,Kevin Durant,Karl-Anthony Towns,Draymond Green,Iman Shumpert,Elfrid Payton,Andrew Wiggins,GS,MIN,GS,MIN,GS,CLE,ORL,MIN,SG,PF,SF,C,PF,PG,PG,SF,363.508,363.5,11,Nov132016,5
+Russell Westbrook,Channing Frye,Nemanja Bjelica,Damian Lillard,Kevin Durant,Steven Adams,Iman Shumpert,Danilo Gallinari,OKC,CLE,MIN,POR,GS,OKC,CLE,DEN,PG,PF,PF,PG,SF,C,PG,SF,362.508,362.5,12,Nov132016,5
+Russell Westbrook,Stephen Curry,Kenneth Faried,Serge Ibaka,Jamal Murray,Nicolas Batum,Maurice Harkless,Wilson Chandler,OKC,GS,DEN,ORL,DEN,CHA,POR,DEN,PG,PG,PF,PF,PG,SG,SF,SF,362.008,362.0,13,Nov132016,5
+Russell Westbrook,Steven Adams,Draymond Green,Jamal Murray,Elfrid Payton,Andrew Wiggins,Michael Kidd-Gilchrist,Wilson Chandler,OKC,OKC,GS,DEN,ORL,MIN,CHA,DEN,PG,C,PF,PG,PG,SF,SF,SF,361.508,361.5,14,Nov132016,5
+Russell Westbrook,Channing Frye,Nemanja Bjelica,Karl-Anthony Towns,C.J. McCollum,Andrew Wiggins,Maurice Harkless,Wilson Chandler,OKC,CLE,MIN,MIN,POR,MIN,POR,DEN,PG,PF,PF,C,PG,SF,SF,SF,360.758,360.75,15,Nov132016,5
+Russell Westbrook,Stephen Curry,Klay Thompson,Kenneth Faried,Nemanja Bjelica,Mason Plumlee,Ricky Rubio,Michael Kidd-Gilchrist,OKC,GS,GS,DEN,MIN,POR,MIN,CHA,PG,PG,SG,PF,PF,C,PG,SF,360.758,360.75,16,Nov132016,5
+Stephen Curry,Evan Fournier,Channing Frye,Kevin Durant,Steven Adams,Serge Ibaka,Elfrid Payton,Andrew Wiggins,GS,ORL,CLE,GS,OKC,ORL,ORL,MIN,PG,SG,PF,SF,C,PF,PG,SF,359.508,359.5,17,Nov132016,5
+Stephen Curry,Nemanja Bjelica,Damian Lillard,Kevin Durant,Tristan Thompson,Serge Ibaka,Nicolas Batum,Andre Roberson,GS,MIN,POR,GS,CLE,ORL,CHA,OKC,PG,PF,PG,SF,C,PF,SG,SG,359.508,359.5,18,Nov132016,5
+Russell Westbrook,Nemanja Bjelica,Draymond Green,Serge Ibaka,Jamal Murray,Devin Booker,T.J. Warren,Danilo Gallinari,OKC,MIN,GS,ORL,DEN,PHO,PHO,DEN,PG,PF,PF,PF,PG,SG,SF,SF,358.758,358.75,19,Nov132016,5
+Russell Westbrook,Jared Dudley,Nemanja Bjelica,Kevin Durant,Mason Plumlee,Devin Booker,Elfrid Payton,Maurice Harkless,OKC,PHO,MIN,GS,POR,PHO,ORL,POR,PG,PF,PF,SF,C,SG,PG,SF,358.008,358.0,20,Nov132016,5

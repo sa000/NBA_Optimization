@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Russell Westbrook,T.J. Warren,Kentavious Caldwell-Pope,Wesley Matthews,Vince Carter,Julius Randle,Andre Drummond,Pau Gasol,372.008,372.0,1,Oct302016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Russell Westbrook,T.J. Warren,Kentavious Caldwell-Pope,Wesley Matthews,Vince Carter,Julius Randle,Andre Drummond,Pau Gasol,OKC,PHO,DET,DAL,MEM,LAL,DET,SA,PG,SF,SG,SG,SG,PF,C,C,372.008,372.0,1,Oct302016,7
+Russell Westbrook,T.J. Warren,Wesley Matthews,J.J. Barea,Mike Conley,David Lee,Hassan Whiteside,Marc Gasol,OKC,PHO,DAL,DAL,MEM,SA,MIA,MEM,PG,SF,SG,PG,PG,PF,C,C,364.008,364.0,2,Oct302016,7
+Russell Westbrook,Joe Ingles,Nick Young,Vince Carter,Zach Randolph,Mike Conley,Hassan Whiteside,Andre Drummond,OKC,UTA,LAL,MEM,MEM,MEM,MIA,DET,PG,SF,SG,SG,PF,PG,C,C,359.758,359.75,3,Oct302016,7
+Russell Westbrook,Justise Winslow,Kentavious Caldwell-Pope,J.J. Barea,Jared Dudley,Mike Conley,Andre Drummond,Steven Adams,OKC,MIA,DET,DAL,PHO,MEM,DET,OKC,PG,SF,SG,PG,PF,PG,C,C,356.758,356.75,4,Oct302016,7
+Kentavious Caldwell-Pope,Wesley Matthews,John Wall,J.J. Barea,Zach Randolph,Goran Dragic,Hassan Whiteside,Andre Drummond,DET,DAL,WAS,DAL,MEM,MIA,MIA,DET,SG,SG,PG,PG,PF,PG,C,C,355.258,355.25,5,Oct302016,7
+T.J. Warren,Nick Young,Wesley Matthews,Kevin Durant,Mike Conley,Goran Dragic,Andre Drummond,Steven Adams,PHO,LAL,DAL,GS,MEM,MIA,DET,OKC,SF,SG,SG,SF,PG,PG,C,C,352.508,352.5,6,Oct302016,7
+Russell Westbrook,Tyson Chandler,Joe Ingles,Austin Rivers,Wesley Matthews,J.J. Barea,Kevin Durant,Andre Drummond,OKC,PHO,UTA,LAC,DAL,DAL,GS,DET,PG,C,SF,PG,SG,PG,SF,C,350.508,350.5,7,Oct302016,7
+Russell Westbrook,T.J. Warren,Kentavious Caldwell-Pope,Nick Young,John Wall,Luke Babbitt,Hassan Whiteside,Steven Adams,OKC,PHO,DET,LAL,WAS,MIA,MIA,OKC,PG,SF,SG,SG,PG,PF,C,C,350.508,350.5,8,Oct302016,7
+Russell Westbrook,Joe Ingles,Wesley Matthews,Julius Randle,Jared Dudley,Goran Dragic,Hassan Whiteside,Steven Adams,OKC,UTA,DAL,LAL,PHO,MIA,MIA,OKC,PG,SF,SG,PF,PF,PG,C,C,348.258,348.25,9,Oct302016,7
+Russell Westbrook,James Ennis,Nick Young,Wesley Matthews,John Wall,Jared Dudley,Andre Drummond,Marc Gasol,OKC,MEM,LAL,DAL,WAS,PHO,DET,MEM,PG,SF,SG,SG,PG,PF,C,C,347.508,347.5,10,Oct302016,7
+Kentavious Caldwell-Pope,Vince Carter,Kevin Durant,Julius Randle,Mike Conley,Goran Dragic,Hassan Whiteside,Marc Gasol,DET,MEM,GS,LAL,MEM,MIA,MIA,MEM,SG,SG,SF,PF,PG,PG,C,C,347.258,347.25,11,Oct302016,7
+Justise Winslow,T.J. Warren,Marcus Thornton,John Wall,Julius Randle,Mike Conley,Hassan Whiteside,Andre Drummond,MIA,PHO,WAS,WAS,LAL,MEM,MIA,DET,SF,SF,SG,PG,PF,PG,C,C,347.008,347.0,12,Oct302016,7
+Russell Westbrook,James Ennis,Kentavious Caldwell-Pope,Austin Rivers,D'Angelo Russell,David Lee,Hassan Whiteside,Andre Drummond,OKC,MEM,DET,LAC,LAL,SA,MIA,DET,PG,SF,SG,PG,PG,PF,C,C,346.008,346.0,13,Oct302016,7
+Vince Carter,John Wall,J.J. Barea,Kevin Durant,Mike Conley,David Lee,Andre Drummond,Pau Gasol,MEM,WAS,DAL,GS,MEM,SA,DET,SA,SG,PG,PG,SF,PG,PF,C,C,344.258,344.25,14,Oct302016,7
+Russell Westbrook,T.J. Warren,Austin Rivers,Andre Roberson,Zach Randolph,Goran Dragic,Andre Drummond,Marc Gasol,OKC,PHO,LAC,OKC,MEM,MIA,DET,MEM,PG,SF,PG,SG,PF,PG,C,C,343.008,343.0,15,Oct302016,7
+Russell Westbrook,Tyson Chandler,Justise Winslow,Vince Carter,J.J. Barea,Julius Randle,D'Angelo Russell,Hassan Whiteside,OKC,PHO,MIA,MEM,DAL,LAL,LAL,MIA,PG,C,SF,SG,PG,PF,PG,C,342.758,342.75,16,Oct302016,7
+Russell Westbrook,Marcus Thornton,Wesley Matthews,Eric Bledsoe,Zach Randolph,David Lee,Andre Drummond,Steven Adams,OKC,WAS,DAL,PHO,MEM,SA,DET,OKC,PG,SG,SG,PG,PF,PF,C,C,342.508,342.5,17,Oct302016,7
+Justise Winslow,T.J. Warren,Kentavious Caldwell-Pope,J.J. Barea,Kevin Durant,Eric Bledsoe,Hassan Whiteside,Pau Gasol,MIA,PHO,DET,DAL,GS,PHO,MIA,SA,SF,SF,SG,PG,SF,PG,C,C,341.258,341.25,18,Oct302016,7
+T.J. Warren,Joe Ingles,Kentavious Caldwell-Pope,John Wall,Kevin Durant,Ryan Anderson,Andre Drummond,Marc Gasol,PHO,UTA,DET,WAS,GS,HOU,DET,MEM,SF,SF,SG,PG,SF,PF,C,C,339.258,339.25,19,Oct302016,7
+Russell Westbrook,Tyson Chandler,Kentavious Caldwell-Pope,Nick Young,Marcus Thornton,Kevin Durant,Mike Conley,Pau Gasol,OKC,PHO,DET,LAL,WAS,GS,MEM,SA,PG,C,SG,SG,SG,SF,PG,C,339.258,339.25,20,Oct302016,7

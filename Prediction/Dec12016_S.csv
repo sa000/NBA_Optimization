@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-James Harden,Draymond Green,Montrezl Harrell,Gordon Hayward,Sam Dekker,Austin Rivers,Shelvin Mack,Kevin Durant,369.758,369.75,1,Dec12016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+James Harden,Draymond Green,Montrezl Harrell,Gordon Hayward,Sam Dekker,Austin Rivers,Shelvin Mack,Kevin Durant,HOU,GS,HOU,UTA,HOU,LAC,UTA,GS,PG,PF,PF,SF,SF,PG,PG,SF,369.758,369.75,1,Dec12016,6
+James Harden,Draymond Green,Joe Ingles,James Johnson,Eric Gordon,Jonathan Gibson,Kevin Durant,John Henson,HOU,GS,UTA,MIA,HOU,DAL,GS,MIL,PG,PF,SF,SF,SG,SG,SF,C,364.508,364.5,2,Dec12016,6
+James Harden,Draymond Green,Gordon Hayward,James Johnson,Troy Daniels,Joe Johnson,Ryan Anderson,Marc Gasol,HOU,GS,UTA,MIA,MEM,UTA,HOU,MEM,PG,PF,SF,SF,SG,SG,PF,C,360.758,360.75,3,Dec12016,6
+James Harden,Roy Hibbert,Sam Dekker,James Johnson,Malcolm Brogdon,Giannis Antetokounmpo,Ryan Anderson,Kevin Durant,HOU,CHA,HOU,MIA,MIL,MIL,HOU,GS,PG,C,SF,SF,SG,PG,PF,SF,358.258,358.25,4,Dec12016,6
+Draymond Green,Gordon Hayward,James Johnson,Malcolm Brogdon,Goran Dragic,Deron Williams,Kevin Durant,Nikola Vucevic,GS,UTA,MIA,MIL,MIA,DAL,GS,ORL,PF,SF,SF,SG,PG,PG,SF,C,356.258,356.25,5,Dec12016,6
+Draymond Green,Giannis Antetokounmpo,Joe Johnson,Goran Dragic,Shelvin Mack,Ryan Anderson,Kevin Durant,John Henson,GS,MIL,UTA,MIA,UTA,HOU,GS,MIL,PF,PG,SG,PG,PG,PF,SF,C,355.258,355.25,6,Dec12016,6
+Montrezl Harrell,Gordon Hayward,James Johnson,Eric Gordon,Giannis Antetokounmpo,Randy Foye,Marc Gasol,Kevin Durant,HOU,UTA,MIA,HOU,MIL,BKN,MEM,GS,PF,SF,SF,SG,PG,PG,C,SF,352.258,352.25,7,Dec12016,6
+James Harden,Montrezl Harrell,Joe Ingles,Goran Dragic,Andrew Harrison,Ryan Anderson,Kevin Durant,Nikola Vucevic,HOU,HOU,UTA,MIA,MEM,HOU,GS,ORL,PG,PF,SF,PG,PG,PF,SF,C,351.508,351.5,8,Dec12016,6
+James Harden,Gordon Hayward,J.J. Redick,Joe Harris,Deron Williams,Ryan Anderson,Kevin Durant,John Henson,HOU,UTA,LAC,BKN,DAL,HOU,GS,MIL,PG,SF,SG,SG,PG,PF,SF,C,347.758,347.75,9,Dec12016,6
+James Harden,Andre Iguodala,Evan Fournier,James Johnson,Deron Williams,Austin Rivers,Marc Gasol,Kevin Durant,HOU,GS,ORL,MIA,DAL,LAC,MEM,GS,PG,SF,SG,SF,PG,PG,C,SF,346.258,346.25,10,Dec12016,6
+James Harden,Gordon Hayward,James Johnson,Wayne Ellington,Giannis Antetokounmpo,Austin Rivers,Nikola Vucevic,John Henson,HOU,UTA,MIA,MIA,MIL,LAC,ORL,MIL,PG,SF,SF,SG,PG,PG,C,C,345.758,345.75,12,Dec12016,6
+James Harden,Draymond Green,Sam Dekker,Joe Ingles,Giannis Antetokounmpo,Joe Johnson,Deron Williams,Nikola Vucevic,HOU,GS,HOU,UTA,MIL,UTA,DAL,ORL,PG,PF,SF,SF,PG,SG,PG,C,345.758,345.75,11,Dec12016,6
+James Harden,Draymond Green,Montrezl Harrell,Luc Richard Mbah a Moute,James Johnson,Giannis Antetokounmpo,Joe Harris,Goran Dragic,HOU,GS,HOU,LAC,MIA,MIL,BKN,MIA,PG,PF,PF,SF,SF,PG,SG,PG,345.258,345.25,13,Dec12016,6
+Roy Hibbert,Draymond Green,Gordon Hayward,Joe Ingles,Troy Daniels,Giannis Antetokounmpo,Andrew Harrison,Kevin Durant,CHA,GS,UTA,UTA,MEM,MIL,MEM,GS,C,PF,SF,SF,SG,PG,PG,SF,343.758,343.75,14,Dec12016,6
+James Harden,Sam Dekker,Troy Daniels,Goran Dragic,JaMychal Green,Marc Gasol,Kevin Durant,John Henson,HOU,HOU,MEM,MIA,MEM,MEM,GS,MIL,PG,SF,SG,PG,PF,C,SF,C,342.758,342.75,15,Dec12016,6
+James Harden,Gordon Hayward,Luc Richard Mbah a Moute,Malcolm Brogdon,Jonathan Gibson,Andrew Harrison,Marc Gasol,Kevin Durant,HOU,UTA,LAC,MIL,DAL,MEM,MEM,GS,PG,SF,SF,SG,SG,PG,C,SF,341.008,341.0,16,Dec12016,6
+Draymond Green,Sam Dekker,Joe Ingles,J.J. Redick,Stephen Curry,Ryan Anderson,Marc Gasol,Kevin Durant,GS,HOU,UTA,LAC,GS,HOU,MEM,GS,PF,SF,SF,SG,PG,PF,C,SF,340.508,340.5,17,Dec12016,6
+James Harden,Harrison Barnes,James Johnson,J.J. Redick,Troy Daniels,Shelvin Mack,Kevin Durant,Nikola Vucevic,HOU,DAL,MIA,LAC,MEM,UTA,GS,ORL,PG,SF,SF,SG,SG,PG,SF,C,339.758,339.75,18,Dec12016,6
+Gordon Hayward,Eric Gordon,Joe Johnson,Stephen Curry,Austin Rivers,Ryan Anderson,Kevin Durant,Nikola Vucevic,UTA,HOU,UTA,GS,LAC,HOU,GS,ORL,SF,SG,SG,PG,PG,PF,SF,C,339.758,339.75,19,Dec12016,6
+James Harden,Draymond Green,Luc Richard Mbah a Moute,Evan Fournier,Wayne Ellington,Randy Foye,Ryan Anderson,Kevin Durant,HOU,GS,LAC,ORL,MIA,BKN,HOU,GS,PG,PF,SF,SG,SG,PG,PF,SF,338.258,338.25,20,Dec12016,6

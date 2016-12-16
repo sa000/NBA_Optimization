@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Russell Westbrook,Zach LaVine,Andre Iguodala,Jeremy Lamb,Kelly Oubre Jr.,DeMarcus Cousins,Goran Dragic,Enes Kanter,401.008,401.0,1,Nov282016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Russell Westbrook,Zach LaVine,Andre Iguodala,Jeremy Lamb,Kelly Oubre Jr.,DeMarcus Cousins,Goran Dragic,Enes Kanter,OKC,MIN,GS,CHA,WAS,SAC,MIA,OKC,PG,SG,SF,SG,SG,PF,PG,C,401.008,401.0,1,Nov282016,7
+Bradley Beal,Zach LaVine,Robert Covington,Sergio Rodriguez,DeMarcus Cousins,Rudy Gobert,Goran Dragic,Derrick Rose,WAS,MIN,PHI,PHI,SAC,UTA,MIA,NY,SG,SG,SF,PG,PF,C,PG,PG,381.508,381.5,2,Nov282016,7
+Bradley Beal,Zach LaVine,Jarell Martin,Kevin Durant,Hassan Whiteside,Goran Dragic,Enes Kanter,Dennis Schroder,WAS,MIN,MEM,GS,MIA,MIA,OKC,ATL,SG,SG,PF,SF,C,PG,C,PG,375.508,375.5,3,Nov282016,7
+Russell Westbrook,Bradley Beal,Robert Covington,Richaun Holmes,John Wall,Kelly Olynyk,Goran Dragic,Enes Kanter,OKC,WAS,PHI,PHI,WAS,BOS,MIA,OKC,PG,SG,SF,PF,PG,PF,PG,C,371.508,371.5,4,Nov282016,7
+Kristaps Porzingis,Jarell Martin,John Wall,Terrence Ross,DeMarcus Cousins,Goran Dragic,Enes Kanter,Derrick Rose,NY,MEM,WAS,TOR,SAC,MIA,OKC,NY,PF,PF,PG,SG,PF,PG,C,PG,370.758,370.75,5,Nov282016,7
+Russell Westbrook,Richaun Holmes,Jarell Martin,Jeremy Lamb,Hassan Whiteside,Rudy Gobert,Goran Dragic,Derrick Rose,OKC,PHI,MEM,CHA,MIA,UTA,MIA,NY,PG,PF,PF,SG,C,C,PG,PG,369.758,369.75,6,Nov282016,7
+Robert Covington,Jeremy Lamb,Terrence Ross,DeMarcus Cousins,Isaiah Thomas,Hassan Whiteside,Goran Dragic,Dennis Schroder,PHI,CHA,TOR,SAC,BOS,MIA,MIA,ATL,SF,SG,SG,PF,PG,C,PG,PG,366.258,366.25,7,Nov282016,7
+Bradley Beal,Kristaps Porzingis,George Hill,Jeremy Lamb,Isaiah Thomas,Rudy Gobert,Goran Dragic,Enes Kanter,WAS,NY,UTA,CHA,BOS,UTA,MIA,OKC,SG,PF,PG,SG,PG,C,PG,C,362.758,362.75,8,Nov282016,7
+Zach LaVine,Kristaps Porzingis,Richaun Holmes,Kelly Oubre Jr.,DeMarcus Cousins,Hassan Whiteside,Derrick Rose,Dennis Schroder,MIN,NY,PHI,WAS,SAC,MIA,NY,ATL,SG,PF,PF,SG,PF,C,PG,PG,362.258,362.25,9,Nov282016,7
+Russell Westbrook,Zach LaVine,Robert Covington,Terrence Ross,DeMarre Carroll,Hassan Whiteside,Enes Kanter,Derrick Rose,OKC,MIN,PHI,TOR,TOR,MIA,OKC,NY,PG,SG,SF,SG,SF,C,C,PG,361.758,361.75,10,Nov282016,7
+Zach LaVine,Jae Crowder,Michael Kidd-Gilchrist,John Wall,DeMarcus Cousins,Kelly Olynyk,Goran Dragic,Dennis Schroder,MIN,BOS,CHA,WAS,SAC,BOS,MIA,ATL,SG,SF,SF,PG,PF,PF,PG,PG,361.508,361.5,11,Nov282016,7
+Bradley Beal,Zach LaVine,Richaun Holmes,Terrence Ross,Kyle Lowry,DeMarcus Cousins,Isaiah Thomas,Enes Kanter,WAS,MIN,PHI,TOR,TOR,SAC,BOS,OKC,SG,SG,PF,SG,PG,PF,PG,C,361.008,361.0,12,Nov282016,7
+Russell Westbrook,Zach LaVine,Robert Covington,Kristaps Porzingis,Jarell Martin,Isaiah Thomas,Goran Dragic,Tyler Zeller,OKC,MIN,PHI,NY,MEM,BOS,MIA,BOS,PG,SG,SF,PF,PF,PG,PG,C,360.258,360.25,13,Nov282016,7
+Russell Westbrook,Bradley Beal,Sergio Rodriguez,Jarell Martin,Jeremy Lamb,DeMarcus Cousins,Kelly Olynyk,Dennis Schroder,OKC,WAS,PHI,MEM,CHA,SAC,BOS,ATL,PG,SG,PG,PF,SG,PF,PF,PG,358.758,358.75,14,Nov282016,7
+Bradley Beal,Jae Crowder,Andre Iguodala,Richaun Holmes,George Hill,DeMarcus Cousins,Hassan Whiteside,Goran Dragic,WAS,BOS,GS,PHI,UTA,SAC,MIA,MIA,SG,SF,SF,PF,PG,PF,C,PG,358.258,358.25,15,Nov282016,7
+Courtney Lee,Michael Kidd-Gilchrist,Robert Covington,George Hill,DeMarcus Cousins,Kevin Durant,Goran Dragic,Enes Kanter,NY,CHA,PHI,UTA,SAC,GS,MIA,OKC,SG,SF,SF,PG,PF,SF,PG,C,356.758,356.75,16,Nov282016,7
+Russell Westbrook,Zach LaVine,Jae Crowder,Sergio Rodriguez,Jarell Martin,John Wall,Rudy Gobert,Enes Kanter,OKC,MIN,BOS,PHI,MEM,WAS,UTA,OKC,PG,SG,SF,PG,PF,PG,C,C,356.508,356.5,17,Nov282016,7
+Richaun Holmes,John Wall,Kelly Oubre Jr.,DeMarcus Cousins,Isaiah Thomas,DeMarre Carroll,Rudy Gobert,Goran Dragic,PHI,WAS,WAS,SAC,BOS,TOR,UTA,MIA,PF,PG,SG,PF,PG,SF,C,PG,355.758,355.75,18,Nov282016,7
+Russell Westbrook,Courtney Lee,Paul Millsap,DeMarre Carroll,Rudy Gobert,Goran Dragic,Enes Kanter,Dennis Schroder,OKC,NY,ATL,TOR,UTA,MIA,OKC,ATL,PG,SG,PF,SF,C,PG,C,PG,355.008,355.0,19,Nov282016,7
+Klay Thompson,Kelly Oubre Jr.,Kyle Lowry,Kevin Durant,Rudy Gobert,Goran Dragic,Enes Kanter,Derrick Rose,GS,WAS,TOR,GS,UTA,MIA,OKC,NY,SG,SG,PG,SF,C,PG,C,PG,354.508,354.5,20,Nov282016,7

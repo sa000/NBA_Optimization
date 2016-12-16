@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Anthony Davis,E'Twaun Moore,Tim Frazier,Jamal Murray,Rajon Rondo,Jabari Parker,Hassan Whiteside,Justise Winslow,344.008,344.0,1,Nov102016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Anthony Davis,E'Twaun Moore,Tim Frazier,Jamal Murray,Rajon Rondo,Jabari Parker,Hassan Whiteside,Justise Winslow,NO,NO,NO,DEN,CHI,MIL,MIA,MIA,PF,SG,PG,PG,PG,SF,C,SF,344.008,344.0,1,Nov102016,4
+Dion Waiters,Tyler Johnson,Rajon Rondo,Jabari Parker,Hassan Whiteside,Robin Lopez,Stephen Curry,Jimmy Butler,MIA,MIA,CHI,MIL,MIA,CHI,GS,CHI,SG,PG,PG,SF,C,C,PG,SG,332.258,332.25,2,Nov102016,4
+DeMarcus Cousins,Matthew Dellavedova,Rajon Rondo,Jabari Parker,Justise Winslow,Stephen Curry,Solomon Hill,Lou Williams,SAC,MIL,CHI,MIL,MIA,GS,NO,LAL,PF,PG,PG,SF,SF,PG,SF,SG,322.758,322.75,3,Nov102016,4
+Tim Frazier,Matthew Dellavedova,Kevin Durant,Jabari Parker,Hassan Whiteside,Juancho Hernangomez,Stephen Curry,Doug McDermott,NO,MIL,GS,MIL,MIA,DEN,GS,CHI,PG,PG,SF,SF,C,C,PG,SF,316.508,316.5,4,Nov102016,4
+DeMarcus Cousins,Dion Waiters,Tim Frazier,Jamal Murray,Draymond Green,Jabari Parker,Stephen Curry,Josh Richardson,SAC,MIA,NO,DEN,GS,MIL,GS,MIA,PF,SG,PG,PG,PF,SF,PG,SG,315.258,315.25,5,Nov102016,4
+Anthony Davis,Jamal Murray,Jabari Parker,Juancho Hernangomez,Stephen Curry,Solomon Hill,Jimmy Butler,Julius Randle,NO,DEN,MIL,DEN,GS,NO,CHI,LAL,PF,PG,SF,C,PG,SF,SG,PF,312.008,312.0,6,Nov102016,4
+Draymond Green,Jabari Parker,Hassan Whiteside,Justise Winslow,Matt Barnes,Stephen Curry,Kenneth Faried,Nick Young,GS,MIL,MIA,MIA,SAC,GS,DEN,LAL,PF,SF,C,SF,SF,PG,PF,SG,308.758,308.75,7,Nov102016,4
+Jamal Murray,Rajon Rondo,Draymond Green,Kevin Durant,Dante Cunningham,Hassan Whiteside,Stephen Curry,Solomon Hill,DEN,CHI,GS,GS,NO,MIA,GS,NO,PG,PG,PF,SF,SF,C,PG,SF,308.008,308.0,8,Nov102016,4
+Anthony Davis,Dion Waiters,Rajon Rondo,Kevin Durant,Jabari Parker,Juancho Hernangomez,Lou Williams,Nick Young,NO,MIA,CHI,GS,MIL,DEN,LAL,LAL,PF,SG,PG,SF,SF,C,SG,SG,306.508,306.5,9,Nov102016,4
+Anthony Davis,Tim Frazier,Tyler Johnson,Jabari Parker,JaVale McGee,Stephen Curry,Kenneth Faried,Lou Williams,NO,NO,MIA,MIL,GS,GS,DEN,LAL,PF,PG,PG,SF,C,PG,PF,SG,306.258,306.25,11,Nov102016,4
+DeMarcus Cousins,E'Twaun Moore,Tim Frazier,Rajon Rondo,Juancho Hernangomez,Stephen Curry,Jimmy Butler,Kenneth Faried,SAC,NO,NO,CHI,DEN,GS,CHI,DEN,PF,SG,PG,PG,C,PG,SG,PF,306.258,306.25,10,Nov102016,4
+DeMarcus Cousins,Dion Waiters,Tim Frazier,Matthew Dellavedova,Rajon Rondo,Hassan Whiteside,Matt Barnes,Julius Randle,SAC,MIA,NO,MIL,CHI,MIA,SAC,LAL,PF,SG,PG,PG,PG,C,SF,PF,305.008,305.0,12,Nov102016,4
+Anthony Davis,Dion Waiters,Matthew Dellavedova,Dante Cunningham,Hassan Whiteside,Justise Winslow,Stephen Curry,Josh Richardson,NO,MIA,MIL,NO,MIA,MIA,GS,MIA,PF,SG,PG,SF,C,SF,PG,SG,304.508,304.5,13,Nov102016,4
+Anthony Davis,Malcolm Brogdon,Rajon Rondo,Draymond Green,Malik Beasley,Jabari Parker,Stephen Curry,Doug McDermott,NO,MIL,CHI,GS,DEN,MIL,GS,CHI,PF,SG,PG,PF,PG,SF,PG,SF,303.008,303.0,14,Nov102016,4
+Rajon Rondo,Draymond Green,Jabari Parker,Hassan Whiteside,Josh Richardson,Julius Randle,Dwyane Wade,Lou Williams,CHI,GS,MIL,MIA,MIA,LAL,CHI,LAL,PG,PF,SF,C,SG,PF,SG,SG,301.508,301.5,15,Nov102016,4
+Tim Frazier,Jamal Murray,Kevin Durant,Robin Lopez,Justise Winslow,Stephen Curry,Jimmy Butler,Lou Williams,NO,DEN,GS,CHI,MIA,GS,CHI,LAL,PG,PG,SF,C,SF,PG,SG,SG,301.008,301.0,16,Nov102016,4
+Tim Frazier,Tyler Johnson,Matthew Dellavedova,Draymond Green,Jabari Parker,Justise Winslow,Jimmy Butler,Julius Randle,NO,MIA,MIL,GS,MIL,MIA,CHI,LAL,PG,PG,PG,PF,SF,SF,SG,PF,300.758,300.75,17,Nov102016,4
+Anthony Davis,Dion Waiters,Rajon Rondo,Draymond Green,Justise Winslow,Solomon Hill,Jimmy Butler,Kenneth Faried,NO,MIA,CHI,GS,MIA,NO,CHI,DEN,PF,SG,PG,PF,SF,SF,SG,PF,300.758,300.75,18,Nov102016,4
+DeMarcus Cousins,Tyler Johnson,Matthew Dellavedova,Jamal Murray,Jabari Parker,Hassan Whiteside,Rudy Gay,Kenneth Faried,SAC,MIA,MIL,DEN,MIL,MIA,SAC,DEN,PF,PG,PG,PG,SF,C,SF,PF,300.758,300.75,19,Nov102016,4
+Anthony Davis,Dion Waiters,Tim Frazier,Matthew Dellavedova,Jabari Parker,Robin Lopez,Giannis Antetokounmpo,Solomon Hill,NO,MIA,NO,MIL,MIL,CHI,MIL,NO,PF,SG,PG,PG,SF,C,PG,SF,300.008,300.0,20,Nov102016,4

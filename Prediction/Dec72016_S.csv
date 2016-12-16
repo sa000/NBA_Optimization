@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Eric Gordon,Paul George,Wilson Chandler,Jeff Teague,Tyler Johnson,Patrick Beverley,Andre Drummond,Dwight Howard,384.258,384.25,1,Dec72016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Eric Gordon,Paul George,Wilson Chandler,Jeff Teague,Tyler Johnson,Patrick Beverley,Andre Drummond,Dwight Howard,HOU,IND,DEN,IND,MIA,HOU,DET,ATL,SG,SF,SF,PG,PG,PG,C,C,384.258,384.25,1,Dec72016,10
+Paul Millsap,Trevor Booker,Rodney McGruder,Wilson Chandler,Giannis Antetokounmpo,Marcelo Huertas,Andre Drummond,Dwight Howard,ATL,BKN,MIA,DEN,MIL,LAL,DET,ATL,PF,PF,SG,SF,PG,PG,C,C,376.258,376.25,2,Dec72016,10
+Brook Lopez,Jamal Crawford,Courtney Lee,Wilson Chandler,Giannis Antetokounmpo,Stephen Curry,Patrick Beverley,Dwight Howard,BKN,LAC,NY,DEN,MIL,GS,HOU,ATL,C,SG,SG,SF,PG,PG,PG,C,365.258,365.25,3,Dec72016,10
+Mason Plumlee,Paul Millsap,Courtney Lee,Nicolas Batum,Giannis Antetokounmpo,Tyler Johnson,Patrick Beverley,Andre Drummond,POR,ATL,NY,CHA,MIL,MIA,HOU,DET,C,PF,SG,SG,PG,PG,PG,C,360.758,360.75,4,Dec72016,10
+Brook Lopez,Paul Millsap,Jamal Crawford,Wilson Chandler,Damian Lillard,Jeff Teague,Isaiah Whitehead,Andre Drummond,BKN,ATL,LAC,DEN,POR,IND,BKN,DET,C,PF,SG,SF,PG,PG,PG,C,358.508,358.5,5,Dec72016,10
+Nikola Jokic,Paul Millsap,Jae Crowder,Jamal Crawford,Giannis Antetokounmpo,Jeff Teague,Tyler Johnson,Dwight Howard,DEN,ATL,BOS,LAC,MIL,IND,MIA,ATL,C,PF,SF,SG,PG,PG,PG,C,358.008,358.0,6,Dec72016,10
+Tristan Thompson,Paul Millsap,Sean Kilpatrick,Paul George,Giannis Antetokounmpo,Patrick Beverley,Terry Rozier,Dwight Howard,CLE,ATL,BKN,IND,MIL,HOU,BOS,ATL,C,PF,SG,SF,PG,PG,PG,C,357.258,357.25,7,Dec72016,10
+Brook Lopez,DeMarcus Cousins,Paul Millsap,Avery Bradley,Wilson Chandler,Tyler Johnson,Patrick Beverley,Marcelo Huertas,BKN,SAC,ATL,BOS,DEN,MIA,HOU,LAL,C,PF,PF,SG,SF,PG,PG,PG,357.008,357.0,8,Dec72016,10
+Mason Plumlee,Avery Bradley,Sean Kilpatrick,Wilson Chandler,Giannis Antetokounmpo,Tyler Johnson,Isaiah Whitehead,Dwight Howard,POR,BOS,BKN,DEN,MIL,MIA,BKN,ATL,C,SG,SG,SF,PG,PG,PG,C,355.508,355.5,9,Dec72016,10
+Brook Lopez,Sean Kilpatrick,Jamal Crawford,Paul George,Giannis Antetokounmpo,Tyler Johnson,Marcelo Huertas,Andre Drummond,BKN,BKN,LAC,IND,MIL,MIA,LAL,DET,C,SG,SG,SF,PG,PG,PG,C,355.508,355.5,10,Dec72016,10
+DeMarcus Cousins,Jae Crowder,Rodney McGruder,Wilson Chandler,Damian Lillard,Patrick Beverley,Isaiah Whitehead,Dwight Howard,SAC,BOS,MIA,DEN,POR,HOU,BKN,ATL,PF,SF,SG,SF,PG,PG,PG,C,354.758,354.75,11,Dec72016,10
+Garrett Temple,DeMarcus Cousins,Eric Gordon,Jamal Crawford,Wilson Chandler,Giannis Antetokounmpo,Terry Rozier,Andre Drummond,SAC,SAC,HOU,LAC,DEN,MIL,BOS,DET,PG,PF,SG,SG,SF,PG,PG,C,354.258,354.25,12,Dec72016,10
+Tristan Thompson,Paul Millsap,Courtney Lee,Wilson Chandler,Damian Lillard,Kyrie Irving,Tyler Johnson,Dwight Howard,CLE,ATL,NY,DEN,POR,CLE,MIA,ATL,C,PF,SG,SF,PG,PG,PG,C,354.008,354.0,13,Dec72016,10
+Julius Randle,Jae Crowder,Avery Bradley,Giannis Antetokounmpo,Patrick Beverley,Iman Shumpert,Andre Drummond,Dwight Howard,LAL,BOS,BOS,MIL,HOU,CLE,DET,ATL,PF,SF,SG,PG,PG,PG,C,C,353.008,353.0,14,Dec72016,10
+Brook Lopez,Mason Plumlee,Trevor Booker,Rodney McGruder,Paul George,Giannis Antetokounmpo,Jeff Teague,Patrick Beverley,BKN,POR,BKN,MIA,IND,MIL,IND,HOU,C,C,PF,SG,SF,PG,PG,PG,353.008,353.0,15,Dec72016,10
+Sam Dekker,Courtney Lee,Paul George,Giannis Antetokounmpo,Kyrie Irving,Isaiah Whitehead,Andre Drummond,Dwight Howard,HOU,NY,IND,MIL,CLE,BKN,DET,ATL,SF,SG,SF,PG,PG,PG,C,C,352.508,352.5,16,Dec72016,10
+Garrett Temple,DeMarcus Cousins,Paul Millsap,Sean Kilpatrick,Wilson Chandler,Jeff Teague,Iman Shumpert,Dwight Howard,SAC,SAC,ATL,BKN,DEN,IND,CLE,ATL,PG,PF,PF,SG,SF,PG,PG,C,352.258,352.25,17,Dec72016,10
+Nikola Jokic,Sam Dekker,Wayne Ellington,Wilson Chandler,Giannis Antetokounmpo,Damian Lillard,Patrick Beverley,Andre Drummond,DEN,HOU,MIA,DEN,MIL,POR,HOU,DET,C,SF,SG,SF,PG,PG,PG,C,352.258,352.25,18,Dec72016,10
+Sean Kilpatrick,Courtney Lee,LeBron James,Damian Lillard,Patrick Beverley,Marcelo Huertas,Andre Drummond,Dwight Howard,BKN,NY,CLE,POR,HOU,LAL,DET,ATL,SG,SG,SF,PG,PG,PG,C,C,352.008,352.0,19,Dec72016,10
+Tristan Thompson,Jae Crowder,Sean Kilpatrick,Courtney Lee,Wilson Chandler,Giannis Antetokounmpo,Jeff Teague,Andre Drummond,CLE,BOS,BKN,NY,DEN,MIL,IND,DET,C,SF,SG,SG,SF,PG,PG,C,351.508,351.5,20,Dec72016,10

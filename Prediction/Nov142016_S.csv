@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Terrence Jones,Hassan Whiteside,Tobias Harris,Dion Waiters,Russell Westbrook,Isaiah Thomas,Trevor Ariza,Joe Ingles,364.258,364.25,1,Nov142016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Terrence Jones,Hassan Whiteside,Tobias Harris,Dion Waiters,Russell Westbrook,Isaiah Thomas,Trevor Ariza,Joe Ingles,NO,MIA,DET,MIA,OKC,BOS,HOU,UTA,PF,C,SF,SG,PG,PG,SF,SF,364.258,364.25,1,Nov142016,8
+Kristaps Porzingis,Clint Capela,Trey Lyles,Dion Waiters,Justin Holiday,Russell Westbrook,Chris Paul,Isaiah Thomas,NY,HOU,UTA,MIA,NY,OKC,LAC,BOS,PF,PF,PF,SG,SG,PG,PG,PG,350.258,350.25,2,Nov142016,8
+James Harden,Kristaps Porzingis,Hassan Whiteside,Aron Baynes,Dion Waiters,Isaiah Thomas,Langston Galloway,Vince Carter,HOU,NY,MIA,DET,MIA,BOS,NO,MEM,PG,PF,C,C,SG,PG,PG,SF,348.008,348.0,3,Nov142016,8
+Hassan Whiteside,Dion Waiters,Justin Holiday,Chris Paul,Marcus Smart,Trevor Ariza,Vince Carter,Anthony Davis,MIA,MIA,NY,LAC,BOS,HOU,MEM,NO,C,SG,SG,PG,PG,SF,SF,PF,344.508,344.5,4,Nov142016,8
+James Harden,Aron Baynes,Trey Lyles,Russell Westbrook,Chris Paul,Trevor Ariza,Vince Carter,Joe Ingles,HOU,DET,UTA,OKC,LAC,HOU,MEM,UTA,PG,C,PF,PG,PG,SF,SF,SF,341.508,341.5,5,Nov142016,8
+Terrence Jones,Hassan Whiteside,Aron Baynes,Justin Holiday,Russell Westbrook,Chris Paul,Langston Galloway,Kawhi Leonard,NO,MIA,DET,NY,OKC,LAC,NO,SA,PF,C,C,SG,PG,PG,PG,SF,341.258,341.25,6,Nov142016,8
+James Harden,Terrence Jones,Clint Capela,Dion Waiters,Chris Paul,Langston Galloway,Carmelo Anthony,Trevor Ariza,HOU,NO,HOU,MIA,LAC,NO,NY,HOU,PG,PF,PF,SG,PG,PG,SF,SF,340.008,340.0,7,Nov142016,8
+Kevin Seraphin,Dion Waiters,Chris Paul,Isaiah Thomas,Langston Galloway,Kawhi Leonard,Anthony Davis,Joe Ingles,IND,MIA,LAC,BOS,NO,SA,NO,UTA,C,SG,PG,PG,PG,SF,PF,SF,339.008,339.0,8,Nov142016,8
+Tobias Harris,J.J. Redick,Justin Holiday,Russell Westbrook,Isaiah Thomas,Langston Galloway,Vince Carter,Anthony Davis,DET,LAC,NY,OKC,BOS,NO,MEM,NO,SF,SG,SG,PG,PG,PG,SF,PF,338.508,338.5,9,Nov142016,8
+James Harden,Hassan Whiteside,Trey Lyles,J.J. Redick,Justin Holiday,Isaiah Thomas,Jeff Teague,Trevor Ariza,HOU,MIA,UTA,LAC,NY,BOS,IND,HOU,PG,C,PF,SG,SG,PG,PG,SF,337.508,337.5,10,Nov142016,8
+Clint Capela,Aron Baynes,J.J. Redick,Russell Westbrook,Isaiah Thomas,Marcus Smart,Kawhi Leonard,Trevor Ariza,HOU,DET,LAC,OKC,BOS,BOS,SA,HOU,PF,C,SG,PG,PG,PG,SF,SF,337.258,337.25,11,Nov142016,8
+Clint Capela,Hassan Whiteside,Dion Waiters,J.J. Redick,Russell Westbrook,Jeff Teague,Carmelo Anthony,Vince Carter,HOU,MIA,MIA,LAC,OKC,IND,NY,MEM,PF,C,SG,SG,PG,PG,SF,SF,336.758,336.75,12,Nov142016,8
+Hassan Whiteside,Tobias Harris,Trey Lyles,C.J. Miles,Chris Paul,Isaiah Thomas,Langston Galloway,Carmelo Anthony,MIA,DET,UTA,IND,LAC,BOS,NO,NY,C,SF,PF,SG,PG,PG,PG,SF,335.758,335.75,13,Nov142016,8
+Kristaps Porzingis,Jerami Grant,Dion Waiters,J.J. Redick,Isaiah Thomas,Carmelo Anthony,Trevor Ariza,Anthony Davis,NY,OKC,MIA,LAC,BOS,NY,HOU,NO,PF,SF,SG,SG,PG,SF,SF,PF,335.008,335.0,14,Nov142016,8
+James Harden,Terrence Jones,Marreese Speights,Trey Lyles,Dion Waiters,Isaiah Thomas,Marcus Smart,Kawhi Leonard,HOU,NO,LAC,UTA,MIA,BOS,BOS,SA,PG,PF,PF,PF,SG,PG,PG,SF,334.258,334.25,15,Nov142016,8
+Trey Lyles,Dion Waiters,C.J. Miles,Russell Westbrook,Jeff Teague,Langston Galloway,Trevor Ariza,Anthony Davis,UTA,MIA,IND,OKC,IND,NO,HOU,NO,PF,SG,SG,PG,PG,PG,SF,PF,333.758,333.75,16,Nov142016,8
+James Harden,Aron Baynes,Kevin Seraphin,Tobias Harris,Dion Waiters,Justin Holiday,Russell Westbrook,Carmelo Anthony,HOU,DET,IND,DET,MIA,NY,OKC,NY,PG,C,C,SF,SG,SG,PG,SF,333.758,333.75,17,Nov142016,8
+Hassan Whiteside,Trey Lyles,Jerami Grant,Jamal Crawford,Russell Westbrook,Isaiah Thomas,Kawhi Leonard,Vince Carter,MIA,UTA,OKC,LAC,OKC,BOS,SA,MEM,C,PF,SF,SG,PG,PG,SF,SF,333.508,333.5,18,Nov142016,8
+Kristaps Porzingis,Aron Baynes,Tobias Harris,Dion Waiters,Chris Paul,Jeff Teague,Kawhi Leonard,Trevor Ariza,NY,DET,DET,MIA,LAC,IND,SA,HOU,PF,C,SF,SG,PG,PG,SF,SF,333.258,333.25,19,Nov142016,8
+James Harden,Hassan Whiteside,Marreese Speights,Dion Waiters,J.J. Redick,Chris Paul,Mike Conley,Joe Ingles,HOU,MIA,LAC,MIA,LAC,LAC,MEM,UTA,PG,C,PF,SG,SG,PG,PG,SF,333.258,333.25,20,Nov142016,8

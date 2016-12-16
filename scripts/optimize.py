@@ -20,7 +20,7 @@ def optimize(projected_lineup, date, iteration, modified):
 	decision_variables = []
 	player_names=[]
 	player_vars={}
-
+	player_pos_team={}
 	
 	position_arr=[]
 	team_arr=[]
@@ -49,6 +49,7 @@ def optimize(projected_lineup, date, iteration, modified):
 
 		variable = str('x' + str(rownum))
 		player_vars[variable]=row['Name']
+		player_pos_team[variable]=[row['Position'], row['Team']]
 		variable = pulp.LpVariable(str(variable), lowBound = 0, upBound = 1, cat= 'Integer') #make variables binary
 		
 		decision_variables.append(variable)
@@ -139,69 +140,85 @@ def optimize(projected_lineup, date, iteration, modified):
 		file='%s_S.csv' %date
 
 	player_list=[]
+	team_list=[]
+	pos_list=[]
 	for i in xrange(8):
 		player_list.append('Player%s' %str(i+1))
-
+		team_list.append('Team%s' %str(i+1))
+		pos_list.append('Pos%s' %str(i+1))
 
 	#Solving the problem
-	div_limit=[8] #Setting to 8 essentially nullifies the constraint. this should be used for the best lineup
+	div_limit=3 #Setting to 8 essentially nullifies the constraint. this should be used for the best lineup
 	target=open(file, 'w')
-	headers=player_list+['Projected Value', 'Actual Scored', 'Iteration', 'date', 'Overlap Limit'] 
+	headers=player_list+team_list+pos_list+['Projected Value', 'Actual Scored', 'Iteration', 'date', 'NumGames'] 
 	csvwriter=csv.writer(target)
 	csvwriter.writerow(headers)
-	for limit in div_limit:
 
-		for i in range(1,iterations+1):
-			projected_lineup=[]
-			scored_lineup=[]
-			optimization_result = prob.solve()
-			selected_vars = []
-			print "final"
-			#print prob
-			fileLP="NBA%d.lp"%i
-			#prob.writeLP(fileLP)
-			#os.rename(fileLP, '../Prediction/%s'%fileLP)
+	num_games=get_num_of_games(date)
 
-			assert optimization_result == pulp.LpStatusOptimal
-			print("Status:", LpStatus[prob.status])
-			print ("Individual decision_variables: ")
-			for v in prob.variables():
-				#print(v.name, "=", v.varValue)
-				if v.varValue:
-					#print v
-					selected_vars.append(v)
-					projected_lineup.append(player_vars[v.name])
-					scored_lineup.append(data[data['Name']==player_vars[v.name]].Scored.values[0])
-			#Diversity constraint
-			diversity_constraint=sum([var for var in selected_vars])
+	for i in range(1,iterations+1):
+		teams=[]
+		positions=[]
+		projected_lineup=[]
+		scored_lineup=[]
+		optimization_result = prob.solve()
+		selected_vars = []
+		print "final"
+		#print prob
+		fileLP="NBA%d.lp"%i
+		#prob.writeLP(fileLP)
+		#os.rename(fileLP, '../Prediction/%s'%fileLP)
 
-			prob+=(diversity_constraint<=limit)
+		assert optimization_result == pulp.LpStatusOptimal
+		print("Status:", LpStatus[prob.status])
+		print ("Individual decision_variables: ")
+		for v in prob.variables():
+			#print(v.name, "=", v.varValue)
+			if v.varValue:
+				#print v
+				selected_vars.append(v)
+				projected_lineup.append(player_vars[v.name])
+				scored_lineup.append(data[data['Name']==player_vars[v.name]].Scored.values[0])
+				teams.append(player_pos_team[v.name][1])
+				positions.append(player_pos_team[v.name][0].split('/')[0])
 
-			print projected_lineup
-			print scored_lineup
+		#Diversity constraint
+		diversity_constraint=sum([var for var in selected_vars])
 
-		 	print("Expected Calculations ", value(prob.objective))
-		 	print 'Scored Calculations', sum(scored_lineup)
-		 	final_output=projected_lineup+[value(prob.objective), sum(scored_lineup), i, date, limit]
-		 	csvwriter.writerow(final_output)
-		 	print "Iteration%d, Limit%d" %(i,limit)
+		prob+=(diversity_constraint<=div_limit)
+
+		print projected_lineup
+		print scored_lineup
+
+	 	print("Expected Calculations ", value(prob.objective))
+	 	print 'Scored Calculations', sum(scored_lineup)
+	 	final_output=projected_lineup+teams+positions+[value(prob.objective), sum(scored_lineup), i, date, num_games]
+	 	csvwriter.writerow(final_output)
+	 	print "Iteration%d" % i
 	target.close()
 	df=pd.read_csv(file)
 	df=df.sort(['Actual Scored'], ascending=False)
 	df.to_csv(file, index=False)
 	os.rename(file, '../Prediction/%s' %file)
 
-
+def get_num_of_games(date):
+	date=date[0:-4]
+	sched=pd.read_csv('../Data/schedule.csv')
+	sched_date=date[3:]+'-'+date[0:3]+'-'+'16'
+	games=sched[sched['DATE']==sched_date]
+	num_games=games.shape[0]
+	return num_games
 
 ##Initial Parameters
 
 projected_lineup=False #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
 #date='Dec132016'
 
-iterations=1
+iterations=20
 modified=True
 dates=os.listdir('../Projections/past')[1:]
 dates=[date.strip('projection_').strip('.csv') for date in dates]
 for date in dates:
+	print date
 	optimize(projected_lineup, date,iterations,False)
 #optimize(projected_lineup, date,iterations,False)

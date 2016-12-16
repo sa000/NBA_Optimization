@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Harrison Barnes,Klay Thompson,Lou Williams,Tony Allen,Marc Gasol,Rudy Gobert,Langston Galloway,LeBron James,427.508,427.5,1,Dec52016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Harrison Barnes,Klay Thompson,Lou Williams,Tony Allen,Marc Gasol,Rudy Gobert,Langston Galloway,LeBron James,DAL,GS,LAL,MEM,MEM,UTA,NO,CLE,SF,SG,SG,SG,C,C,PG,SF,427.508,427.5,1,Dec52016,11
+Nikola Mirotic,Will Barton,Danilo Gallinari,Klay Thompson,Lou Williams,Marc Gasol,Brook Lopez,Damian Lillard,CHI,DEN,DEN,GS,LAL,MEM,BKN,POR,SF,SG,SF,SG,SG,C,C,PG,417.008,417.0,2,Dec52016,11
+Jabari Parker,Deron Williams,Klay Thompson,Dwyane Wade,Lou Williams,Sergio Rodriguez,Marc Gasol,Al Horford,MIL,DAL,GS,CHI,LAL,PHI,MEM,BOS,SF,PG,SG,SG,SG,PG,C,C,410.008,410.0,3,Dec52016,11
+Russell Westbrook,Will Barton,Klay Thompson,Tony Allen,Sergio Rodriguez,Marc Gasol,Jusuf Nurkic,Ersan Ilyasova,OKC,DEN,GS,MEM,PHI,MEM,DEN,PHI,PG,SG,SG,SG,PG,C,C,PF,405.008,405.0,4,Dec52016,11
+Russell Westbrook,Solomon Hill,Klay Thompson,Lou Williams,Troy Daniels,Marc Gasol,Greg Monroe,Trevor Booker,OKC,NO,GS,LAL,MEM,MEM,MIL,BKN,PG,SF,SG,SG,SG,C,C,PF,400.508,400.5,5,Dec52016,11
+Anthony Brown,Klay Thompson,Dwyane Wade,Tony Allen,Marc Gasol,Trevor Booker,Damian Lillard,Kevin Love,NO,GS,CHI,MEM,MEM,BKN,POR,CLE,SF,SG,SG,SG,C,PF,PG,PF,399.258,399.25,6,Dec52016,11
+Russell Westbrook,Nikola Mirotic,Dennis Schroder,Dwyane Wade,Lou Williams,Tony Allen,Marc Gasol,JaVale McGee,OKC,CHI,ATL,CHI,LAL,MEM,MEM,GS,PG,SF,PG,SG,SG,SG,C,C,397.758,397.75,7,Dec52016,11
+Nicolas Batum,Dennis Schroder,Michael Kidd-Gilchrist,Klay Thompson,Lou Williams,Marc Gasol,Ersan Ilyasova,Kevin Love,CHA,ATL,CHA,GS,LAL,MEM,PHI,CLE,SG,PG,SF,SG,SG,C,PF,PF,395.508,395.5,8,Dec52016,11
+Nikola Mirotic,Klay Thompson,Dwyane Wade,Troy Daniels,Marc Gasol,Rudy Gobert,Ersan Ilyasova,John Wall,CHI,GS,CHI,MEM,MEM,UTA,PHI,WAS,SF,SG,SG,SG,C,C,PF,PG,394.508,394.5,9,Dec52016,11
+Russell Westbrook,Anthony Brown,Deron Williams,Klay Thompson,Lou Williams,Tony Allen,Brook Lopez,LaMarcus Aldridge,OKC,NO,DAL,GS,LAL,MEM,BKN,SA,PG,SF,PG,SG,SG,SG,C,PF,394.258,394.25,10,Dec52016,11
+Russell Westbrook,Dario Saric,Allen Crabbe,Danilo Gallinari,Klay Thompson,Dwyane Wade,Marc Gasol,Langston Galloway,OKC,PHI,POR,DEN,GS,CHI,MEM,NO,PG,SF,SG,SF,SG,SG,C,PG,394.008,394.0,11,Dec52016,11
+Nikola Mirotic,Solomon Hill,DeMar DeRozan,Deron Williams,Klay Thompson,Tony Allen,Marc Gasol,Anthony Davis,CHI,NO,TOR,DAL,GS,MEM,MEM,NO,SF,SF,SG,PG,SG,SG,C,PF,393.258,393.25,12,Dec52016,11
+Jabari Parker,Dennis Schroder,Klay Thompson,Tony Allen,Marc Gasol,Brook Lopez,John Wall,Jamal Murray,MIL,ATL,GS,MEM,MEM,BKN,WAS,DEN,SF,PG,SG,SG,C,C,PG,PG,392.758,392.75,13,Dec52016,11
+Russell Westbrook,Nikola Mirotic,Klay Thompson,Troy Daniels,Tony Allen,Al Horford,Damian Lillard,Langston Galloway,OKC,CHI,GS,MEM,MEM,BOS,POR,NO,PG,SF,SG,SG,SG,C,PG,PG,391.758,391.75,14,Dec52016,11
+Allen Crabbe,Lou Williams,Tony Allen,Marc Gasol,Al Horford,Ersan Ilyasova,John Wall,Damian Lillard,POR,LAL,MEM,MEM,BOS,PHI,WAS,POR,SG,SG,SG,C,C,PF,PG,PG,391.258,391.25,15,Dec52016,11
+Dennis Schroder,Danilo Gallinari,Klay Thompson,Lou Williams,Tony Allen,Sergio Rodriguez,Trevor Booker,Anthony Davis,ATL,DEN,GS,LAL,MEM,PHI,BKN,NO,PG,SF,SG,SG,SG,PG,PF,PF,390.758,390.75,16,Dec52016,11
+Will Barton,DeMar DeRozan,Klay Thompson,Marc Gasol,Al Horford,Paul Millsap,Trevor Booker,Langston Galloway,DEN,TOR,GS,MEM,BOS,ATL,BKN,NO,SG,SG,SG,C,C,PF,PF,PG,390.258,390.25,17,Dec52016,11
+Jabari Parker,Harrison Barnes,Nicolas Batum,Klay Thompson,Troy Daniels,Marc Gasol,Jusuf Nurkic,Damian Lillard,MIL,DAL,CHA,GS,MEM,MEM,DEN,POR,SF,SF,SG,SG,SG,C,C,PG,388.258,388.25,18,Dec52016,11
+Harrison Barnes,Trevor Ariza,Will Barton,Dennis Schroder,Klay Thompson,Dwyane Wade,Marc Gasol,LaMarcus Aldridge,DAL,HOU,DEN,ATL,GS,CHI,MEM,SA,SF,SF,SG,PG,SG,SG,C,PF,388.258,388.25,19,Dec52016,11
+Dario Saric,DeMar DeRozan,Klay Thompson,Gerald Henderson,Sergio Rodriguez,Marc Gasol,Rudy Gobert,Damian Lillard,PHI,TOR,GS,PHI,PHI,MEM,UTA,POR,SF,SG,SG,SG,PG,C,C,PG,388.258,388.25,20,Dec52016,11

@@ -1,2 +1,21 @@
-Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Projected Value,Actual Scored,Iteration,date,Overlap Limit
-Russell Westbrook,Dennis Schroder,Ish Smith,Kentavious Caldwell-Pope,Wayne Ellington,Nikola Jokic,Kent Bazemore,Karl-Anthony Towns,411.008,411.0,1,Nov302016,8
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Russell Westbrook,Dennis Schroder,Ish Smith,Kentavious Caldwell-Pope,Wayne Ellington,Nikola Jokic,Kent Bazemore,Karl-Anthony Towns,OKC,ATL,DET,DET,MIA,DEN,ATL,MIN,PG,PG,PG,SG,SG,PF,SG,C,411.008,411.0,1,Nov302016,10
+Dennis Schroder,Marcus Morris,Wesley Matthews,Damian Lillard,Wayne Ellington,Kristaps Porzingis,Karl-Anthony Towns,Andre Drummond,ATL,DET,DAL,POR,MIA,NY,MIN,DET,PG,SF,SG,PG,SG,PF,C,C,402.008,402.0,2,Nov302016,10
+Russell Westbrook,Wesley Matthews,Wayne Ellington,Andrew Harrison,Patty Mills,James Johnson,Hassan Whiteside,Karl-Anthony Towns,OKC,DAL,MIA,MEM,SA,MIA,MIA,MIN,PG,SG,SG,PG,PG,SF,C,C,396.508,396.5,3,Nov302016,10
+Dennis Schroder,Jameer Nelson,Kentavious Caldwell-Pope,Damian Lillard,Patrick Patterson,James Johnson,Hassan Whiteside,Karl-Anthony Towns,ATL,DEN,DET,POR,TOR,MIA,MIA,MIN,PG,PG,SG,PG,PF,SF,C,C,395.258,395.25,4,Nov302016,10
+Dennis Schroder,Marcus Morris,Ish Smith,Victor Oladipo,Julius Randle,Andrew Harrison,Hassan Whiteside,Karl-Anthony Towns,ATL,DET,DET,OKC,LAL,MEM,MIA,MIN,PG,SF,PG,SG,PF,PG,C,C,393.008,393.0,5,Nov302016,10
+Victor Oladipo,Damian Lillard,Wayne Ellington,Julius Randle,Patty Mills,Kyle Lowry,Kent Bazemore,Karl-Anthony Towns,OKC,POR,MIA,LAL,SA,TOR,ATL,MIN,SG,PG,SG,PF,PG,PG,SG,C,392.508,392.5,6,Nov302016,10
+Russell Westbrook,Damian Lillard,Wayne Ellington,JaMychal Green,Patrick Patterson,Brandon Knight,Evan Turner,Karl-Anthony Towns,OKC,POR,MIA,MEM,TOR,PHO,POR,MIN,PG,PG,SG,PF,PF,PG,SG,C,391.508,391.5,7,Nov302016,10
+Ish Smith,Victor Oladipo,Damian Lillard,Kristaps Porzingis,Brandon Knight,James Johnson,Nikola Jokic,Karl-Anthony Towns,DET,OKC,POR,NY,PHO,MIA,DEN,MIN,PG,SG,PG,PF,PG,SF,PF,C,390.258,390.25,8,Nov302016,10
+Russell Westbrook,Marcus Morris,Jameer Nelson,Victor Oladipo,Wesley Matthews,Patrick Patterson,Nikola Jokic,Karl-Anthony Towns,OKC,DET,DEN,OKC,DAL,TOR,DEN,MIN,PG,SF,PG,SG,SG,PF,PF,C,389.508,389.5,9,Nov302016,10
+Ish Smith,Bradley Beal,Damian Lillard,Andrew Harrison,Patrick Patterson,Kent Bazemore,Karl-Anthony Towns,Andre Drummond,DET,WAS,POR,MEM,TOR,ATL,MIN,DET,PG,SG,PG,PG,PF,SG,C,C,388.258,388.25,10,Nov302016,10
+Dennis Schroder,Wesley Matthews,JaMychal Green,Brandon Knight,Kyle Lowry,Kent Bazemore,Hassan Whiteside,Karl-Anthony Towns,ATL,DAL,MEM,PHO,TOR,ATL,MIA,MIN,PG,SG,PF,PG,PG,SG,C,C,388.008,388.0,11,Nov302016,10
+Ish Smith,Jameer Nelson,Wayne Ellington,Kristaps Porzingis,Kyle Lowry,Evan Turner,Hassan Whiteside,Karl-Anthony Towns,DET,DEN,MIA,NY,TOR,POR,MIA,MIN,PG,PG,SG,PF,PG,SG,C,C,387.508,387.5,12,Nov302016,10
+Russell Westbrook,Marcus Morris,Kentavious Caldwell-Pope,JaMychal Green,Andrew Harrison,Cory Joseph,Karl-Anthony Towns,Andre Drummond,OKC,DET,DET,MEM,MEM,TOR,MIN,DET,PG,SF,SG,PF,PG,PG,C,C,387.258,387.25,13,Nov302016,10
+Russell Westbrook,Dennis Schroder,Troy Daniels,Patrick Patterson,Patty Mills,Larry Nance Jr.,Karl-Anthony Towns,Andre Drummond,OKC,ATL,MEM,TOR,SA,LAL,MIN,DET,PG,PG,SG,PF,PG,SF,C,C,387.258,387.25,14,Nov302016,10
+Robin Lopez,Ish Smith,Kentavious Caldwell-Pope,Wesley Matthews,Damian Lillard,Larry Nance Jr.,Kyle Lowry,Karl-Anthony Towns,CHI,DET,DET,DAL,POR,LAL,TOR,MIN,C,PG,SG,SG,PG,SF,PG,C,385.258,385.25,15,Nov302016,10
+Kentavious Caldwell-Pope,Damian Lillard,Julius Randle,Andrew Harrison,Tobias Harris,Jeff Teague,Nikola Jokic,Karl-Anthony Towns,DET,POR,LAL,MEM,DET,IND,DEN,MIN,SG,PG,PF,PG,SF,PG,PF,C,383.758,383.75,16,Nov302016,10
+Marcus Morris,Kentavious Caldwell-Pope,Kristaps Porzingis,Patty Mills,Brandon Knight,Jeff Teague,Hassan Whiteside,Karl-Anthony Towns,DET,DET,NY,SA,PHO,IND,MIA,MIN,SF,SG,PF,PG,PG,PG,C,C,383.508,383.5,17,Nov302016,10
+Russell Westbrook,Robin Lopez,Dennis Schroder,Wesley Matthews,Tobias Harris,Cory Joseph,Evan Turner,Karl-Anthony Towns,OKC,CHI,ATL,DAL,DET,TOR,POR,MIN,PG,C,PG,SG,SF,PG,SG,C,382.758,382.75,18,Nov302016,10
+Russell Westbrook,Robin Lopez,Ish Smith,Julius Randle,Patrick Patterson,Tim Hardaway Jr.,James Johnson,Karl-Anthony Towns,OKC,CHI,DET,LAL,TOR,ATL,MIA,MIN,PG,C,PG,PF,PF,PG,SF,C,382.008,382.0,19,Nov302016,10
+Russell Westbrook,Victor Oladipo,Wayne Ellington,Kristaps Porzingis,Tim Hardaway Jr.,Larry Nance Jr.,Cory Joseph,Karl-Anthony Towns,OKC,OKC,MIA,NY,ATL,LAL,TOR,MIN,PG,SG,SG,PF,PG,SF,PG,C,382.008,382.0,20,Nov302016,10
