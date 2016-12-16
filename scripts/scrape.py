@@ -99,6 +99,7 @@ def grab_contests():
 			row2=data.xpath('//*[@id="MainContent_GridView3"]/tbody/tr[%s]/td/a//text()'%str(i+1))
 			info=row1+row2
 			info.append(date)
+
 			csvwriter.writerow(info)
 			print date, i
 	target.close()
