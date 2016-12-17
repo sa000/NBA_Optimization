@@ -41,7 +41,7 @@ def create_stats():
 		p=pd.read_csv('../Projections/past/%s'%file)
 		df=df.append(p, ignore_index=True)
 	players=df['Name'].unique()
-	header=['Name', 'Average Diff', 'STD']
+	header=['Name', 'Average FPTS', 'STD FPTS']
 	target=open('../Data/risk.csv', 'w')
 	csvwriter=csv.writer(target)
 	csvwriter.writerow(header)
@@ -49,8 +49,8 @@ def create_stats():
 		print player
 		player_df=df[df['Name']==player]
 		diff=player_df['Scored']-player_df['Projected']
-		avg=np.average(diff)
-		std=np.std(diff)
+		avg=np.average(player_df['Scored'])
+		std=np.std(player_df['Scored'])
 		data=[player,round(avg,2),round(std,2)]
 		csvwriter.writerow(data)
 	target.close()
