@@ -1,0 +1,51 @@
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames,Risk
+John Wall,Goran Dragic,Kawhi Leonard,Myles Turner,Jonas Valanciunas,Bradley Beal,Austin Rivers,Luol Deng,WAS,MIA,SA,IND,TOR,WAS,LAC,LAL,PG,PG,SF,C,C,SG,PG,SF,554.675120382,306.75,19,Dec14,0,98.04
+John Wall,James Johnson,David Lee,Hassan Whiteside,Myles Turner,Lou Williams,Chris Paul,Luol Deng,WAS,MIA,SA,MIA,IND,LAL,LAC,LAL,PG,PF,PF,C,C,SG,PG,SF,558.439564241,292.75,10,Dec14,0,89.97
+John Wall,Kyle Lowry,David Lee,Andre Drummond,Jonas Valanciunas,Tyler Johnson,Nicolas Batum,Luol Deng,WAS,TOR,SA,DET,TOR,MIA,CHA,LAL,PG,PG,PF,C,C,PG,SG,SF,546.409743049,289.75,47,Dec14,0,86.36
+John Wall,James Johnson,Frank Kaminsky,Marc Gasol,Myles Turner,Kelly Oubre Jr.,Austin Rivers,Russell Westbrook,WAS,MIA,CHA,MEM,IND,WAS,LAC,OKC,PG,PF,PF,C,C,SG,PG,PG,561.09220519,288.25,8,Dec14,0,97.21
+John Wall,James Johnson,Goran Dragic,Robert Covington,Marc Gasol,Jonas Valanciunas,Lou Williams,Sergio Rodriguez,WAS,MIA,MIA,PHI,MEM,TOR,LAL,PHI,PG,PF,PG,SF,C,C,SG,PG,556.945753831,285.0,14,Dec14,0,106.91
+Blake Griffin,Robert Covington,Deron Williams,Myles Turner,Jonas Valanciunas,Nick Young,Austin Rivers,Russell Westbrook,LAC,PHI,DAL,IND,TOR,LAL,LAC,OKC,PF,SF,PG,C,C,SG,PG,PG,555.990260925,283.75,17,Dec14,0,99.32
+John Wall,David Lee,Rudy Gobert,Eric Gordon,Austin Rivers,Julius Randle,Russell Westbrook,Luol Deng,WAS,SA,UTA,HOU,LAC,LAL,OKC,LAL,PG,PF,C,SG,PG,PF,PG,SF,558.300191278,281.5,11,Dec14,0,86.67
+John Wall,Kyle Lowry,Richaun Holmes,Deron Williams,Hassan Whiteside,Jonas Valanciunas,Nick Young,Otto Porter,WAS,TOR,PHI,DAL,MIA,TOR,LAL,WAS,PG,PG,PF,PG,C,C,SG,SF,547.275210575,280.25,40,Dec14,0,98.48
+John Wall,Blake Griffin,David Lee,Brook Lopez,Myles Turner,Jordan Clarkson,Austin Rivers,Paul George,WAS,LAC,SA,BKN,IND,LAL,LAC,IND,PG,PF,PF,C,C,PG,PG,SF,548.317297692,279.5,34,Dec14,0,98.17
+John Wall,Goran Dragic,Hassan Whiteside,Tony Allen,Sergio Rodriguez,Julius Randle,Otto Porter,Luol Deng,WAS,MIA,MIA,MEM,PHI,LAL,WAS,LAL,PG,PG,C,SG,PG,PF,SF,SF,548.316494163,277.75,35,Dec14,0,106.2
+John Wall,Blake Griffin,David Lee,Goran Dragic,Hassan Whiteside,Jonas Valanciunas,Kelly Oubre Jr.,Andrew Harrison,WAS,LAC,SA,MIA,MIA,TOR,WAS,MEM,PG,PF,PF,PG,C,C,SG,PG,562.272222505,274.75,7,Dec14,0,100.11
+John Wall,Blake Griffin,James Johnson,Andre Drummond,Jonas Valanciunas,Eric Gordon,Austin Rivers,Otto Porter,WAS,LAC,MIA,DET,TOR,HOU,LAC,WAS,PG,PF,PF,C,C,SG,PG,SF,563.120787869,271.5,6,Dec14,0,98.29
+John Wall,Frank Kaminsky,Brook Lopez,Jonas Valanciunas,Avery Bradley,Andrew Harrison,Chris Paul,Otto Porter,WAS,CHA,BKN,TOR,BOS,MEM,LAC,WAS,PG,PF,C,C,SG,PG,PG,SF,546.967424165,270.0,43,Dec14,0,95.11
+John Wall,Richaun Holmes,Marcin Gortat,Jonas Valanciunas,Lou Williams,Austin Rivers,Russell Westbrook,DeMarre Carroll,WAS,PHI,WAS,TOR,LAL,LAC,OKC,TOR,PG,PF,C,C,SG,PG,PG,SF,553.117435693,270.0,23,Dec14,0,90.65
+John Wall,David Lee,Myles Turner,Jonas Valanciunas,Sergio Rodriguez,Marco Belinelli,Russell Westbrook,Otto Porter,WAS,SA,IND,TOR,PHI,CHA,OKC,WAS,PG,PF,C,C,PG,SG,PG,SF,580.508958379,269.0,1,Dec14,0,93.06
+John Wall,Blake Griffin,Kawhi Leonard,Joel Embiid,Marcin Gortat,Marco Belinelli,Andrew Harrison,Austin Rivers,WAS,LAC,SA,PHI,WAS,CHA,MEM,LAC,PG,PF,SF,C,C,SG,PG,PG,548.17047312,268.0,37,Dec14,0,91.98
+James Johnson,Deron Williams,Marcin Gortat,Myles Turner,Tyler Johnson,Tony Allen,Russell Westbrook,Otto Porter,MIA,DAL,WAS,IND,MIA,MEM,OKC,WAS,PF,PG,C,C,PG,SG,PG,SF,547.275068029,266.75,41,Dec14,0,93.74
+David Lee,Kawhi Leonard,Marc Gasol,Jonas Valanciunas,Tony Allen,Andrew Harrison,Austin Rivers,Russell Westbrook,SA,SA,MEM,TOR,MEM,MEM,LAC,OKC,PF,SF,C,C,SG,PG,PG,PG,553.047317316,266.25,25,Dec14,0,87.28
+John Wall,Blake Griffin,Frank Kaminsky,Goran Dragic,Marcin Gortat,Myles Turner,Nick Young,Otto Porter,WAS,LAC,CHA,MIA,WAS,IND,LAL,WAS,PG,PF,PF,PG,C,C,SG,SF,554.04911876,265.5,21,Dec14,0,101.97
+James Harden,John Wall,David Lee,Richaun Holmes,Marc Gasol,Sergio Rodriguez,Kelly Oubre Jr.,Julius Randle,HOU,WAS,SA,PHI,MEM,PHI,WAS,LAL,PG,PG,PF,PF,C,PG,SG,PF,546.656953768,264.5,44,Dec14,0,91.38
+John Wall,Richaun Holmes,Kawhi Leonard,Joel Embiid,Myles Turner,Tyler Johnson,Eric Gordon,Otto Porter,WAS,PHI,SA,PHI,IND,MIA,HOU,WAS,PG,PF,SF,C,C,PG,SG,SF,548.751030341,263.25,33,Dec14,0,94.07
+John Wall,James Johnson,Kawhi Leonard,Deron Williams,Andre Drummond,Myles Turner,Nick Young,Sergio Rodriguez,WAS,MIA,SA,DAL,DET,IND,LAL,PHI,PG,PF,SF,PG,C,C,SG,PG,555.427303203,263.0,18,Dec14,0,98.62
+James Harden,Kyle Lowry,James Johnson,Myles Turner,Jonas Valanciunas,Sergio Rodriguez,DeMarre Carroll,Luol Deng,HOU,TOR,MIA,IND,TOR,PHI,TOR,LAL,PG,PG,PF,C,C,PG,SF,SF,545.679358244,262.25,50,Dec14,0,82.28
+James Harden,James Johnson,David Lee,Goran Dragic,Joel Embiid,Myles Turner,Austin Rivers,Otto Porter,HOU,MIA,SA,MIA,PHI,IND,LAC,WAS,PG,PF,PF,PG,C,C,PG,SF,553.083894904,261.25,24,Dec14,0,96.44
+Blake Griffin,Goran Dragic,Hassan Whiteside,Myles Turner,Lou Williams,Sergio Rodriguez,Austin Rivers,DeMarre Carroll,LAC,MIA,MIA,IND,LAL,PHI,LAC,TOR,PF,PG,C,C,SG,PG,PG,SF,546.531039722,258.25,46,Dec14,0,98.01
+David Lee,Goran Dragic,Marc Gasol,Myles Turner,Tyler Johnson,Nick Young,Russell Westbrook,Luol Deng,SA,MIA,MEM,IND,MIA,LAL,OKC,LAL,PF,PG,C,C,PG,SG,PG,SF,552.516259711,257.0,27,Dec14,0,93.0
+John Wall,Blake Griffin,Marc Gasol,Myles Turner,Eric Gordon,Sergio Rodriguez,Andrew Harrison,Luol Deng,WAS,LAC,MEM,IND,HOU,PHI,MEM,LAL,PG,PF,C,C,SG,PG,PG,SF,571.334894846,254.25,2,Dec14,0,94.43
+John Wall,Ryan Anderson,Gordon Hayward,Myles Turner,Jonas Valanciunas,Tyler Johnson,Lou Williams,Andrew Harrison,WAS,HOU,UTA,IND,TOR,MIA,LAL,MEM,PG,PF,SF,C,C,PG,SG,PG,546.645572417,251.25,45,Dec14,0,95.62
+John Wall,James Johnson,Joel Embiid,Jonas Valanciunas,Nick Young,Andrew Harrison,Russell Westbrook,Luol Deng,WAS,MIA,PHI,TOR,LAL,MEM,OKC,LAL,PG,PF,C,C,SG,PG,PG,SF,568.343164183,250.5,3,Dec14,0,101.34
+John Wall,Blake Griffin,Deron Williams,Jonas Valanciunas,Jordan Clarkson,Lou Williams,Julius Randle,Luol Deng,WAS,LAC,DAL,TOR,LAL,LAL,LAL,LAL,PG,PF,PG,C,PG,SG,PF,SF,550.629062462,250.5,29,Dec14,0,97.1
+James Johnson,Robert Covington,Jeff Teague,Myles Turner,Eric Gordon,Sergio Rodriguez,Julius Randle,Russell Westbrook,MIA,PHI,IND,IND,HOU,PHI,LAL,OKC,PF,SF,PG,C,SG,PG,PF,PG,547.639405215,248.0,39,Dec14,0,93.25
+John Wall,Kyle Lowry,James Johnson,Myles Turner,Bradley Beal,Andrew Harrison,Julius Randle,Otto Porter,WAS,TOR,MIA,IND,WAS,MEM,LAL,WAS,PG,PG,PF,C,SG,PG,PF,SF,560.875552146,247.0,9,Dec14,0,98.15
+John Wall,Richaun Holmes,Deron Williams,Brook Lopez,Myles Turner,Rodney McGruder,Russell Westbrook,Luol Deng,WAS,PHI,DAL,BKN,IND,MIA,OKC,LAL,PG,PF,PG,C,C,SG,PG,SF,548.255561883,244.25,36,Dec14,0,96.66
+James Johnson,Hassan Whiteside,Brook Lopez,Sergio Rodriguez,Kelly Oubre Jr.,Andrew Harrison,Russell Westbrook,Otto Porter,MIA,MIA,BKN,PHI,WAS,MEM,OKC,WAS,PF,C,C,PG,SG,PG,PG,SF,554.499079175,242.75,20,Dec14,0,96.88
+John Wall,Davis Bertans,Robert Covington,Marc Gasol,Marco Belinelli,Andrew Harrison,Julius Randle,Russell Westbrook,WAS,SA,PHI,MEM,CHA,MEM,LAL,OKC,PG,SF,SF,C,SG,PG,PF,PG,546.345664558,242.0,48,Dec14,0,95.38
+David Lee,Deron Williams,Hassan Whiteside,Myles Turner,Eric Gordon,Andrew Harrison,Russell Westbrook,DeMarre Carroll,SA,DAL,MIA,IND,HOU,MEM,OKC,TOR,PF,PG,C,C,SG,PG,PG,SF,558.269858971,240.5,12,Dec14,0,89.0
+Davis Bertans,Marc Gasol,Joel Embiid,Eric Gordon,Sergio Rodriguez,Austin Rivers,Russell Westbrook,Otto Porter,SA,MEM,PHI,HOU,PHI,LAC,OKC,WAS,SF,C,C,SG,PG,PG,PG,SF,548.914460349,238.5,32,Dec14,0,94.73
+John Wall,David Lee,Deron Williams,Marc Gasol,Joel Embiid,Lou Williams,Andrew Harrison,Otto Porter,WAS,SA,DAL,MEM,PHI,LAL,MEM,WAS,PG,PF,PG,C,C,SG,PG,SF,563.754846647,236.0,5,Dec14,0,104.21
+Blake Griffin,David Lee,Goran Dragic,Marc Gasol,Rudy Gobert,Jordan Clarkson,Sergio Rodriguez,Otto Porter,LAC,SA,MIA,MEM,UTA,LAL,PHI,WAS,PF,PF,PG,C,C,PG,PG,SF,547.212185878,235.75,42,Dec14,0,94.5
+Blake Griffin,David Lee,Deron Williams,Andre Drummond,Myles Turner,Kelly Oubre Jr.,Chris Paul,Otto Porter,LAC,SA,DAL,DET,IND,WAS,LAC,WAS,PF,PF,PG,C,C,SG,PG,SF,549.499143654,235.5,30,Dec14,0,94.94
+John Wall,David Lee,Goran Dragic,Andre Drummond,Joel Embiid,Eric Gordon,Sergio Rodriguez,DeMarre Carroll,WAS,SA,MIA,DET,PHI,HOU,PHI,TOR,PG,PF,PG,C,C,SG,PG,SF,551.306945597,235.5,28,Dec14,0,103.26
+John Wall,Richaun Holmes,Andre Drummond,Jonas Valanciunas,Bradley Beal,Sergio Rodriguez,Andrew Harrison,Paul George,WAS,PHI,DET,TOR,WAS,PHI,MEM,IND,PG,PF,C,C,SG,PG,PG,SF,548.165272677,234.75,38,Dec14,0,106.3
+Frank Kaminsky,Deron Williams,Andre Drummond,Jonas Valanciunas,Eric Gordon,Sergio Rodriguez,Russell Westbrook,Luol Deng,CHA,DAL,DET,TOR,HOU,PHI,OKC,LAL,PF,PG,C,C,SG,PG,PG,SF,552.628539825,233.75,26,Dec14,0,93.06
+James Johnson,David Lee,Jeff Teague,Andre Drummond,Jonas Valanciunas,Lou Williams,Kelly Oubre Jr.,Russell Westbrook,MIA,SA,IND,DET,TOR,LAL,WAS,OKC,PF,PF,PG,C,C,SG,SG,PG,545.994318662,232.25,49,Dec14,0,89.3
+Blake Griffin,Kyle Lowry,Marcin Gortat,Jonas Valanciunas,Lou Williams,Sergio Rodriguez,Andrew Harrison,Otto Porter,LAC,TOR,WAS,TOR,LAL,PHI,MEM,WAS,PF,PG,C,C,SG,PG,PG,SF,555.998831335,229.5,16,Dec14,0,87.08
+James Harden,John Wall,Frank Kaminsky,David Lee,Andre Drummond,Myles Turner,Jeremy Lamb,Andrew Harrison,HOU,WAS,CHA,SA,DET,IND,CHA,MEM,PG,PG,PF,PF,C,C,SG,PG,553.435786744,226.75,22,Dec14,0,90.78
+Blake Griffin,Richaun Holmes,Rudy Gobert,Myles Turner,Tyler Johnson,Kelly Oubre Jr.,Andrew Harrison,Russell Westbrook,LAC,PHI,UTA,IND,MIA,WAS,MEM,OKC,PF,PF,C,C,PG,SG,PG,PG,549.318354773,226.25,31,Dec14,0,87.09
+Andre Drummond,Myles Turner,Lou Williams,Andrew Harrison,Austin Rivers,Russell Westbrook,Otto Porter,Luol Deng,DET,IND,LAL,MEM,LAC,OKC,WAS,LAL,C,C,SG,PG,PG,PG,SF,SF,566.401025439,219.0,4,Dec14,0,90.43
+Richaun Holmes,Goran Dragic,Jonas Valanciunas,Eric Gordon,Andrew Harrison,Julius Randle,Russell Westbrook,Otto Porter,PHI,MIA,TOR,HOU,MEM,LAL,OKC,WAS,PF,PG,C,SG,PG,PF,PG,SF,556.279592474,197.0,15,Dec14,0,97.44
+Blake Griffin,David Lee,Joel Embiid,Sergio Rodriguez,Jeremy Lamb,Andrew Harrison,Julius Randle,Russell Westbrook,LAC,SA,PHI,PHI,CHA,MEM,LAL,OKC,PF,PF,C,PG,SG,PG,PF,PG,558.058527295,186.0,13,Dec14,0,100.75

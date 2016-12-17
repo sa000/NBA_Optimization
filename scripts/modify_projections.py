@@ -35,8 +35,8 @@ def defense(date):
 		pos=proj.Position.split('/')[0]
 		#with pos and opp, we can alter his projected score
 		defense=pd.read_csv('../Data/DVP_%s.csv'%pos)
-		risks=pd.read_csv('../Projections/risk.csv')
-		std=risks[risks['Name']==proj.Name]['Scored'].values[0]
+		risks=pd.read_csv('../Data/risk.csv')
+		std=risks[risks['Name']==proj.Name]['STD diff'].values[0]
 		if np.isnan(std):
 			std=0
 		for index, row in defense.iterrows():

@@ -17,7 +17,7 @@ def optimize(projected_lineup, date, iteration, modified):
 	team_dict={}
 	p_vars=[]
 	p_formula=''
-
+	risk=pd.read_csv('../Data/risk.csv')
 	#decision variables
 	decision_variables = []
 	player_names=[]
@@ -29,6 +29,10 @@ def optimize(projected_lineup, date, iteration, modified):
 	total_Pts = ""
 	for rownum, row in data.iterrows():
 		positions={}
+		name=row.Name
+		std=round(risk[risk['Name']==name]['STD diff'].values[0],2)
+		std=np.power(std,.25)
+		#	                                                                    std=1
 		positions['PG']=positions['SG']=positions['SF']=positions['PF']=positions['C']=0
 		#For each player, classify their position
 		if 'PG' in row['Position']:
@@ -48,7 +52,6 @@ def optimize(projected_lineup, date, iteration, modified):
 		team_dict[row['Team']]=1
 		team_arr.append(team_dict)
 
-
 		variable = str('x' + str(rownum))
 		player_vars[variable]=row['Name']
 		player_pos_team[variable]=[row['Position'], row['Team']]
@@ -63,7 +66,7 @@ def optimize(projected_lineup, date, iteration, modified):
 			column='Projected'
 		else:
 			column='Scored'
-		formula = (row[column]+.001)*variable
+		formula = (std*row[column]+.001)*variable
 		#print formula
 		total_Pts += formula
 	#print ("Total number of decision_variables: " + str(len(decision_variables)))
@@ -102,20 +105,20 @@ def optimize(projected_lineup, date, iteration, modified):
 
 	p_vars=[]
 
-	for index, team in enumerate(teams):
-		team_constraint=''
-		p_names=[]
-		p_var=pulp.LpVariable('P%s'%str(index), cat= 'Binary')
-		p_vars.append(p_var)
-		p_formula+=p_var
-		for i, variable in enumerate(decision_variables):
-			if team==player_pos_team[str(variable)][1]: #same team
-				team_constraint+=variable
-				p_names.append(player_vars[str(variable)])
-		#print 'Team constraint is ', team_constraint, p_names
-		prob+=(team_constraint>=p_vars[index])
-		prob+=(team_constraint/8<=p_vars[index])
-	prob+=(p_formula==7)
+	# for index, team in enumerate(teams):
+	# 	team_constraint=''
+	# 	p_names=[]
+	# 	p_var=pulp.LpVariable('P%s'%str(index), cat= 'Binary')
+	# 	p_vars.append(p_var)
+	# 	p_formula+=p_var
+	# 	for i, variable in enumerate(decision_variables):
+	# 		if team==player_pos_team[str(variable)][1]: #same team
+	# 			team_constraint+=variable
+	# 			p_names.append(player_vars[str(variable)])
+	# 	#print 'Team constraint is ', team_constraint, p_names
+	# 	prob+=(team_constraint>=p_vars[index])
+	# 	prob+=(team_constraint/8<=p_vars[index])
+	# prob+=(p_formula==7)
 
 	#print "total cost is \n"
 	#print str(total_cost)
@@ -180,7 +183,6 @@ def optimize(projected_lineup, date, iteration, modified):
 	num_games=get_num_of_games(date)
 	#print 'ay', prob.objective
 	for i in range(1,iterations+1):
-		print i
 		positions=[]
 		projected_lineup=[]
 		scored_lineup=[]
@@ -226,6 +228,8 @@ def optimize(projected_lineup, date, iteration, modified):
 	 	#print 'Scored Calculations', sum(scored_lineup)
 	 	final_output=projected_lineup+teams+positions+[value(prob.objective), sum(scored_lineup), i, date, num_games, round(sum(risks),2)]
 	 	csvwriter.writerow(final_output)
+	 	print i, sum(scored_lineup)
+
 	 	#print "Iteration%d" % i
 	target.close()
 	df=pd.read_csv(file)
@@ -245,13 +249,15 @@ def get_num_of_games(date):
 
 projected_lineup=True #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
 #date='Dec132016'
-iterations=5
+iterations=50
 # optimize(projected_lineup, date,iterations,False)
 
 modified=True
 dates=os.listdir('../Projections/past')[1:]
-dates=[date.strip('projection_').strip('.csv') for date in dates][0:10]
+dates=[date.strip('projection_').strip('.csv') for date in dates][1:10]
 for date in dates:
 	print date
-	optimize(True, date,iterations,False)
+	if modified:
+		date=date[0:-4]
+	optimize(True, date,iterations,modified)
 #optimize(projected_lineup, date,iterations,False)
