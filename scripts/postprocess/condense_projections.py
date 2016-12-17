@@ -7,7 +7,7 @@ def merge(files):
 		p=pd.read_csv('../../Prediction/%s'%file)
 		df=df.append(p, ignore_index=True)
 	df.sort(['Actual Scored'], ascending=False)
-	df.to_csv('../../Data/Perfect_WithRisk.csv', index=False)
+	df.to_csv('../../Data/Projected_WithRisk.csv', index=False)
 
 
 

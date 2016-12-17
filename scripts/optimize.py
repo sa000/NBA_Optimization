@@ -253,5 +253,5 @@ dates=os.listdir('../Projections/past')[1:]
 dates=[date.strip('projection_').strip('.csv') for date in dates][0:10]
 for date in dates:
 	print date
-	optimize(False, date,iterations,False)
+	optimize(True, date,iterations,False)
 #optimize(projected_lineup, date,iterations,False)

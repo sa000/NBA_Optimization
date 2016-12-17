@@ -1,0 +1,6 @@
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames,Risk
+Luol Deng,Wesley Matthews,Eric Gordon,Nicolas Batum,John Wall,Deron Williams,Hassan Whiteside,Nikola Jokic,LAL,DAL,HOU,CHA,WAS,DAL,MIA,DEN,SF,SG,SG,SG,PG,PG,C,C,284.728,308.75,2,Dec122016,7,97.02
+Wesley Matthews,Bojan Bogdanovic,Giannis Antetokounmpo,John Wall,Patrick Beverley,Patrick Patterson,Brook Lopez,Nikola Jokic,DAL,BKN,MIL,WAS,HOU,TOR,BKN,DEN,SG,SG,PG,PG,PG,PF,C,C,283.038,282.0,5,Dec122016,7,93.23
+Nicolas Batum,Bojan Bogdanovic,Glenn Robinson III,John Wall,Kyle Lowry,Matthew Dellavedova,Blake Griffin,Nikola Jokic,CHA,BKN,IND,WAS,TOR,MIL,LAC,DEN,SG,SG,SF,PG,PG,PG,PF,C,284.008,269.75,3,Dec122016,7,88.4
+John Henson,Nicolas Batum,Bojan Bogdanovic,John Wall,Deron Williams,Patrick Beverley,Marvin Williams,DeMarcus Cousins,MIL,CHA,BKN,WAS,DAL,HOU,CHA,SAC,C,SG,SG,PG,PG,PG,PF,PF,283.398,267.0,4,Dec122016,7,104.28
+Wesley Matthews,Glenn Robinson III,John Wall,Kyle Lowry,Patrick Beverley,Marvin Williams,Hassan Whiteside,Marcin Gortat,DAL,IND,WAS,TOR,HOU,CHA,MIA,WAS,SG,SF,PG,PG,PG,PF,C,C,286.448,266.5,1,Dec122016,7,91.28
