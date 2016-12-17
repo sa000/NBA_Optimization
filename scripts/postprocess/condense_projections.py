@@ -4,10 +4,10 @@ def merge(files):
 	df=pd.DataFrame()
 	for file in files:
 		print file
-		p=pd.read_csv('../../Prediction/N/%s'%file)
+		p=pd.read_csv('../../Prediction/%s'%file)
 		df=df.append(p, ignore_index=True)
 	df.sort(['Actual Scored'], ascending=False)
-	df.to_csv('../../Data/REG.csv', index=False)
+	df.to_csv('../../Data/Perfect_WithRisk.csv', index=False)
 
 
 
@@ -22,7 +22,7 @@ def add_num_games(files):
 		proj['Num_Games']=num_games
 		proj.to_csv('../../Prediction/%s'%file, index=False)
 		print file
-files=os.listdir('../../Prediction/N')
+files=os.listdir('../../Prediction/')[1:]
 
 
 merge(files)

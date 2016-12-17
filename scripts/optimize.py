@@ -173,7 +173,7 @@ def optimize(projected_lineup, date, iteration, modified):
 	#Solving the problem
 	div_limit=3 #Setting to 8 essentially nullifies the constraint. this should be used for the best lineup
 	target=open(file, 'w')
-	headers=player_list+team_list+pos_list+['Projected Value', 'Actual Scored', 'Iteration', 'date', 'NumGames'] 
+	headers=player_list+team_list+pos_list+['Projected Value', 'Actual Scored', 'Iteration', 'date', 'NumGames', 'Risk'] 
 	csvwriter=csv.writer(target)
 	csvwriter.writerow(headers)
 
@@ -197,6 +197,8 @@ def optimize(projected_lineup, date, iteration, modified):
 		#print ("Individual decision_variables: ")
 		#print prob.variables()
 		teams=[]
+		risks=[]
+		risk=pd.read_csv('../Data/risk.csv')
 		for v in prob.variables():
 			#print(v.name, "=", v.varValue)
 			if 'x' not in str(v):
@@ -206,6 +208,8 @@ def optimize(projected_lineup, date, iteration, modified):
 				#print v.name
 				selected_vars.append(v)
 				projected_lineup.append(player_vars[v.name])
+				std=risk[risk['Name']==player_vars[v.name]]['STD FPTS'].values[0]
+				risks.append(std)
 				scored_lineup.append(data[data['Name']==player_vars[v.name]].Scored.values[0])
 				teams.append(player_pos_team[v.name][1])
 				positions.append(player_pos_team[v.name][0].split('/')[0])
@@ -220,7 +224,7 @@ def optimize(projected_lineup, date, iteration, modified):
 
 	 	#print("Expected Calculations ", value(prob.objective))
 	 	#print 'Scored Calculations', sum(scored_lineup)
-	 	final_output=projected_lineup+teams+positions+[value(prob.objective), sum(scored_lineup), i, date, num_games]
+	 	final_output=projected_lineup+teams+positions+[value(prob.objective), sum(scored_lineup), i, date, num_games, round(sum(risks),2)]
 	 	csvwriter.writerow(final_output)
 	 	#print "Iteration%d" % i
 	target.close()
@@ -247,9 +251,7 @@ iterations=5
 modified=True
 dates=os.listdir('../Projections/past')[1:]
 dates=[date.strip('projection_').strip('.csv') for date in dates][0:10]
-random.shuffle(dates)
-dates=dates[0:15]
-for date in dates[0:1]:
+for date in dates:
 	print date
-	optimize(projected_lineup, date,iterations,False)
+	optimize(False, date,iterations,False)
 #optimize(projected_lineup, date,iterations,False)
