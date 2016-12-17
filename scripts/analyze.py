@@ -35,13 +35,25 @@ def addb2b():
 def create_stats():
 	files=os.listdir('../Projections/past')[1:]
 	df=pd.DataFrame()
+
 	for file in files:
-		print file
+		#print file
 		p=pd.read_csv('../Projections/past/%s'%file)
 		df=df.append(p, ignore_index=True)
-	risk=df.groupby(['Name']).std()
-	risk=risk.drop(['Id', 'Projected', 'Override','Salary'], axis=1)
-	risk.to_csv('../Projections/risk.csv')
+	players=df['Name'].unique()
+	header=['Name', 'Average Diff', 'STD']
+	target=open('../Data/risk.csv', 'w')
+	csvwriter=csv.writer(target)
+	csvwriter.writerow(header)
+	for player in players:
+		print player
+		player_df=df[df['Name']==player]
+		diff=player_df['Scored']-player_df['Projected']
+		avg=np.average(diff)
+		std=np.std(diff)
+		data=[player,round(avg,2),round(std,2)]
+		csvwriter.writerow(data)
+	target.close()
 
 
 create_stats()

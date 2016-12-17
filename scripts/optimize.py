@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import re 
 import csv
+import random
 
 def optimize(projected_lineup, date, iteration, modified):
 	#use modified or unmodified projections
@@ -14,8 +15,9 @@ def optimize(projected_lineup, date, iteration, modified):
 	prob = pulp.LpProblem('NBA', pulp.LpMaximize)
 	teams=data.Team.unique()
 	team_dict={}
-	for team in teams:
-		team_dict[team]=0
+	p_vars=[]
+	p_formula=''
+
 	#decision variables
 	decision_variables = []
 	player_names=[]
@@ -62,10 +64,10 @@ def optimize(projected_lineup, date, iteration, modified):
 		else:
 			column='Scored'
 		formula = (row[column]+.001)*variable
-		print formula
+		#print formula
 		total_Pts += formula
-	print ("Total number of decision_variables: " + str(len(decision_variables)))
-	print ("Array with Decision Variables:" + str(decision_variables))
+	#print ("Total number of decision_variables: " + str(len(decision_variables)))
+	#print ("Array with Decision Variables:" + str(decision_variables))
 
 	#Maximization total pts
 
@@ -94,17 +96,38 @@ def optimize(projected_lineup, date, iteration, modified):
 				for team in teams:
 					team_c1=team_arr[i][team]*player
 
-	print "total cost is \n"
-	print str(total_cost)
+		
+		
+		
+
+	p_vars=[]
+
+	for index, team in enumerate(teams):
+		team_constraint=''
+		p_names=[]
+		p_var=pulp.LpVariable('P%s'%str(index), cat= 'Binary')
+		p_vars.append(p_var)
+		p_formula+=p_var
+		for i, variable in enumerate(decision_variables):
+			if team==player_pos_team[str(variable)][1]: #same team
+				team_constraint+=variable
+				p_names.append(player_vars[str(variable)])
+		#print 'Team constraint is ', team_constraint, p_names
+		prob+=(team_constraint>=p_vars[index])
+		prob+=(team_constraint/8<=p_vars[index])
+	prob+=(p_formula==7)
+
+	#print "total cost is \n"
+	#print str(total_cost)
 	#We cant exceed budget
-	print "Setting up Budget Constraints \n"
+	#print "Setting up Budget Constraints \n"
 	#prob+=(team_c1>1)
 	#prob+=(team_c1<3)
 
 	prob += (total_cost <= total_budget)
 
 	
-	print "Setting up Position Constraints \n"
+	#print "Setting up Position Constraints \n"
 	##Position restrictions
 
 
@@ -155,27 +178,32 @@ def optimize(projected_lineup, date, iteration, modified):
 	csvwriter.writerow(headers)
 
 	num_games=get_num_of_games(date)
-
+	#print 'ay', prob.objective
 	for i in range(1,iterations+1):
-		teams=[]
+		print i
 		positions=[]
 		projected_lineup=[]
 		scored_lineup=[]
 		optimization_result = prob.solve()
 		selected_vars = []
-		print "final"
+		#print "final"
 		#print prob
 		fileLP="NBA%d.lp"%i
 		#prob.writeLP(fileLP)
 		#os.rename(fileLP, '../Prediction/%s'%fileLP)
 
 		assert optimization_result == pulp.LpStatusOptimal
-		print("Status:", LpStatus[prob.status])
-		print ("Individual decision_variables: ")
+		#print("Status:", LpStatus[prob.status])
+		#print ("Individual decision_variables: ")
+		#print prob.variables()
+		teams=[]
 		for v in prob.variables():
 			#print(v.name, "=", v.varValue)
+			if 'x' not in str(v):
+				continue
 			if v.varValue:
 				#print v
+				#print v.name
 				selected_vars.append(v)
 				projected_lineup.append(player_vars[v.name])
 				scored_lineup.append(data[data['Name']==player_vars[v.name]].Scored.values[0])
@@ -187,14 +215,14 @@ def optimize(projected_lineup, date, iteration, modified):
 
 		prob+=(diversity_constraint<=div_limit)
 
-		print projected_lineup
-		print scored_lineup
+		#print projected_lineup
+		#print scored_lineup
 
-	 	print("Expected Calculations ", value(prob.objective))
-	 	print 'Scored Calculations', sum(scored_lineup)
+	 	#print("Expected Calculations ", value(prob.objective))
+	 	#print 'Scored Calculations', sum(scored_lineup)
 	 	final_output=projected_lineup+teams+positions+[value(prob.objective), sum(scored_lineup), i, date, num_games]
 	 	csvwriter.writerow(final_output)
-	 	print "Iteration%d" % i
+	 	#print "Iteration%d" % i
 	target.close()
 	df=pd.read_csv(file)
 	df=df.sort(['Actual Scored'], ascending=False)
@@ -213,12 +241,15 @@ def get_num_of_games(date):
 
 projected_lineup=True #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
 #date='Dec132016'
+iterations=5
+# optimize(projected_lineup, date,iterations,False)
 
-iterations=20
 modified=True
 dates=os.listdir('../Projections/past')[1:]
-dates=[date.strip('projection_').strip('.csv')[0:-4] for date in dates][0:10]
-for date in dates:
+dates=[date.strip('projection_').strip('.csv') for date in dates][0:10]
+random.shuffle(dates)
+dates=dates[0:15]
+for date in dates[0:1]:
 	print date
-	optimize(projected_lineup, date,iterations,modified)
+	optimize(projected_lineup, date,iterations,False)
 #optimize(projected_lineup, date,iterations,False)

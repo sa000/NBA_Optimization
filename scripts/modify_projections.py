@@ -59,15 +59,16 @@ def defense(date):
 	projections.to_csv('../Projections/Modified_Projection/Mprojection_%s.csv'%date, index=False)
 
 
-# dates=os.listdir('../Projections/past')[1:]
-# dates=[date.strip('projection_').strip('.csv') for date in dates]
-# for date in dates:
-# 	defense(date)
+dates=os.listdir('../Projections/past')[1:]
+dates=[date.strip('projection_').strip('.csv') for date in dates]
+for date in dates:
+	defense(date)
 
-data=pd.read_csv('../Data/Cumulative_Predictions.csv')
+# data=pd.read_csv('../Data/Cumulative_Predictions.csv')
 
-for index, row in data.iterrows():
-	date=row.date
-	new_date=date[0:3]+'-'+date[3:-4]+'-2016'
-	data.set_value(index, 'date', new_date)
-data.to_csv('../Data/Cumulative_Predictions.csv')
+# for index, row in data.iterrows():
+# 	date=row.date
+# 	new_date=date[0:3]+'-'+date[3:-4]+'-2016'
+# 	data.set_value(index, 'date', new_date)
+# data.to_csv('../Data/Cumulative_Predictions.csv')
+ 

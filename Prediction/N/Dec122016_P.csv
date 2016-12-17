@@ -1,0 +1,51 @@
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames
+Luol Deng,Wesley Matthews,Eric Gordon,Nicolas Batum,John Wall,Deron Williams,Hassan Whiteside,Nikola Jokic,LAL,DAL,HOU,CHA,WAS,DAL,MIA,DEN,SF,SG,SG,SG,PG,PG,C,C,284.728,308.75,2,Dec122016,7
+Bradley Beal,Nicolas Batum,Patrick Beverley,Darren Collison,Blake Griffin,Marvin Williams,Hassan Whiteside,Nikola Jokic,WAS,CHA,HOU,SAC,LAC,CHA,MIA,DEN,SG,SG,PG,PG,PF,PF,C,C,279.648,301.75,24,Dec122016,7
+Luol Deng,Bradley Beal,Wesley Matthews,Glenn Robinson III,John Wall,Matthew Dellavedova,DeMarcus Cousins,Brook Lopez,LAL,WAS,DAL,IND,WAS,MIL,SAC,BKN,SF,SG,SG,SF,PG,PG,PF,C,280.608,301.25,16,Dec122016,7
+Bradley Beal,Nicolas Batum,Giannis Antetokounmpo,Deron Williams,Matthew Dellavedova,Ryan Anderson,Brook Lopez,Nikola Jokic,WAS,CHA,MIL,DAL,MIL,HOU,BKN,DEN,SG,SG,PG,PG,PG,PF,C,C,277.998,293.5,43,Dec122016,7
+Bradley Beal,Eric Gordon,Sean Kilpatrick,Glenn Robinson III,Giannis Antetokounmpo,John Wall,Marvin Williams,Nikola Jokic,WAS,HOU,BKN,IND,MIL,WAS,CHA,DEN,SG,SG,SG,SF,PG,PG,PF,C,281.748,290.5,8,Dec122016,7
+Cody Zeller,Bradley Beal,Sean Kilpatrick,Dorian Finney-Smith,John Wall,Kyle Lowry,Patrick Beverley,Blake Griffin,CHA,WAS,BKN,DAL,WAS,TOR,HOU,LAC,C,SG,SG,SF,PG,PG,PG,PF,277.768,288.75,49,Dec122016,7
+Wesley Matthews,Sean Kilpatrick,Jeremy Lamb,Kyle Lowry,Deron Williams,Patrick Beverley,DeMarcus Cousins,Nikola Jokic,DAL,BKN,CHA,TOR,DAL,HOU,SAC,DEN,SG,SG,SG,PG,PG,PG,PF,C,279.658,287.25,22,Dec122016,7
+Paul George,Luol Deng,Wesley Matthews,John Wall,Patrick Beverley,Darren Collison,Blake Griffin,Clint Capela,IND,LAL,DAL,WAS,HOU,SAC,LAC,HOU,SF,SF,SG,PG,PG,PG,PF,C,277.898,284.25,45,Dec122016,7
+Wesley Matthews,Bojan Bogdanovic,Giannis Antetokounmpo,John Wall,Patrick Beverley,Patrick Patterson,Brook Lopez,Nikola Jokic,DAL,BKN,MIL,WAS,HOU,TOR,BKN,DEN,SG,SG,PG,PG,PG,PF,C,C,283.038,282.0,5,Dec122016,7
+Wesley Matthews,Eric Gordon,Nicolas Batum,Omri Casspi,Giannis Antetokounmpo,Patrick Beverley,Blake Griffin,Marcin Gortat,DAL,HOU,CHA,SAC,MIL,HOU,LAC,WAS,SG,SG,SG,SF,PG,PG,PF,C,279.378,281.75,25,Dec122016,7
+Jusuf Nurkic,Bradley Beal,Omri Casspi,John Wall,Kyle Lowry,Deron Williams,Ryan Anderson,Hassan Whiteside,DEN,WAS,SAC,WAS,TOR,DAL,HOU,MIA,C,SG,SF,PG,PG,PG,PF,C,278.288,279.75,40,Dec122016,7
+John Henson,Luol Deng,DeMar DeRozan,Glenn Robinson III,Rondae Hollis-Jefferson,Giannis Antetokounmpo,John Wall,Hassan Whiteside,MIL,LAL,TOR,IND,BKN,MIL,WAS,MIA,C,SF,SG,SF,SF,PG,PG,C,278.568,278.0,32,Dec122016,7
+Paul George,DeMar DeRozan,John Wall,Emmanuel Mudiay,Matthew Dellavedova,Marvin Williams,Brook Lopez,Nikola Jokic,IND,TOR,WAS,DEN,MIL,CHA,BKN,DEN,SF,SG,PG,PG,PG,PF,C,C,278.398,277.5,35,Dec122016,7
+DeMar DeRozan,Lou Williams,Glenn Robinson III,John Wall,Deron Williams,Ryan Anderson,Marcin Gortat,Nikola Jokic,TOR,LAL,IND,WAS,DAL,HOU,WAS,DEN,SG,SG,SF,PG,PG,PF,C,C,280.598,274.75,17,Dec122016,7
+Luol Deng,Bojan Bogdanovic,Kyle Lowry,Deron Williams,Patrick Beverley,Blake Griffin,Hassan Whiteside,Brook Lopez,LAL,BKN,TOR,DAL,HOU,LAC,MIA,BKN,SF,SG,PG,PG,PG,PF,C,C,282.118,273.0,6,Dec122016,7
+Lou Williams,Bojan Bogdanovic,Giannis Antetokounmpo,Deron Williams,Emmanuel Mudiay,Marvin Williams,Hassan Whiteside,Nikola Jokic,LAL,BKN,MIL,DAL,DEN,CHA,MIA,DEN,SG,SG,PG,PG,PG,PF,C,C,280.118,270.25,20,Dec122016,7
+Nicolas Batum,Bojan Bogdanovic,Glenn Robinson III,John Wall,Kyle Lowry,Matthew Dellavedova,Blake Griffin,Nikola Jokic,CHA,BKN,IND,WAS,TOR,MIL,LAC,DEN,SG,SG,SF,PG,PG,PG,PF,C,284.008,269.75,3,Dec122016,7
+Harrison Barnes,Luol Deng,Sean Kilpatrick,John Wall,Kyle Lowry,Tyler Johnson,Brook Lopez,Nikola Jokic,DAL,LAL,BKN,WAS,TOR,MIA,BKN,DEN,SF,SF,SG,PG,PG,PG,C,C,277.728,269.5,50,Dec122016,7
+Paul George,Lou Williams,Dorian Finney-Smith,Kyle Lowry,Patrick Beverley,Matthew Dellavedova,Hassan Whiteside,Nikola Jokic,IND,LAL,DAL,TOR,HOU,MIL,MIA,DEN,SF,SG,SF,PG,PG,PG,C,C,278.588,269.0,31,Dec122016,7
+Eric Gordon,Nicolas Batum,Glenn Robinson III,John Wall,Emmanuel Mudiay,Patrick Patterson,DeMarcus Cousins,Marcin Gortat,HOU,CHA,IND,WAS,DEN,TOR,SAC,WAS,SG,SG,SF,PG,PG,PF,PF,C,281.008,267.5,14,Dec122016,7
+John Henson,Rudy Gay,Luol Deng,Nicolas Batum,Giannis Antetokounmpo,Kyle Lowry,Patrick Beverley,Nikola Jokic,MIL,SAC,LAL,CHA,MIL,TOR,HOU,DEN,C,SF,SF,SG,PG,PG,PG,C,279.078,267.5,27,Dec122016,7
+John Henson,Nicolas Batum,Bojan Bogdanovic,John Wall,Deron Williams,Patrick Beverley,Marvin Williams,DeMarcus Cousins,MIL,CHA,BKN,WAS,DAL,HOU,CHA,SAC,C,SG,SG,PG,PG,PG,PF,PF,283.398,267.0,4,Dec122016,7
+Wesley Matthews,Glenn Robinson III,John Wall,Kyle Lowry,Patrick Beverley,Marvin Williams,Hassan Whiteside,Marcin Gortat,DAL,IND,WAS,TOR,HOU,CHA,MIA,WAS,SG,SF,PG,PG,PG,PF,C,C,286.448,266.5,1,Dec122016,7
+Paul George,Bradley Beal,Wesley Matthews,Eric Gordon,Kyle Lowry,Patrick Beverley,Emmanuel Mudiay,Brook Lopez,IND,WAS,DAL,HOU,TOR,HOU,DEN,BKN,SF,SG,SG,SG,PG,PG,PG,C,278.958,266.0,29,Dec122016,7
+Lou Williams,Sean Kilpatrick,Dorian Finney-Smith,John Wall,Matthew Dellavedova,Marvin Williams,DeMarcus Cousins,Marcin Gortat,LAL,BKN,DAL,WAS,MIL,CHA,SAC,WAS,SG,SG,SF,PG,PG,PF,PF,C,278.508,265.25,33,Dec122016,7
+Jusuf Nurkic,Rodney McGruder,Jeremy Lamb,Glenn Robinson III,Giannis Antetokounmpo,John Wall,Patrick Beverley,DeMarcus Cousins,DEN,MIA,CHA,IND,MIL,WAS,HOU,SAC,C,SG,SG,SF,PG,PG,PG,PF,277.838,265.25,47,Dec122016,7
+John Henson,Wesley Matthews,Nicolas Batum,John Wall,Kyle Lowry,Darren Collison,Ryan Anderson,Brook Lopez,MIL,DAL,CHA,WAS,TOR,SAC,HOU,BKN,C,SG,SG,PG,PG,PG,PF,C,279.658,264.75,23,Dec122016,7
+Rodney McGruder,Nicolas Batum,John Wall,Deron Williams,Emmanuel Mudiay,Blake Griffin,Brook Lopez,Clint Capela,MIA,CHA,WAS,DAL,DEN,LAC,BKN,HOU,SG,SG,PG,PG,PG,PF,C,C,278.758,264.5,30,Dec122016,7
+Harrison Barnes,DeMar DeRozan,Eric Gordon,Sean Kilpatrick,Omri Casspi,John Wall,Patrick Beverley,Hassan Whiteside,DAL,TOR,HOU,BKN,SAC,WAS,HOU,MIA,SF,SG,SG,SG,SF,PG,PG,C,278.218,264.0,42,Dec122016,7
+Luol Deng,Bradley Beal,Giannis Antetokounmpo,Kyle Lowry,Matthew Dellavedova,Marvin Williams,Hassan Whiteside,Clint Capela,LAL,WAS,MIL,TOR,MIL,CHA,MIA,HOU,SF,SG,PG,PG,PG,PF,C,C,278.388,263.25,36,Dec122016,7
+John Henson,Wesley Matthews,Sean Kilpatrick,Bojan Bogdanovic,John Wall,Emmanuel Mudiay,Blake Griffin,Hassan Whiteside,MIL,DAL,BKN,BKN,WAS,DEN,LAC,MIA,C,SG,SG,SG,PG,PG,PF,C,281.378,262.5,11,Dec122016,7
+Eric Gordon,Rodney McGruder,Glenn Robinson III,Kyle Lowry,Deron Williams,Matthew Dellavedova,DeMarcus Cousins,Hassan Whiteside,HOU,MIA,IND,TOR,DAL,MIL,SAC,MIA,SG,SG,SF,PG,PG,PG,PF,C,280.788,259.5,15,Dec122016,7
+Bradley Beal,Bojan Bogdanovic,Glenn Robinson III,Giannis Antetokounmpo,Deron Williams,Blake Griffin,Marcin Gortat,Clint Capela,WAS,BKN,IND,MIL,DAL,LAC,WAS,HOU,SG,SG,SF,PG,PG,PF,C,C,279.298,258.75,26,Dec122016,7
+Markieff Morris,Sean Kilpatrick,Nicolas Batum,Glenn Robinson III,Giannis Antetokounmpo,Deron Williams,Patrick Beverley,Hassan Whiteside,WAS,BKN,CHA,IND,MIL,DAL,HOU,MIA,SF,SG,SG,SF,PG,PG,PG,C,280.288,258.25,19,Dec122016,7
+Sean Kilpatrick,Jamal Crawford,Bojan Bogdanovic,Giannis Antetokounmpo,Patrick Beverley,Emmanuel Mudiay,DeMarcus Cousins,Marcin Gortat,BKN,LAC,BKN,MIL,HOU,DEN,SAC,WAS,SG,SG,SG,PG,PG,PG,PF,C,277.798,256.75,48,Dec122016,7
+Markieff Morris,DeMar DeRozan,Eric Gordon,Bojan Bogdanovic,Kyle Lowry,Darren Collison,Hassan Whiteside,Nikola Jokic,WAS,TOR,HOU,BKN,TOR,SAC,MIA,DEN,SF,SG,SG,SG,PG,PG,C,C,277.918,256.0,44,Dec122016,7
+Paul George,Sean Kilpatrick,Rodney McGruder,Nicolas Batum,John Wall,Patrick Beverley,Marcin Gortat,Nikola Jokic,IND,BKN,MIA,CHA,WAS,HOU,WAS,DEN,SF,SG,SG,SG,PG,PG,C,C,281.048,255.25,13,Dec122016,7
+John Henson,Lou Williams,Eric Gordon,Glenn Robinson III,John Wall,Patrick Beverley,Blake Griffin,Brook Lopez,MIL,LAL,HOU,IND,WAS,HOU,LAC,BKN,C,SG,SG,SF,PG,PG,PF,C,281.288,254.75,12,Dec122016,7
+Eric Gordon,Bojan Bogdanovic,John Wall,Damian Lillard,Malcolm Brogdon,Marvin Williams,Hassan Whiteside,Brook Lopez,HOU,BKN,WAS,POR,MIL,CHA,MIA,BKN,SG,SG,PG,PG,PG,PF,C,C,279.038,253.75,28,Dec122016,7
+DeMar DeRozan,Nicolas Batum,Kyle Lowry,Emmanuel Mudiay,Matthew Dellavedova,Ryan Anderson,Hassan Whiteside,Marcin Gortat,TOR,CHA,TOR,DEN,MIL,HOU,MIA,WAS,SG,SG,PG,PG,PG,PF,C,C,278.228,249.0,41,Dec122016,7
+John Henson,Rudy Gay,Lou Williams,Bradley Beal,Wesley Matthews,Deron Williams,Patrick Beverley,Hassan Whiteside,MIL,SAC,LAL,WAS,DAL,DAL,HOU,MIA,C,SF,SG,SG,SG,PG,PG,C,278.448,247.25,34,Dec122016,7
+Luol Deng,Eric Gordon,Rodney McGruder,Bojan Bogdanovic,Giannis Antetokounmpo,John Wall,Kyle Lowry,Marcin Gortat,LAL,HOU,MIA,BKN,MIL,WAS,TOR,WAS,SF,SG,SG,SG,PG,PG,PG,C,282.078,247.25,7,Dec122016,7
+Markieff Morris,Lou Williams,Wesley Matthews,John Wall,Kyle Lowry,Malcolm Brogdon,Nikola Jokic,Clint Capela,WAS,LAL,DAL,WAS,TOR,MIL,DEN,HOU,SF,SG,SG,PG,PG,PG,C,C,278.368,245.5,37,Dec122016,7
+Rudy Gay,Nicolas Batum,Jeremy Lamb,John Wall,Patrick Beverley,Matthew Dellavedova,Hassan Whiteside,Brook Lopez,SAC,CHA,CHA,WAS,HOU,MIL,MIA,BKN,SF,SG,SG,PG,PG,PG,C,C,280.438,245.0,18,Dec122016,7
+Jusuf Nurkic,Rudy Gay,Wesley Matthews,Nicolas Batum,Bojan Bogdanovic,John Wall,Goran Dragic,Marcin Gortat,DEN,SAC,DAL,CHA,BKN,WAS,MIA,WAS,C,SF,SG,SG,SG,PG,PG,C,277.898,243.25,46,Dec122016,7
+Lou Williams,Bradley Beal,Bojan Bogdanovic,Glenn Robinson III,Kyle Lowry,Patrick Beverley,Patrick Patterson,DeMarcus Cousins,LAL,WAS,BKN,IND,TOR,HOU,TOR,SAC,SG,SG,SG,SF,PG,PG,PF,PF,278.308,242.0,39,Dec122016,7
+Paul George,Jamal Crawford,Bojan Bogdanovic,John Wall,Deron Williams,Matthew Dellavedova,Hassan Whiteside,Marcin Gortat,IND,LAC,BKN,WAS,DAL,MIL,MIA,WAS,SF,SG,SG,PG,PG,PG,C,C,281.428,239.5,10,Dec122016,7
+Lou Williams,Eric Gordon,Nicolas Batum,Kyle Lowry,Deron Williams,Marvin Williams,Brook Lopez,Marcin Gortat,LAL,HOU,CHA,TOR,DAL,CHA,BKN,WAS,SG,SG,SG,PG,PG,PF,C,C,281.478,232.75,9,Dec122016,7
+John Henson,Paul George,Sean Kilpatrick,Glenn Robinson III,John Wall,Kyle Lowry,Deron Williams,Clint Capela,MIL,IND,BKN,IND,WAS,TOR,DAL,HOU,C,SF,SG,SF,PG,PG,PG,C,279.698,232.75,21,Dec122016,7
+Lou Williams,Nicolas Batum,Bojan Bogdanovic,John Wall,Darren Collison,Patrick Patterson,Hassan Whiteside,Clint Capela,LAL,CHA,BKN,WAS,SAC,TOR,MIA,HOU,SG,SG,SG,PG,PG,PF,C,C,278.368,225.25,38,Dec122016,7
