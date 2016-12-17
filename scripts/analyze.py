@@ -58,8 +58,24 @@ def create_stats():
 	target.close()
 
 
-create_stats()
+def create_risk_csv():
+	data=pd.read_csv('../Data/Projected_WithRisk.csv')
+	target=open('../Data/Lineup_Risks_Projected.csv', 'w')
+	risk=pd.read_csv('../Data/risk.csv')
+	headers=['Name', 'Pos', 'Risk']
+	csvwriter=csv.writer(target)
+	csvwriter.writerow(headers)
+	for index, row in data.iterrows():
+		for i in xrange(8):
+			name=row[i]
+			pos=row[16+i]
+			std=round(risk[risk['Name']==name]['STD FPTS'].values[0],2)
+			info=[name, pos, std]
+			csvwriter.writerow(info)
+	target.close()
 
+#create_stats()
+create_risk_csv()
 # schedule=pd.read_csv('../Data/schedule.csv')
 
 # schedule=add_fatigue(schedule)
