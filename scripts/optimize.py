@@ -255,7 +255,7 @@ iterations=50
 modified=True
 dates=os.listdir('../Projections/past')[1:]
 dates=[date.strip('projection_').strip('.csv') for date in dates][1:10]
-for date in dates:
+for date in dates[0:1]:
 	print date
 	if modified:
 		date=date[0:-4]

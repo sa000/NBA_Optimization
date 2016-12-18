@@ -214,15 +214,13 @@ def run_monte_carlo(df):
 		proj=row.Projected
 		name=row.Name
 		std=risk[risk.Name==name]['STD FPTS']
-		if row['Salary']>=7000:
-			if num<=.15:
-				new_proj=proj-2*std
-				#print proj
-			elif num>=.85:
-				new_proj=proj+2*std
-			else:
-				new_proj=proj+random.uniform(-1,1)*std
-			new_proj=new_proj.values[0]
+		if num<=.15:
+			new_proj=proj-.75*std
+			#print proj
+		elif num>=.85:
+			new_proj=proj+.75*std
+		else:
+			new_proj=proj+random.uniform(-1,1)*std
 		# else:
 		# 	if num<=.15:
 		# 		new_proj=proj-1*std
@@ -236,14 +234,6 @@ def run_monte_carlo(df):
 	return df
 	
 	
-# dates=os.listdir('../Projections/past')[1:]
-# dates=[date.strip('projection_').strip('.csv') for date in dates][1:10]
-# for date in dates:
-# 	print date
-# 	if modified:
-# 		date=date[0:-4]
-# 	optimize(True, date,iterations,modified)
-#optimize(projected_lineup, date,iterations,False)
 
 files=os.listdir('../Projections/past')[1:]
 dates=[]
@@ -252,8 +242,8 @@ for file in files:
 	dates.append(date)
 
 df=pd.read_csv('../Projections/past/%s'%file)
-for date in dates[1:15]:
-	optimize(True,date, 100)
+for date in dates[1:2]:
+	optimize(True,date, 3000)
 
 
 
