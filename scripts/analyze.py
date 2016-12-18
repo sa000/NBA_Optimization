@@ -85,7 +85,7 @@ def creating_net_data():
 	pos_encode={}
 	teams=sched.VISITOR.unique()
 	teams.sort()
-	headers=['Home', 'Away', 'Last 5','PG','SG','SF','PF','C', 'Number of games played last 5']
+	headers=['Home', 'Away', 'Boom', 'Bust','Last 5','PG','SG','SF','PF','C', 'Number of games played last 5']
 	p_team=["Player_%s"%team for team in teams]
 	opp_team=['OPP_%s'%team for team in teams]
 	headers.extend(p_team)
@@ -105,6 +105,12 @@ def creating_net_data():
 		encode[index]=1
 		pos_encode[pos]=encode
 	for index, row in data.iterrows():
+		boom=0
+		bust=0
+		if row.Scored>1.3*row.Projected:
+			boom=1
+		if row.Scored<.7*row.Projected:
+			bust=1
 
 		print row.Name
 		cur_data=[]
@@ -179,7 +185,7 @@ def creating_net_data():
 		#print player_index, opp_index
 		who_v_who[player_index]=1
 		who_v_who[opp_index+30]=1
-		new_info=[home, away, last_5]
+		new_info=[home, away, boom, bust, last_5]
 		new_info.extend(encode)
 		new_info.extend( [num_games])
 		new_info.extend(who_v_who)
