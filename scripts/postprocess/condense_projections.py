@@ -1,14 +1,31 @@
 import pandas as pd
 import os
+import time
+import calendar
+import datetime
+
 def merge(files, path):
 	df=pd.DataFrame()
 	for file in files:
 		print file
 		#date=file.strip('projection_').strip('.csv')
 		p=pd.read_csv('%s%s'%(path,file))
+		date=file.strip('projection_').strip('.csv')
+		d1=date[:-4]
+		month=d1[:3]
+		day=int(d1[3:])
+		year=int(date[-4:])
+		abbr_to_num = {name: num for num, name in enumerate(calendar.month_abbr) if num}
+		month=abbr_to_num[month]
+		date=datetime.date(year, month, day).isoformat()
+		print date
+		p['Date']=date
+		p.drop('Override', axis=1, inplace=True)
 		df=df.append(p, ignore_index=True)
+
+
 	#df.sort(['Actual Scored'], ascending=False)
-	df.to_csv('../../Data/MC_Projections.csv', index=False)
+	df.to_csv('../../Projections/Projections.csv', index=False)
 
 
 
@@ -24,7 +41,7 @@ def add_num_games(files):
 		proj.to_csv('../../Prediction/%s'%file, index=False)
 		print file
 
-path='../../Prediction/'
+path='../../Projections/past/'
 files=os.listdir(path)[1:]
 
 
