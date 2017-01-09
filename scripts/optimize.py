@@ -17,7 +17,7 @@ def optimize(projected_lineup, date, iteration, modified):
 	team_dict={}
 	p_vars=[]
 	p_formula=''
-	#risk=pd.read_csv('../Data/risk.csv')
+	risk=pd.read_csv('../Data/risk.csv')
 	#decision variables
 	decision_variables = []
 	player_names=[]
