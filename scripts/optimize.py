@@ -17,7 +17,7 @@ def optimize(projected_lineup, date, iteration, modified):
 	team_dict={}
 	p_vars=[]
 	p_formula=''
-	risk=pd.read_csv('../Data/risk.csv')
+	#risk=pd.read_csv('../Data/risk.csv')
 	#decision variables
 	decision_variables = []
 	player_names=[]
@@ -249,15 +249,15 @@ def get_num_of_games(date):
 
 projected_lineup=True #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
 #date='Dec132016'
-iterations=50
+iterations=10
 # optimize(projected_lineup, date,iterations,False)
 
-modified=True
+modified=False
 dates=os.listdir('../Projections/past')[1:]
-dates=[date.strip('projection_').strip('.csv') for date in dates][1:10]
-for date in dates[0:1]:
+dates=[date.strip('projection_').strip('.csv') for date in dates]
+for date in dates:
 	print date
 	if modified:
 		date=date[0:-4]
-	optimize(True, date,iterations,modified)
+	optimize(False, date,iterations,modified)
 #optimize(projected_lineup, date,iterations,False)
