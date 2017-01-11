@@ -10,7 +10,8 @@ def merge(files, path):
 		print file
 		#date=file.strip('projection_').strip('.csv')
 		p=pd.read_csv('%s%s'%(path,file))
-		date=file.strip('projection_').strip('.csv')
+		date=file.strip('_P.csv')
+		print date
 		d1=date[:-4]
 		month=d1[:3]
 		day=int(d1[3:])
@@ -18,14 +19,14 @@ def merge(files, path):
 		abbr_to_num = {name: num for num, name in enumerate(calendar.month_abbr) if num}
 		month=abbr_to_num[month]
 		date=datetime.date(year, month, day).isoformat()
-		print date
+		#print date
 		p['Date']=date
-		p.drop('Override', axis=1, inplace=True)
+		#p.drop('Override', axis=1, inplace=True)
 		df=df.append(p, ignore_index=True)
 
 
 	#df.sort(['Actual Scored'], ascending=False)
-	df.to_csv('../../Projections/Projections.csv', index=False)
+	df.to_csv('../../Projections/Projections_PositionConstraints.csv', index=False)
 
 
 
@@ -41,8 +42,9 @@ def add_num_games(files):
 		proj.to_csv('../../Prediction/%s'%file, index=False)
 		print file
 
-path='../../Projections/past/'
-files=os.listdir(path)[1:]
+path='../../Prediction/'
 
+files=os.listdir(path)[1:]
+print files
 
 merge(files, path)

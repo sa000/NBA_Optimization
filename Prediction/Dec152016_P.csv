@@ -1,0 +1,101 @@
+Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Team1,Team2,Team3,Team4,Team5,Team6,Team7,Team8,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Projected Value,Actual Scored,Iteration,date,NumGames,Risk
+Jrue Holiday,Pau Gasol,Robin Lopez,Kevin Durant,Tony Snell,Kawhi Leonard,Damian Lillard,Gary Harris,NO,SA,CHI,GS,MIL,SA,POR,DEN,PG,C,C,SF,SG,SF,PG,SG,269.828,304.25,85,Dec152016,0,83.73
+Jrue Holiday,Myles Turner,Pau Gasol,Brandon Jennings,Jabari Parker,Evan Turner,Damian Lillard,Eric Bledsoe,NO,IND,SA,NY,MIL,POR,POR,PHO,PG,C,C,PG,SF,SG,PG,PG,280.318,300.25,4,Dec152016,0,90.12
+Jeff Teague,Mason Plumlee,Brandon Jennings,LaMarcus Aldridge,Langston Galloway,Devin Booker,Giannis Antetokounmpo,Damian Lillard,IND,POR,NY,SA,NO,PHO,MIL,POR,PG,C,PG,PF,PG,SG,PG,PG,271.048,299.0,68,Dec152016,0,84.01
+Jeff Teague,Pau Gasol,John Henson,Tony Parker,Kevin Durant,Devin Booker,Damian Lillard,Dwyane Wade,IND,SA,MIL,SA,GS,PHO,POR,CHI,PG,C,C,PG,SF,SG,PG,SG,279.408,295.5,9,Dec152016,0,89.79
+Anthony Davis,Myles Turner,John Henson,Jameer Nelson,Langston Galloway,Devin Booker,Damian Lillard,Klay Thompson,NO,IND,MIL,DEN,NO,PHO,POR,GS,PF,C,C,PG,PG,SG,PG,SG,276.748,293.75,19,Dec152016,0,98.93
+Draymond Green,Jrue Holiday,Matthew Dellavedova,Myles Turner,Taj Gibson,Devin Booker,Damian Lillard,Dwyane Wade,GS,NO,MIL,IND,CHI,PHO,POR,CHI,PF,PG,PG,C,PF,SG,PG,SG,269.638,293.75,90,Dec152016,0,90.89
+Anthony Davis,Pau Gasol,Evan Turner,Glenn Robinson III,Damian Lillard,Jared Dudley,Stephen Curry,Gary Harris,NO,SA,POR,IND,POR,PHO,GS,DEN,PF,C,SG,SG,PG,PF,PG,SG,271.498,291.25,60,Dec152016,0,91.42
+Anthony Davis,C.J. McCollum,Pau Gasol,John Henson,Brandon Jennings,Taj Gibson,C.J. Miles,Damian Lillard,NO,POR,SA,MIL,NY,CHI,IND,POR,PF,PG,C,C,PG,PF,SF,PG,275.338,286.5,29,Dec152016,0,94.7
+Jrue Holiday,Nikola Jokic,Mason Plumlee,Brandon Jennings,Kevin Durant,Taj Gibson,Glenn Robinson III,Damian Lillard,NO,DEN,POR,NY,GS,CHI,IND,POR,PG,C,C,PG,SF,PF,SG,PG,277.148,286.25,14,Dec152016,0,87.13
+Malcolm Brogdon,Myles Turner,Pau Gasol,Lance Thomas,Jimmy Butler,Devin Booker,Giannis Antetokounmpo,Damian Lillard,MIL,IND,SA,NY,CHI,PHO,MIL,POR,PG,C,C,SF,SG,SG,PG,PG,269.418,284.0,93,Dec152016,0,81.8
+Jrue Holiday,Jeff Teague,Pau Gasol,Greg Monroe,Brandon Jennings,Kevin Durant,Danilo Gallinari,Kristaps Porzingis,NO,IND,SA,MIL,NY,GS,DEN,NY,PG,PG,C,C,PG,SF,SF,PF,269.288,278.0,97,Dec152016,0,89.58
+Jeff Teague,Myles Turner,Langston Galloway,Kevin Durant,Taj Gibson,Tony Snell,Damian Lillard,Eric Bledsoe,IND,IND,NO,GS,CHI,MIL,POR,PHO,PG,C,PG,SF,PF,SG,PG,PG,273.168,277.5,47,Dec152016,0,79.75
+Jeff Teague,Pau Gasol,Brandon Jennings,Jabari Parker,Taj Gibson,Jimmy Butler,Devin Booker,Stephen Curry,IND,SA,NY,MIL,CHI,CHI,PHO,GS,PG,C,PG,SF,PF,SG,SG,PG,272.588,275.25,53,Dec152016,0,78.03
+Anthony Davis,Matthew Dellavedova,Mason Plumlee,Tyson Chandler,Jameer Nelson,Glenn Robinson III,Damian Lillard,Dwyane Wade,NO,MIL,POR,PHO,DEN,IND,POR,CHI,PF,PG,C,C,PG,SG,PG,SG,270.388,274.0,75,Dec152016,0,98.65
+Jrue Holiday,Myles Turner,Taj Gibson,Glenn Robinson III,Kawhi Leonard,Stephen Curry,Eric Bledsoe,Gary Harris,NO,IND,CHI,IND,SA,GS,PHO,DEN,PG,C,PF,SG,SF,PG,PG,SG,270.578,271.75,74,Dec152016,0,84.94
+E'Twaun Moore,Pau Gasol,Paul George,Taj Gibson,Devin Booker,Kawhi Leonard,Damian Lillard,Klay Thompson,NO,SA,IND,CHI,PHO,SA,POR,GS,SG,C,SF,PF,SG,SF,PG,SG,273.218,271.75,45,Dec152016,0,89.43
+Jrue Holiday,Myles Turner,John Henson,Langston Galloway,Kevin Durant,Evan Turner,Kawhi Leonard,Dwyane Wade,NO,IND,MIL,NO,GS,POR,SA,CHI,PG,C,C,PG,SF,SG,SF,SG,272.658,271.5,52,Dec152016,0,88.06
+Anthony Davis,Jeff Teague,Tyson Chandler,Greg Monroe,Brandon Jennings,Tony Parker,Maurice Harkless,Damian Lillard,NO,IND,PHO,MIL,NY,SA,POR,POR,PF,PG,C,C,PG,PG,SF,PG,269.578,270.5,91,Dec152016,0,97.99
+Nikola Jokic,Tyson Chandler,Tony Parker,Devin Booker,Glenn Robinson III,Giannis Antetokounmpo,Damian Lillard,Klay Thompson,DEN,PHO,SA,PHO,IND,MIL,POR,GS,C,C,PG,SG,SG,PG,PG,SG,269.768,266.75,87,Dec152016,0,94.02
+Anthony Davis,Mason Plumlee,John Henson,Tony Parker,Kevin Durant,Taj Gibson,P.J. Tucker,Klay Thompson,NO,POR,MIL,SA,GS,CHI,PHO,GS,PF,C,C,PG,SF,PF,SF,SG,269.338,266.5,95,Dec152016,0,90.6
+Jeff Teague,Nikola Jokic,Langston Galloway,Kevin Durant,Jabari Parker,Devin Booker,Glenn Robinson III,Kawhi Leonard,IND,DEN,NO,GS,MIL,PHO,IND,SA,PG,C,PG,SF,SF,SG,SG,SF,270.088,266.0,81,Dec152016,0,83.08
+Anthony Davis,Draymond Green,Jrue Holiday,John Henson,Tony Parker,Lance Thomas,Glenn Robinson III,Damian Lillard,NO,GS,NO,MIL,SA,NY,IND,POR,PF,PF,PG,C,PG,SF,SG,PG,274.178,265.25,35,Dec152016,0,100.28
+Anthony Davis,Jeff Teague,Robin Lopez,Tony Parker,Langston Galloway,Danilo Gallinari,Eric Bledsoe,Klay Thompson,NO,IND,CHI,SA,NO,DEN,PHO,GS,PF,PG,C,PG,PG,SF,PG,SG,269.738,264.25,89,Dec152016,0,93.88
+Jrue Holiday,Nikola Jokic,John Henson,Brandon Jennings,Devin Booker,Kawhi Leonard,Eric Bledsoe,Klay Thompson,NO,DEN,MIL,NY,PHO,SA,PHO,GS,PG,C,C,PG,SG,SF,PG,SG,275.568,263.5,26,Dec152016,0,91.49
+Jrue Holiday,Mason Plumlee,Kyle O'Quinn,Jimmy Butler,Jonathon Simmons,Damian Lillard,Eric Bledsoe,Gary Harris,NO,POR,NY,CHI,SA,POR,PHO,DEN,PG,C,PF,SG,SG,PG,PG,SG,271.098,263.25,65,Dec152016,0,90.96
+Anthony Davis,Pau Gasol,Langston Galloway,Jabari Parker,Lance Thomas,P.J. Tucker,Damian Lillard,Dwyane Wade,NO,SA,NO,MIL,NY,PHO,POR,CHI,PF,C,PG,SF,SF,SF,PG,SG,276.928,262.75,17,Dec152016,0,96.37
+Anthony Davis,Mason Plumlee,Pau Gasol,Brandon Jennings,Glenn Robinson III,Maurice Harkless,Eric Bledsoe,Klay Thompson,NO,POR,SA,NY,IND,POR,PHO,GS,PF,C,C,PG,SG,SF,PG,SG,276.768,262.0,18,Dec152016,0,93.03
+Anthony Davis,Jrue Holiday,Brandon Knight,Pau Gasol,John Henson,Andre Iguodala,Kristaps Porzingis,Dwyane Wade,NO,NO,PHO,SA,MIL,GS,NY,CHI,PF,PG,PG,C,C,SF,PF,SG,273.298,259.25,42,Dec152016,0,101.14
+Anthony Davis,Pau Gasol,Robin Lopez,Kyle O'Quinn,Devin Booker,Kristaps Porzingis,Klay Thompson,Gary Harris,NO,SA,CHI,NY,PHO,NY,GS,DEN,PF,C,C,PF,SG,PF,SG,SG,270.818,259.0,71,Dec152016,0,95.85
+Anthony Davis,Jrue Holiday,Tyson Chandler,Pau Gasol,Jameer Nelson,Kevin Durant,Lance Thomas,Maurice Harkless,NO,NO,PHO,SA,DEN,GS,NY,POR,PF,PG,C,C,PG,SF,SF,SF,271.228,258.5,63,Dec152016,0,100.34
+Anthony Davis,Nikola Jokic,Mason Plumlee,Tony Parker,Jabari Parker,Lance Thomas,Devin Booker,Eric Bledsoe,NO,DEN,POR,SA,MIL,NY,PHO,PHO,PF,C,C,PG,SF,SF,SG,PG,272.368,258.0,56,Dec152016,0,93.99
+Anthony Davis,Pau Gasol,Jameer Nelson,Tony Parker,Kyle O'Quinn,Andre Iguodala,Damian Lillard,Eric Bledsoe,NO,SA,DEN,SA,NY,GS,POR,PHO,PF,C,PG,PG,PF,SF,PG,PG,279.618,258.0,7,Dec152016,0,97.36
+John Henson,Brandon Jennings,LaMarcus Aldridge,Jimmy Butler,Glenn Robinson III,Damian Lillard,Dwyane Wade,Klay Thompson,MIL,NY,SA,CHI,IND,POR,CHI,GS,C,PG,PF,SG,SG,PG,SG,SG,273.388,256.75,40,Dec152016,0,89.31
+Jrue Holiday,Nikola Jokic,Pau Gasol,Langston Galloway,Kyle O'Quinn,Devin Booker,Damian Lillard,Stephen Curry,NO,DEN,SA,NO,NY,PHO,POR,GS,PG,C,C,PG,PF,SG,PG,PG,284.288,256.25,2,Dec152016,0,96.12
+Greg Monroe,Langston Galloway,Jimmy Butler,Devin Booker,Kawhi Leonard,Andre Iguodala,Damian Lillard,Dwyane Wade,MIL,NO,CHI,PHO,SA,GS,POR,CHI,C,PG,SG,SG,SF,SF,PG,SG,272.478,256.25,54,Dec152016,0,84.3
+Anthony Davis,Brandon Knight,Pau Gasol,Lance Thomas,Taj Gibson,Danilo Gallinari,Stephen Curry,Eric Bledsoe,NO,PHO,SA,NY,CHI,DEN,GS,PHO,PF,PG,C,SF,PF,SF,PG,PG,269.188,256.25,100,Dec152016,0,86.37
+Jrue Holiday,Myles Turner,Brandon Jennings,Tony Parker,Kyle O'Quinn,Kevin Durant,Jimmy Butler,Devin Booker,NO,IND,NY,SA,NY,GS,CHI,PHO,PG,C,PG,PG,PF,SF,SG,SG,271.128,256.0,64,Dec152016,0,89.33
+Jeff Teague,Tyson Chandler,Jameer Nelson,Langston Galloway,Evan Turner,Kawhi Leonard,Damian Lillard,Stephen Curry,IND,PHO,DEN,NO,POR,SA,POR,GS,PG,C,PG,PG,SG,SF,PG,PG,273.828,255.75,36,Dec152016,0,81.88
+C.J. McCollum,Nikola Jokic,Myles Turner,Langston Galloway,Jabari Parker,Andre Iguodala,Damian Lillard,Kristaps Porzingis,POR,DEN,IND,NO,MIL,GS,POR,NY,PG,C,C,PG,SF,SF,PG,PF,274.308,251.75,34,Dec152016,0,86.31
+Matthew Dellavedova,Nikola Jokic,Brandon Jennings,Jameer Nelson,Paul George,Jimmy Butler,Devin Booker,Damian Lillard,MIL,DEN,NY,DEN,IND,CHI,PHO,POR,PG,C,PG,PG,SF,SG,SG,PG,269.328,251.75,96,Dec152016,0,92.38
+Anthony Davis,Jeff Teague,Pau Gasol,John Henson,Langston Galloway,Kyle O'Quinn,Jimmy Butler,Evan Turner,NO,IND,SA,MIL,NO,NY,CHI,POR,PF,PG,C,C,PG,PF,SG,SG,277.048,251.75,15,Dec152016,0,96.14
+Anthony Davis,Jeff Teague,Matthew Dellavedova,Nikola Jokic,Pau Gasol,Taj Gibson,Glenn Robinson III,Kristaps Porzingis,NO,IND,MIL,DEN,SA,CHI,IND,NY,PF,PG,PG,C,C,PF,SG,PF,273.248,251.25,43,Dec152016,0,94.31
+E'Twaun Moore,Jeff Teague,Mason Plumlee,Pau Gasol,Jimmy Butler,Andre Iguodala,Damian Lillard,Kristaps Porzingis,NO,IND,POR,SA,CHI,GS,POR,NY,SG,PG,C,C,SG,SF,PG,PF,276.958,250.25,16,Dec152016,0,82.08
+Jamal Murray,Mason Plumlee,Pau Gasol,Paul George,Tony Snell,Damian Lillard,Eric Bledsoe,Dwyane Wade,DEN,POR,SA,IND,MIL,POR,PHO,CHI,PG,C,C,SF,SG,PG,PG,SG,269.338,250.0,94,Dec152016,0,94.24
+Mason Plumlee,Tony Parker,Langston Galloway,Jabari Parker,Jimmy Butler,Glenn Robinson III,Damian Lillard,Stephen Curry,POR,SA,NO,MIL,CHI,IND,POR,GS,C,PG,PG,SF,SG,SG,PG,PG,278.108,250.0,12,Dec152016,0,81.7
+Draymond Green,Tyson Chandler,Pau Gasol,Brandon Jennings,Langston Galloway,Jimmy Butler,Danilo Gallinari,Damian Lillard,GS,PHO,SA,NY,NO,CHI,DEN,POR,PF,C,C,PG,PG,SG,SF,PG,274.478,246.75,32,Dec152016,0,90.4
+Jrue Holiday,John Henson,Jameer Nelson,Taj Gibson,Maurice Harkless,Damian Lillard,Kristaps Porzingis,Stephen Curry,NO,MIL,DEN,CHI,POR,POR,NY,GS,PG,C,PG,PF,SF,PG,PF,PG,276.108,246.0,22,Dec152016,0,87.04
+Mason Plumlee,Pau Gasol,Jameer Nelson,Langston Galloway,Kevin Durant,Jimmy Butler,Devin Booker,Eric Bledsoe,POR,SA,DEN,NO,GS,CHI,PHO,PHO,C,C,PG,PG,SF,SG,SG,PG,279.478,245.5,8,Dec152016,0,84.93
+Myles Turner,Mason Plumlee,Tony Parker,Solomon Hill,Damian Lillard,Kristaps Porzingis,Eric Bledsoe,Klay Thompson,IND,POR,SA,NO,POR,NY,PHO,GS,C,C,PG,SF,PG,PF,PG,SG,275.948,245.25,24,Dec152016,0,83.96
+Nikola Jokic,Pau Gasol,Jameer Nelson,C.J. Miles,Damian Lillard,Kristaps Porzingis,Dwyane Wade,Klay Thompson,DEN,SA,DEN,IND,POR,NY,CHI,GS,C,C,PG,SF,PG,PF,SG,SG,278.508,245.0,10,Dec152016,0,95.41
+Anthony Davis,Matthew Dellavedova,Myles Turner,Brandon Jennings,Langston Galloway,Jimmy Butler,Andre Iguodala,Eric Bledsoe,NO,MIL,IND,NY,NO,CHI,GS,PHO,PF,PG,C,PG,PG,SG,SF,PG,270.928,244.75,69,Dec152016,0,88.18
+Jrue Holiday,Mason Plumlee,Jameer Nelson,Kyle O'Quinn,Devin Booker,Kawhi Leonard,Kristaps Porzingis,Dwyane Wade,NO,POR,DEN,NY,PHO,SA,NY,CHI,PG,C,PG,PF,SG,SF,PF,SG,273.038,244.75,48,Dec152016,0,91.17
+Jeff Teague,Brandon Knight,Nikola Jokic,Brandon Jennings,Kawhi Leonard,Solomon Hill,Damian Lillard,Kristaps Porzingis,IND,PHO,DEN,NY,SA,NO,POR,NY,PG,PG,C,PG,SF,SF,PG,PF,269.898,243.75,84,Dec152016,0,79.02
+Mason Plumlee,Tony Parker,Kevin Durant,Glenn Robinson III,Kawhi Leonard,Eric Bledsoe,Dwyane Wade,Courtney Lee,POR,SA,GS,IND,SA,PHO,CHI,NY,C,PG,SF,SG,SF,PG,SG,SG,270.368,243.25,76,Dec152016,0,80.71
+Brandon Knight,Pau Gasol,Kyle O'Quinn,Kevin Durant,Jimmy Butler,Glenn Robinson III,Maurice Harkless,Damian Lillard,PHO,SA,NY,GS,CHI,IND,POR,POR,PG,C,PF,SF,SG,SG,SF,PG,275.908,243.0,25,Dec152016,0,84.09
+Draymond Green,Nikola Jokic,Pau Gasol,Taj Gibson,Maurice Harkless,Damian Lillard,Eric Bledsoe,Courtney Lee,GS,DEN,SA,CHI,POR,POR,PHO,NY,PF,C,C,PF,SF,PG,PG,SG,275.368,242.0,28,Dec152016,0,87.28
+E'Twaun Moore,C.J. McCollum,Matthew Dellavedova,Nikola Jokic,Glenn Robinson III,Kawhi Leonard,Damian Lillard,Stephen Curry,NO,POR,MIL,DEN,IND,SA,POR,GS,SG,PG,PG,C,SG,SF,PG,PG,271.528,241.75,58,Dec152016,0,79.94
+Draymond Green,Myles Turner,Mason Plumlee,Langston Galloway,Kyle O'Quinn,Kawhi Leonard,P.J. Tucker,Damian Lillard,GS,IND,POR,NO,NY,SA,PHO,POR,PF,C,C,PG,PF,SF,SF,PG,273.348,241.0,41,Dec152016,0,84.39
+Anthony Davis,E'Twaun Moore,Nikola Jokic,Brandon Jennings,Patty Mills,P.J. Tucker,Damian Lillard,Klay Thompson,NO,NO,DEN,NY,SA,PHO,POR,GS,PF,SG,C,PG,PG,SF,PG,SG,270.158,240.5,78,Dec152016,0,94.05
+Jrue Holiday,C.J. McCollum,John Henson,Patty Mills,Kevin Durant,Glenn Robinson III,Kristaps Porzingis,Klay Thompson,NO,POR,MIL,SA,GS,IND,NY,GS,PG,PG,C,PG,SF,SG,PF,SG,270.128,239.75,79,Dec152016,0,87.08
+Draymond Green,Jrue Holiday,Jeff Teague,Nikola Jokic,Tony Parker,Kyle O'Quinn,Kawhi Leonard,Maurice Harkless,GS,NO,IND,DEN,SA,NY,SA,POR,PF,PG,PG,C,PG,PF,SF,SF,269.808,238.75,86,Dec152016,0,92.49
+Nikola Jokic,Brandon Jennings,Langston Galloway,Glenn Robinson III,Danilo Gallinari,Giannis Antetokounmpo,Stephen Curry,Eric Bledsoe,DEN,NY,NO,IND,DEN,MIL,GS,PHO,C,PG,PG,SG,SF,PG,PG,PG,270.108,238.75,80,Dec152016,0,84.09
+Draymond Green,Pau Gasol,Tony Parker,Langston Galloway,Evan Turner,Giannis Antetokounmpo,Eric Bledsoe,Dwyane Wade,GS,SA,SA,NO,POR,MIL,PHO,CHI,PF,C,PG,PG,SG,PG,PG,SG,272.738,238.5,50,Dec152016,0,88.03
+Anthony Davis,Nikola Jokic,Greg Monroe,Langston Galloway,Kyle O'Quinn,Kawhi Leonard,C.J. Miles,Klay Thompson,NO,DEN,MIL,NO,NY,SA,IND,GS,PF,C,C,PG,PF,SF,SF,SG,270.078,237.75,82,Dec152016,0,99.05
+Jrue Holiday,Jeff Teague,JaVale McGee,Jameer Nelson,Jimmy Butler,Evan Turner,Kristaps Porzingis,Eric Bledsoe,NO,IND,GS,DEN,CHI,POR,NY,PHO,PG,PG,C,PG,SG,SG,PF,PG,270.358,237.5,77,Dec152016,0,87.25
+Jrue Holiday,Robin Lopez,Greg Monroe,Patty Mills,Devin Booker,Damian Lillard,Kristaps Porzingis,Eric Bledsoe,NO,CHI,MIL,SA,PHO,POR,NY,PHO,PG,C,C,PG,SG,PG,PF,PG,273.218,236.75,44,Dec152016,0,88.72
+Anthony Davis,Nikola Jokic,Myles Turner,Tony Parker,Langston Galloway,Taj Gibson,Maurice Harkless,Stephen Curry,NO,DEN,IND,SA,NO,CHI,POR,GS,PF,C,C,PG,PG,PF,SF,PG,272.678,236.25,51,Dec152016,0,93.28
+Draymond Green,Jrue Holiday,Pau Gasol,John Henson,Jameer Nelson,Jimmy Butler,Kawhi Leonard,P.J. Tucker,GS,NO,SA,MIL,DEN,CHI,SA,PHO,PF,PG,C,C,PG,SG,SF,SF,271.378,235.75,61,Dec152016,0,92.16
+Pau Gasol,Langston Galloway,Paul George,Jabari Parker,Allen Crabbe,Stephen Curry,Eric Bledsoe,Klay Thompson,SA,NO,IND,MIL,POR,GS,PHO,GS,C,PG,SF,SF,SG,PG,PG,SG,271.058,235.5,67,Dec152016,0,88.64
+Jrue Holiday,Myles Turner,Pau Gasol,Langston Galloway,Jimmy Butler,Maurice Harkless,Kristaps Porzingis,Klay Thompson,NO,IND,SA,NO,CHI,POR,NY,GS,PG,C,C,PG,SG,SF,PF,SG,279.658,235.25,6,Dec152016,0,93.22
+Robin Lopez,Jameer Nelson,Kevin Durant,Lance Thomas,Glenn Robinson III,Damian Lillard,Stephen Curry,Eric Bledsoe,CHI,DEN,GS,NY,IND,POR,GS,PHO,C,PG,SF,SF,SG,PG,PG,PG,273.778,235.0,37,Dec152016,0,75.15
+Nikola Jokic,Patty Mills,Kyle O'Quinn,Jabari Parker,Glenn Robinson III,Damian Lillard,Eric Bledsoe,Dwyane Wade,DEN,SA,NY,MIL,IND,POR,PHO,CHI,C,PG,PF,SF,SG,PG,PG,SG,275.538,234.75,27,Dec152016,0,90.38
+Draymond Green,Robin Lopez,Brandon Jennings,Tony Parker,Kawhi Leonard,C.J. Miles,Damian Lillard,Eric Bledsoe,GS,CHI,NY,SA,SA,IND,POR,PHO,PF,C,PG,PG,SF,SF,PG,PG,271.518,234.5,59,Dec152016,0,80.54
+Myles Turner,Pau Gasol,Patty Mills,Nikola Mirotic,Danilo Gallinari,Damian Lillard,Kristaps Porzingis,Stephen Curry,IND,SA,SA,CHI,DEN,POR,NY,GS,C,C,PG,SF,SF,PG,PF,PG,270.608,233.0,73,Dec152016,0,84.7
+Jrue Holiday,C.J. McCollum,Nikola Jokic,Pau Gasol,Tony Parker,Jimmy Butler,Glenn Robinson III,Eric Bledsoe,NO,POR,DEN,SA,SA,CHI,IND,PHO,PG,PG,C,C,PG,SG,SG,PG,280.598,232.75,3,Dec152016,0,97.83
+Nikola Jokic,Langston Galloway,Lance Thomas,Jimmy Butler,Evan Turner,Damian Lillard,Eric Bledsoe,Klay Thompson,DEN,NO,NY,CHI,POR,POR,PHO,GS,C,PG,SF,SG,SG,PG,PG,SG,279.898,230.5,5,Dec152016,0,84.24
+C.J. McCollum,Tyson Chandler,Pau Gasol,Langston Galloway,Kevin Durant,Glenn Robinson III,Stephen Curry,Dwyane Wade,POR,PHO,SA,NO,GS,IND,GS,CHI,PG,C,C,PG,SF,SG,PG,SG,274.768,230.0,31,Dec152016,0,88.05
+Jrue Holiday,E'Twaun Moore,Nikola Jokic,Taj Gibson,Andre Iguodala,Giannis Antetokounmpo,Kristaps Porzingis,Eric Bledsoe,NO,NO,DEN,CHI,GS,MIL,NY,PHO,PG,SG,C,PF,SF,PG,PF,PG,269.768,229.5,88,Dec152016,0,88.3
+Jrue Holiday,Tyson Chandler,Tony Parker,Langston Galloway,Kevin Durant,C.J. Miles,Damian Lillard,Kristaps Porzingis,NO,PHO,SA,NO,GS,IND,POR,NY,PG,C,PG,PG,SF,SF,PG,PF,275.998,229.0,23,Dec152016,0,95.91
+Anthony Davis,Mason Plumlee,John Henson,Patty Mills,Langston Galloway,C.J. Miles,Stephen Curry,Eric Bledsoe,NO,POR,MIL,SA,NO,IND,GS,PHO,PF,C,C,PG,PG,SF,PG,PG,273.398,228.0,39,Dec152016,0,90.66
+Pau Gasol,John Henson,Langston Galloway,Glenn Robinson III,Kawhi Leonard,Damian Lillard,Kristaps Porzingis,Eric Bledsoe,SA,MIL,NO,IND,SA,POR,NY,PHO,C,C,PG,SG,SF,PG,PF,PG,287.158,227.5,1,Dec152016,0,86.85
+Anthony Davis,E'Twaun Moore,John Henson,Lance Thomas,Kawhi Leonard,Maurice Harkless,Eric Bledsoe,Dwyane Wade,NO,NO,MIL,NY,SA,POR,PHO,CHI,PF,SG,C,SF,SF,SF,PG,SG,270.888,226.25,70,Dec152016,0,90.82
+Anthony Davis,Nikola Jokic,John Henson,Jameer Nelson,LaMarcus Aldridge,Kyle O'Quinn,Glenn Robinson III,Stephen Curry,NO,DEN,MIL,DEN,SA,NY,IND,GS,PF,C,C,PG,PF,PF,SG,PG,269.218,225.5,99,Dec152016,0,99.73
+E'Twaun Moore,C.J. McCollum,Myles Turner,Pau Gasol,Devin Booker,Kristaps Porzingis,Eric Bledsoe,Dwyane Wade,NO,POR,IND,SA,PHO,NY,PHO,CHI,SG,PG,C,C,SG,PF,PG,SG,272.738,225.0,49,Dec152016,0,90.18
+Nikola Jokic,Mason Plumlee,Patty Mills,Taj Gibson,Jimmy Butler,Devin Booker,Kristaps Porzingis,Klay Thompson,DEN,POR,SA,CHI,CHI,PHO,NY,GS,C,C,PG,PF,SG,SG,PF,SG,270.668,224.25,72,Dec152016,0,81.82
+Jrue Holiday,Matthew Dellavedova,Mason Plumlee,Pau Gasol,P.J. Tucker,Kristaps Porzingis,Stephen Curry,Eric Bledsoe,NO,MIL,POR,SA,PHO,NY,GS,PHO,PG,PG,C,C,SF,PF,PG,PG,276.658,223.5,20,Dec152016,0,86.72
+E'Twaun Moore,Nikola Jokic,Pau Gasol,Kyle O'Quinn,Kevin Durant,Evan Turner,Kawhi Leonard,Eric Bledsoe,NO,DEN,SA,NY,GS,POR,SA,PHO,SG,C,C,PF,SF,SG,SF,PG,276.448,222.75,21,Dec152016,0,83.72
+Pau Gasol,Robin Lopez,Tony Parker,Kevin Durant,Jabari Parker,Maurice Harkless,Kristaps Porzingis,Eric Bledsoe,SA,CHI,SA,GS,MIL,POR,NY,PHO,C,C,PG,SF,SF,SF,PF,PG,274.798,221.75,30,Dec152016,0,81.23
+Jrue Holiday,Nikola Jokic,Brandon Jennings,Tony Parker,Evan Turner,Kristaps Porzingis,Stephen Curry,Dwyane Wade,NO,DEN,NY,SA,POR,NY,GS,CHI,PG,C,PG,PG,SG,PF,PG,SG,273.588,221.25,38,Dec152016,0,89.63
+Pau Gasol,Langston Galloway,Kyle O'Quinn,Kevin Durant,Taj Gibson,P.J. Tucker,Giannis Antetokounmpo,Kristaps Porzingis,SA,NO,NY,GS,CHI,PHO,MIL,NY,C,PG,PF,SF,PF,SF,PG,PF,272.068,218.25,57,Dec152016,0,82.85
+E'Twaun Moore,John Henson,Jimmy Butler,Devin Booker,Damian Lillard,Stephen Curry,Darrell Arthur,Eric Bledsoe,NO,MIL,CHI,PHO,POR,GS,DEN,PHO,SG,C,SG,SG,PG,PG,PF,PG,274.478,216.5,33,Dec152016,0,81.38
+Jeff Teague,Nikola Jokic,Mason Plumlee,Langston Galloway,Maurice Harkless,Kristaps Porzingis,Eric Bledsoe,Dwyane Wade,IND,DEN,POR,NO,POR,NY,PHO,CHI,PG,C,C,PG,SF,PF,PG,SG,278.358,216.25,11,Dec152016,0,89.29
+C.J. McCollum,Robin Lopez,Brandon Jennings,Langston Galloway,Devin Booker,Kawhi Leonard,Kristaps Porzingis,Stephen Curry,POR,CHI,NY,NO,PHO,SA,NY,GS,PG,C,PG,PG,SG,SF,PF,PG,271.298,214.75,62,Dec152016,0,73.93
+C.J. McCollum,Greg Monroe,Langston Galloway,Taj Gibson,Jimmy Butler,Danilo Gallinari,Kristaps Porzingis,Eric Bledsoe,POR,MIL,NO,CHI,CHI,DEN,NY,PHO,PG,C,PG,PF,SG,SF,PF,PG,269.278,213.75,98,Dec152016,0,84.76
+Draymond Green,John Henson,LaMarcus Aldridge,Langston Galloway,Jabari Parker,Jimmy Butler,Maurice Harkless,Eric Bledsoe,GS,MIL,SA,NO,MIL,CHI,POR,PHO,PF,C,PF,PG,SF,SG,SF,PG,269.968,213.0,83,Dec152016,0,87.75
+Tyson Chandler,Jameer Nelson,Kyle O'Quinn,Jimmy Butler,Glenn Robinson III,Kawhi Leonard,Eric Bledsoe,Klay Thompson,PHO,DEN,NY,CHI,IND,SA,PHO,GS,C,PG,PF,SG,SG,SF,PG,SG,272.438,210.75,55,Dec152016,0,88.41
+Anthony Davis,C.J. McCollum,John Henson,Tony Parker,Evan Turner,Kristaps Porzingis,Darrell Arthur,Eric Bledsoe,NO,POR,MIL,SA,POR,NY,DEN,PHO,PF,PG,C,PG,SG,PF,PF,PG,271.068,210.0,66,Dec152016,0,91.45
+C.J. McCollum,Malcolm Brogdon,Pau Gasol,Kyle O'Quinn,Jimmy Butler,C.J. Miles,Kristaps Porzingis,Stephen Curry,POR,MIL,SA,NY,CHI,IND,NY,GS,PG,PG,C,PF,SG,SF,PF,PG,269.558,198.0,92,Dec152016,0,82.96
+Nikola Jokic,John Henson,Tony Parker,Kyle O'Quinn,Jimmy Butler,P.J. Tucker,Damian Lillard,Kristaps Porzingis,DEN,MIL,SA,NY,CHI,PHO,POR,NY,C,C,PG,PF,SG,SF,PG,PF,277.748,194.0,13,Dec152016,0,92.34
+Myles Turner,LaMarcus Aldridge,Langston Galloway,Kyle O'Quinn,Evan Turner,Kristaps Porzingis,Stephen Curry,Eric Bledsoe,IND,SA,NO,NY,POR,NY,GS,PHO,C,PF,PG,PF,SG,PF,PG,PG,273.208,192.25,46,Dec152016,0,84.11
