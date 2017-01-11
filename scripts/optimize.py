@@ -29,22 +29,51 @@ def optimize(projected_lineup, date, iteration, modified):
 	total_Pts = ""
 	for rownum, row in data.iterrows():
 		positions={}
+		salary=row.Salary
 		name=row.Name
 		std=round(risk[risk['Name']==name]['STD diff'].values[0],2)
 		std=np.power(std,.25)
 		#	                                                                    std=1
 		positions['PG']=positions['SG']=positions['SF']=positions['PF']=positions['C']=0
 		#For each player, classify their position
-		if 'PG' in row['Position']:
-			positions['PG']=1
-		if 'SG' in row['Position']:
-			positions['SG']=1
-		if 'SF' in row['Position']:
-			positions['SF']=1
-		if 'PF' in row['Position']:
-			positions['PF']=1
-		if 'C' in row['Position']:
+		#Pg, or SG, or PG/SG
+		if 'PG' in row['Position'] or 'SG' in row['Position'] and not 'SF' in row['Position']:
+			if salary>6000:
+				positions['PG']=1
+			else:
+				positions['SG']=1
+		# if 'SG' in row['Position']:
+		# 	positions['SG']=1
+		#SG/SF case
+		if 'SG' in row['Position'] and 'SF' in row['Position']:
+			if salary<6000:
+				positions['SF']=1
+				positions['PF']=1
+			elif salary>=6000 and salary<=7000:
+				positions['SF']=1
+		#Pure SF
+		if 'SF' in row['Position'] and not 'SG' in row['Position'] and not 'PF' in row['Position']:
+			if salary<7000:
+				positions['SF']=1
+		#PF/C Case
+		if 'PF' in row['Position'] and 'C' in row['Position']:
+			if salary>7000:
+				positions['PF']=1
+		#PURE PF
+		if 'PF' in row['Position'] and not 'SF' in row['Position'] and not 'C' in row['Position']:
+			if salary>7000:
+				positions['PF']=1
+		#Pure C
+		if 'C' in row['Position'] and not 'PF' in row['Position']:
 			positions['C']=1
+		#
+
+		# if 'SF' in row['Position']:
+		# 	positions['SF']=1
+		# if 'PF' in row['Position']:
+		# 	positions['PF']=1
+		# if 'C' in row['Position']:
+		# 	positions['C']=1
 		position_arr.append(positions)
 
 		#Clasiffy teams
@@ -66,7 +95,7 @@ def optimize(projected_lineup, date, iteration, modified):
 			column='Projected'
 		else:
 			column='Scored'
-		formula = (std*row[column]+.001)*variable
+		formula = (row[column]+.001)*variable
 		#print formula
 		total_Pts += formula
 	#print ("Total number of decision_variables: " + str(len(decision_variables)))
@@ -78,20 +107,28 @@ def optimize(projected_lineup, date, iteration, modified):
 	prob +=  lpSum(total_Pts)
 	##Subject to our budget 
 	total_budget=50000
+	pg_budget=6000
 	total_cost=""
 	player_num=""
 	pgs=sgs=sfs=pfs=cs=''
 	team_c1=''
 	for rownum, row in data.iterrows():
 		for i, player in enumerate(decision_variables):
+			
 			if rownum == i:
+
 				#Budget Constraint
 				formula = row['Salary']*player
 				total_cost += formula
 				#print position_arr[i]
 				#Player type constraint
 				pgs += position_arr[i]['PG']*player
+				cost_constraint=''
+				cost_constraint+= player*row['Salary']
+				
+
 				sgs += position_arr[i]['SG']*player
+
 				sfs += position_arr[i]['SF']*player
 				pfs += position_arr[i]['PF']*player
 				cs += position_arr[i]['C']*player
@@ -105,20 +142,20 @@ def optimize(projected_lineup, date, iteration, modified):
 
 	p_vars=[]
 
-	# for index, team in enumerate(teams):
-	# 	team_constraint=''
-	# 	p_names=[]
-	# 	p_var=pulp.LpVariable('P%s'%str(index), cat= 'Binary')
-	# 	p_vars.append(p_var)
-	# 	p_formula+=p_var
-	# 	for i, variable in enumerate(decision_variables):
-	# 		if team==player_pos_team[str(variable)][1]: #same team
-	# 			team_constraint+=variable
-	# 			p_names.append(player_vars[str(variable)])
-	# 	#print 'Team constraint is ', team_constraint, p_names
-	# 	prob+=(team_constraint>=p_vars[index])
-	# 	prob+=(team_constraint/8<=p_vars[index])
-	# prob+=(p_formula==7)
+	for index, team in enumerate(teams):
+		team_constraint=''
+		p_names=[]
+		p_var=pulp.LpVariable('P%s'%str(index), cat= 'Binary')
+		p_vars.append(p_var)
+		p_formula+=p_var
+		for i, variable in enumerate(decision_variables):
+			if team==player_pos_team[str(variable)][1]: #same team
+				team_constraint+=variable
+				p_names.append(player_vars[str(variable)])
+		print 'Team constraint is ', team_constraint, p_vars[index]
+		prob+=(team_constraint>=p_vars[index])
+		prob+=(team_constraint/8<=p_vars[index])
+	prob+=(p_formula==7)
 
 	#print "total cost is \n"
 	#print str(total_cost)
@@ -183,6 +220,7 @@ def optimize(projected_lineup, date, iteration, modified):
 	num_games=get_num_of_games(date)
 	#print 'ay', prob.objective
 	for i in range(1,iterations+1):
+		print i
 		positions=[]
 		projected_lineup=[]
 		scored_lineup=[]
@@ -207,7 +245,7 @@ def optimize(projected_lineup, date, iteration, modified):
 				continue
 			if v.varValue:
 				#print v
-				#print v.name
+				#print player_vars[v.name], data[data['Name']==player_vars[v.name]].Projected.values[0], data[data['Name']==player_vars[v.name]].Salary.values[0], data[data['Name']==player_vars[v.name]].Position.values[0]
 				selected_vars.append(v)
 				projected_lineup.append(player_vars[v.name])
 				std=risk[risk['Name']==player_vars[v.name]]['STD FPTS'].values[0]
@@ -228,7 +266,7 @@ def optimize(projected_lineup, date, iteration, modified):
 	 	#print 'Scored Calculations', sum(scored_lineup)
 	 	final_output=projected_lineup+teams+positions+[value(prob.objective), sum(scored_lineup), i, date, num_games, round(sum(risks),2)]
 	 	csvwriter.writerow(final_output)
-	 	print i, sum(scored_lineup)
+	 	#print i, sum(scored_lineup)
 
 	 	#print "Iteration%d" % i
 	target.close()
@@ -249,15 +287,15 @@ def get_num_of_games(date):
 
 projected_lineup=True #If true, generated projected lineup. if 0, generates the BEST lineup for that given night.
 #date='Dec132016'
-iterations=10
+iterations=100
 # optimize(projected_lineup, date,iterations,False)
 
 modified=False
 dates=os.listdir('../Projections/past')[1:]
 dates=[date.strip('projection_').strip('.csv') for date in dates]
-for date in dates:
+for date in dates[0:1]:
 	print date
 	if modified:
 		date=date[0:-4]
-	optimize(False, date,iterations,modified)
+	optimize(True, date,iterations,modified)
 #optimize(projected_lineup, date,iterations,False)
