@@ -31,6 +31,7 @@ def optimize(setting, date, iterations):
 		#Create a variable and player instance for each row
 		variable = str('x' + str(rownum))
 		variable = pulp.LpVariable(str(variable), lowBound = 0, upBound = 1, cat= 'Integer')
+
 		player=Player(row, str(variable))
 		players[str(variable)]=player
 		num_players += variable
@@ -85,7 +86,6 @@ def optimize(setting, date, iterations):
 
 	prob+=(p_formula==7)
 
-	frequency_constraint=''
 
 	for i in range(1,iterations+1):
 		print 'Iteration %d'% i
@@ -103,16 +103,18 @@ def optimize(setting, date, iterations):
 			if 'x' not in str(var):
 				continue
 			if var.varValue:
-				frequency_constraint=''
+				
 				selected_vars.append(var)
 				player=players[str(var)]
 				lineup.append(player)
 				#print player.name, player.scored, player.projected
-
+				#Update player count such and a new constraint
 				player.count+=1
+				frequency_constraint=''
 				frequency_constraint+=player.count*var+var
 				#Places a cap how many times a player can be used
 				prob+=(frequency_constraint<=10)
+				#Resets the value to be 'fresh' for next optimization
 				var.varValue=0
 		diversity_constraint=sum([var for var in selected_vars])
 		#Force diversity s.t no twol two lineups can share more than 3 players
@@ -120,6 +122,7 @@ def optimize(setting, date, iterations):
 		lineups.append(lineup)
 	write_output(lineups, filename,prob)
 
+#Soley to write out data
 def write_output(lineups, filename, prob):
 	#Writes lineups to csv
 	player_list=[]
