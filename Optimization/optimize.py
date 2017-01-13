@@ -41,10 +41,11 @@ def optimize(setting, date, iterations):
 		player_points = row[setting]*variable
 		objective_function += player_points
 
-		player_cost = int(round(row['Salary']/5.0)*5.0)*variable
+		player_cost = row['Salary']*variable
 		total_cost+= player_cost
 
 		#Categorize players by position groups
+
 		pgs += player.position['PG']*variable
 		#pg_salary+=player.position['PG']*variable*player.salary
 		sgs += player.position['SG']*variable
@@ -83,19 +84,20 @@ def optimize(setting, date, iterations):
 	div_limit=3  
 	lineups=[]
 	#Additiaional Constraint 1: Team stacking
-	p_formula=''
-	for index, team in enumerate(team_constraints):
-		p_var=pulp.LpVariable('P%s'%str(index), cat= 'Binary')
-		p_formula+=p_var
-		prob+=(team_constraints[team]>=p_var)
-		prob+=(team_constraints[team]/8<=p_var)
+	if setting=='Projected':
+		p_formula=''
+		for index, team in enumerate(team_constraints):
+			p_var=pulp.LpVariable('P%s'%str(index), cat= 'Binary')
+			p_formula+=p_var
+			prob+=(team_constraints[team]>=p_var)
+			prob+=(team_constraints[team]/8<=p_var)
 
-	prob+=(p_formula==7)
+		prob+=(p_formula==7)
 
 	for i in range(1,iterations+1):
 		print 'Iteration %d'% i
 		fileLP="NBA_X%d.lp"%i
-		prob.writeLP(fileLP)
+		#prob.writeLP(fileLP)
 
 
 		optimization_result = prob.solve()
@@ -104,7 +106,8 @@ def optimize(setting, date, iterations):
 		selected_vars=[]
 		diversity_constraint=''
 		freq_limit=10
-		div_limit=3
+		div_limit=7
+		lineup_values=[]
 		for var in prob.variables():
 			if 'x' not in str(var):
 				continue
@@ -119,12 +122,14 @@ def optimize(setting, date, iterations):
 				frequency_constraint=''
 				frequency_constraint+=player.count*var+var
 				#Places a cap how many times a player can be used
-				prob+=(frequency_constraint<=freq_limit)
+				if setting =='Projected':
+					prob+=(frequency_constraint<=freq_limit)
 				#Resets the value to be 'fresh' for next optimization
 				var.varValue=0
-		diversity_constraint=sum([var for var in selected_vars])
-		#Force diversity s.t no twol two lineups can share more than 3 players
+			#Force diversity s.t no twol two lineups can share more than 3 players
+		diversity_constraint=sum([var for var in selected_vars])				
 		prob+=(diversity_constraint<=div_limit)
+
 		lineups.append(lineup)
 	write_output(lineups, filename,prob)
 
@@ -167,12 +172,13 @@ def write_output(lineups, filename, prob):
 
 	df=pd.read_csv(filename)
 	df=df.sort_values(['Actual Scored'], ascending=False)
-	df.to_csv(filename, index=False)
+	df.to_csv('../Prediction/%s'% filename, index=False)
 
 
 
 
 dates=os.listdir('../Projections/past')[1:]
-date=[date.strip('projection_').strip('.csv') for date in dates][0]
-iterations=50
-optimize('Projected', date,iterations)
+dates=[date.strip('projection_').strip('.csv') for date in dates]
+iterations=100
+for date in dates:
+	optimize('Scored', date,iterations)
