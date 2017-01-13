@@ -1,3 +1,5 @@
+import pandas as pd
+
 
 class Player:
 
@@ -10,7 +12,6 @@ class Player:
         self.projected = projection.Projected
         self.scored = projection.Scored
         self.position = {}
-        self.pos=projection.Position #For output only
         self.count=0
         positions=['PG', 'SG', 'SF', 'PF', 'C']
         for pos in positions:

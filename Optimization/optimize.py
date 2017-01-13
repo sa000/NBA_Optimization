@@ -18,6 +18,8 @@ def optimize(setting, date, iterations):
 	total_budget=50000
 
 	pgs=sgs=sfs=pfs=cs=''
+	pg_salary=''
+	pfs_salary=''
 	objective_function=''
 	total_cost=''
 	num_players=''
@@ -39,14 +41,17 @@ def optimize(setting, date, iterations):
 		player_points = row[setting]*variable
 		objective_function += player_points
 
-		player_cost = row['Salary']*variable
+		player_cost = int(round(row['Salary']/5.0)*5.0)*variable
 		total_cost+= player_cost
 
 		#Categorize players by position groups
 		pgs += player.position['PG']*variable
+		#pg_salary+=player.position['PG']*variable*player.salary
 		sgs += player.position['SG']*variable
+
 		sfs += player.position['SF']*variable
 		pfs += player.position['PF']*variable
+		#pfs_salary+=player.position['PF']*variable*player.salary
 		cs += player.position['C']*variable
 
 		#Categorize by team
@@ -58,7 +63,8 @@ def optimize(setting, date, iterations):
 	#Mininum constraints for an eligible lineup
 	prob += (total_cost <= total_budget)
 	prob += (num_players ==8)
-
+	#prob += (pg_salary >= 8000*pgs)
+	#prob += (pfs_salary <= 7000*pfs)
 	prob += (pgs <=3)
 	prob += (pgs >=1)
 
@@ -86,11 +92,10 @@ def optimize(setting, date, iterations):
 
 	prob+=(p_formula==7)
 
-
 	for i in range(1,iterations+1):
 		print 'Iteration %d'% i
 		fileLP="NBA_X%d.lp"%i
-		#prob.writeLP(fileLP)
+		prob.writeLP(fileLP)
 
 
 		optimization_result = prob.solve()
@@ -98,7 +103,8 @@ def optimize(setting, date, iterations):
 		lineup=[]
 		selected_vars=[]
 		diversity_constraint=''
-
+		freq_limit=10
+		div_limit=3
 		for var in prob.variables():
 			if 'x' not in str(var):
 				continue
@@ -113,12 +119,12 @@ def optimize(setting, date, iterations):
 				frequency_constraint=''
 				frequency_constraint+=player.count*var+var
 				#Places a cap how many times a player can be used
-				prob+=(frequency_constraint<=10)
+				prob+=(frequency_constraint<=freq_limit)
 				#Resets the value to be 'fresh' for next optimization
 				var.varValue=0
 		diversity_constraint=sum([var for var in selected_vars])
 		#Force diversity s.t no twol two lineups can share more than 3 players
-		prob+=(diversity_constraint<=3)
+		prob+=(diversity_constraint<=div_limit)
 		lineups.append(lineup)
 	write_output(lineups, filename,prob)
 
@@ -128,12 +134,14 @@ def write_output(lineups, filename, prob):
 	player_list=[]
 	team_list=[]
 	pos_list=[]
+	salary_list=[]
 	for i in xrange(8):
 		player_list.append('Player%s' %str(i+1))
 		team_list.append('Team%s' %str(i+1))
 		pos_list.append('Pos%s' %str(i+1))
+		salary_list.append('Salary%s' %(str(i+1)))
 	target=open(filename, 'w')
-	headers=player_list+team_list+pos_list+['Projected Value', 'Actual Scored', 'Iteration', 'date'] 
+	headers=player_list+team_list+pos_list+salary_list+['Projected Value', 'Actual Scored', 'Iteration', 'date'] 
 	target=open(filename, 'w')
 	csvwriter=csv.writer(target)
 	csvwriter.writerow(headers)
@@ -141,6 +149,7 @@ def write_output(lineups, filename, prob):
 		names=[]
 		teams=[]
 		scored=[]
+		salaries=[]
 		projected=[]
 		positions=[]
 		for player in lineup:
@@ -149,9 +158,10 @@ def write_output(lineups, filename, prob):
 			scored.append(player.scored)
 			projected.append(player.projected)
 			positions.append(player.pos)
+			salaries.append(player.salary)
 		counter=collections.Counter(teams)
 
-		final_output=names+teams+positions+[round(sum(projected),2), round(sum(scored),2), iteration+1, date]
+		final_output=names+teams+positions+salaries+[round(sum(projected),2), round(sum(scored),2), iteration+1, date]
 		csvwriter.writerow(final_output)
 	target.close()
 
@@ -164,5 +174,5 @@ def write_output(lineups, filename, prob):
 
 dates=os.listdir('../Projections/past')[1:]
 date=[date.strip('projection_').strip('.csv') for date in dates][0]
-iterations=10
+iterations=50
 optimize('Projected', date,iterations)
