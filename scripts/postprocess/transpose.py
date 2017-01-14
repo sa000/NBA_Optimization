@@ -2,13 +2,14 @@
 import pandas as pd
 import csv
 def tranpose():
-	filename='predictions_withSalary.csv'
+	filename='ProjectionsPerfect_PositionConstraints_tranpose.csv'
 	target=open(filename, 'wb')
 	csvwriter=csv.writer(target)
 	headers=['Date', 'Player', 'Pos', 'Salary', 'Predicted', 'Scored', 'Team']
 	csvwriter.writerow(headers)
-	perfect=pd.read_csv('../../Data/Cumulative_Predictions_Perfect.csv')
+	perfect=pd.read_csv('../../Data/ProjectionsPerfect_PositionConstraints.csv')
 	for idx, row in perfect.iterrows():
+		print idx
 		date=row.date.replace('-', '')
 		proj='projection_%s.csv'%date
 		projection=pd.read_csv('../../Projections/past/%s' % proj)
