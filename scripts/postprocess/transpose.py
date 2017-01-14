@@ -5,7 +5,7 @@ def tranpose():
 	filename='ProjectionsPerfect_PositionConstraints_tranpose.csv'
 	target=open(filename, 'wb')
 	csvwriter=csv.writer(target)
-	headers=['Date', 'Player', 'Pos', 'Salary', 'Predicted', 'Scored', 'Team']
+	headers=['Date', 'Player', 'Pos', 'Salary', 'Predicted', 'Scored', 'Team', 'Iteration']
 	csvwriter.writerow(headers)
 	perfect=pd.read_csv('../../Data/ProjectionsPerfect_PositionConstraints.csv')
 	for idx, row in perfect.iterrows():
@@ -22,7 +22,7 @@ def tranpose():
 			scored=data.Scored.values[0]
 			pos=data.Position.values[0]
 			team=data.Team.values[0]
-			entry=[row.date, name, pos, salary, round(project,2), scored, team]
+			entry=[row.date, name, pos, salary, round(project,2), scored, team, row.Iteration]
 			csvwriter.writerow(entry)
 	target.close()
 tranpose()
