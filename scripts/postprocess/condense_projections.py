@@ -10,7 +10,7 @@ def merge(files, path):
 		print file
 		#date=file.strip('projection_').strip('.csv')
 		p=pd.read_csv('%s%s'%(path,file))
-		date=file.strip('_Scored.csv')
+		date=file.strip('projection_.csv')
 		print date
 		d1=date[:-4]
 		month=d1[:3]
@@ -26,7 +26,7 @@ def merge(files, path):
 
 
 	#df.sort(['Actual Scored'], ascending=False)
-	df.to_csv('../../Projections/ProjectionsPerfect_PositionConstraints.csv', index=False)
+	df.to_csv('../../Projections/Projections.csv', index=False)
 
 
 
@@ -42,7 +42,7 @@ def add_num_games(files):
 		proj.to_csv('../../Prediction/%s'%file, index=False)
 		print file
 
-path='../../Prediction/'
+path='../../Projections/past/'
 
 files=os.listdir(path)[1:]
 print files
