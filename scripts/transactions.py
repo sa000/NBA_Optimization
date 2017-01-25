@@ -4,6 +4,8 @@ from lxml import html
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+from datetime import datetime
+
 import csv
 
 def get_transactions():
@@ -32,7 +34,7 @@ def get_transactions():
 
 def extend_name():
 	projections=pd.read_csv('../Projections/Projections.csv')
-	transactions=pd.read_csv('../Projections/transactions.csv')
+	
 	names=projections.Name.unique()
 	for index, row in transactions.iterrows():
 		projections=pd.read_csv('../Projections/Projections.csv')
@@ -42,9 +44,21 @@ def extend_name():
 		team=row.Team.strip(' ')
 		for _, p_row in projections.iterrows():
 			if last_name in p_row.Name and team.strip(' ') in p_row.Team.strip(' '):
-				print t_name, p_row.Name
 				transactions.set_value(index, 'Name', p_row.Name)
-	transactions.to_csv('AYYYYY.csv')
+	transactions.to_csv('AYYYYY.csv', index=False)
+def clean_dates():
+	transactions=pd.read_csv('../Projections/transactions_clean.csv')
+	date_format = "%Y-%m-%d"
 
+	for idx, row in transactions.iterrows():
+
+		date=row.Date
+		date=date.split('/')
+		date_str='20%s-%02d-%02d' %(date[2], int(date[0]), int(date[1]))
+		print date_str
+		transactions.set_value(idx, 'Date', date_str)
+	transactions.to_csv('../Projections/transactions_clean.csv', index=False)
+		#datetime.strptime(date,date_format)
+clean_dates()
 # get_transactions()
-extend_name()
+#extend_name()

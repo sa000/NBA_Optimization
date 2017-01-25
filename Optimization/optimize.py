@@ -7,17 +7,28 @@ import re
 import csv
 import random
 from  player import Player
+import calendar
+import datetime
 #Create an optimize lineup to enter in Draft Kings contests .
 #Forcing diversity constraints , team stacking, and frequency limits to produce smart lineups to enter.
 
 
 def optimize(setting, date, iterations):
-
+	monthdate=date[0:-4]
+	abbr_to_num = {name: num for num, name in enumerate(calendar.month_abbr) if num}
+	month=abbr_to_num[monthdate[0:3]]
+	date_str=date[-4:]+'-'+str(month)+'-'+monthdate[3:]
+	print date_str
 	filename='%s_%s.csv' %(date, setting)
-	data=pd.read_csv('../Projections/past/projection_%s.csv'%date)
+
+	#data=pd.read_csv('../Projections/past/projection_%s.csv'%date)
+	data=pd.read_csv('../Projections/projections_NN.csv')
+	data=data[data.Date==date_str]
 	prob = pulp.LpProblem('NBA', pulp.LpMaximize)
 
 	players={}
+	#trans only
+	player_to_vars={}
 	total_budget=50000
 
 	pgs=sgs=sfs=pfs=cs=''
@@ -40,6 +51,8 @@ def optimize(setting, date, iterations):
 		player=Player(row, str(variable))
 		players[str(variable)]=player
 		num_players += variable
+		player_to_vars[row.Name]=variable
+		#print variable
 
 		player_points = row[setting]*variable
 		objective_function += player_points
@@ -86,6 +99,46 @@ def optimize(setting, date, iterations):
 
 	div_limit=3  
 	lineups=[]
+	trans=pd.read_csv('../Projections/transactions_clean.csv')
+	recent_dates=trans[trans.Date<date].Date.unique()[-5:]
+	trans=trans[trans['Date'].isin(recent_dates)]
+	hot_players=''
+	hot_list=[]
+	cold_players=''
+	cold_list=[]
+	# for idx, row in trans.iterrows():
+	# 	if row.Name in player_to_vars.keys() and row.Name not in hot_list and row.Name not in cold_list:
+
+	# 		if row.Net>5000:
+	# 			hot_list.append(row.Name)
+	# 			hot_players+=player_to_vars[row.Name]
+	# 		if row.Net<=-1000:
+	# 			cold_list.append(row.Name)
+	# 			cold_players+=player_to_vars[row.Name]
+	for idx, row in data.iterrows():
+		if row.Name not in hot_list:
+			if row.last1>30 and row.Salary<8000:
+				hot_players+=player_to_vars[row.Name]
+				hot_list.append(row.Name)
+			elif row.last3<30 and row.Salary>8000:
+				hot_players+=player_to_vars[row.Name]
+				hot_list.append(row.Name)
+			elif row.last1>30 and row.last3>30 and row.Salary<8000:
+				hot_players+=player_to_vars[row.Name]
+				hot_list.append(row.Name)
+			else:
+				pass
+		if row.last1<30 and row.Salary<8000:
+			cold_players+=player_to_vars[row.Name]
+
+
+	print hot_players 
+	print cold_players
+	#print cold_players
+
+	prob += (hot_players >=3)
+	prob +=(cold_players<=0)
+	#prob += (cold_players <=1)
 	#Additiaional Constraint 1: Team stacking
 	if setting=='Projected':
 		p_formula=''
@@ -98,6 +151,7 @@ def optimize(setting, date, iterations):
 		prob+=(p_formula==7)
 
 	for i in range(1,iterations+1):
+
 		print 'Iteration %d'% i
 		fileLP="NBA_X%d.lp"%i
 		#prob.writeLP(fileLP)
@@ -109,7 +163,7 @@ def optimize(setting, date, iterations):
 		selected_vars=[]
 		diversity_constraint=''
 		freq_limit=10
-		div_limit=7
+		div_limit=3
 		lineup_values=[]
 		for var in prob.variables():
 			if 'x' not in str(var):
@@ -182,6 +236,6 @@ def write_output(lineups, filename, prob):
 
 dates=os.listdir('../Projections/past')[1:]
 dates=[date.strip('projection_').strip('.csv') for date in dates]
-iterations=100
-for date in dates:
-	optimize('Scored', date,iterations)
+iterations=50
+for date in dates[0:1]:
+	optimize('Projected', date,iterations)
