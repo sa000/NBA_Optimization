@@ -33,7 +33,18 @@ def get_transactions():
 def extend_name():
 	projections=pd.read_csv('../Projections/Projections.csv')
 	transactions=pd.read_csv('../Projections/transactions.csv')
+	names=projections.Name.unique()
 	for index, row in transactions.iterrows():
-		print row
+		projections=pd.read_csv('../Projections/Projections.csv')
+		t_name=row.Name
+		last_name=t_name.split('.')[1][1:]
+		projections=projections[projections['Name'].str.contains(last_name)]
+		team=row.Team.strip(' ')
+		for _, p_row in projections.iterrows():
+			if last_name in p_row.Name and team.strip(' ') in p_row.Team.strip(' '):
+				print t_name, p_row.Name
+				transactions.set_value(index, 'Name', p_row.Name)
+	transactions.to_csv('AYYYYY.csv')
+
 # get_transactions()
 extend_name()
