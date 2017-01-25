@@ -7,6 +7,9 @@ import re
 import csv
 import random
 from  player import Player
+#Create an optimize lineup to enter in Draft Kings contests .
+#Forcing diversity constraints , team stacking, and frequency limits to produce smart lineups to enter.
+
 
 def optimize(setting, date, iterations):
 
@@ -126,7 +129,7 @@ def optimize(setting, date, iterations):
 					prob+=(frequency_constraint<=freq_limit)
 				#Resets the value to be 'fresh' for next optimization
 				var.varValue=0
-			#Force diversity s.t no twol two lineups can share more than 3 players
+			#Force diversity s.t no than two lineups can share more than 3 players
 		diversity_constraint=sum([var for var in selected_vars])				
 		prob+=(diversity_constraint<=div_limit)
 
